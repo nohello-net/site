@@ -1,5 +1,5 @@
 /* load google font*/
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
 /* reset styles */
 
@@ -164,7 +164,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 table {
@@ -190,7 +190,6 @@ div,
 footer {
   box-sizing: border-box;
 }
-
 
 .container {
   max-width: 1100px;
@@ -237,7 +236,6 @@ h1.name {
   line-height: 55px;
 }
 
-
 .sections {
   vertical-align: top;
   display: inline-block;
@@ -268,7 +266,6 @@ h1.name {
   background: #ffffff;
   box-shadow: -20px 20px 60px #d9d9d9, 20px -20px 60px #ffffff;
 }
-
 
 .list-card .exp,
 .list-card div {
@@ -318,7 +315,7 @@ ul {
 }
 
 ul.nonos li:before {
-  content: "×";
+  content: '×';
   color: red;
   font-weight: bold;
   padding-right: 10px;
@@ -326,7 +323,7 @@ ul.nonos li:before {
 }
 
 ul.muchbetter li:before {
-  content: "✓";
+  content: '✓';
   font-size: 14px;
   font-weight: bold;
   color: green;
