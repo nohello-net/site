@@ -1,0 +1,474 @@
+/* load google font*/
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
+
+/* reset styles */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* html5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+a {
+  text-decoration: none;
+  text-transform: none;
+  color: #4a90e2;
+}
+
+footer {
+  float: left;
+  width: 100%;
+  min-height: 150px;
+  font-size: 14px;
+  padding: 150px 150px 80px 150px !important;
+  margin-top: 0px !important;
+  color: #616061;
+  background-color: #eee;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(238, 238, 238, 1) 45%
+  );
+  max-width: none !important;
+  margin-bottom: 0 !important;
+  font-weight: 300;
+}
+
+footer a {
+  color: red;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+body {
+  line-height: 1;
+  font-family: lato, ubuntu, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-size: 19px;
+  background-color: #fefefe;
+  color: #04143a;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+ol,
+ul {
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+p {
+  color: #15171a;
+  font-size: 17;
+  line-height: 31px;
+}
+
+strong {
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+}
+
+div,
+footer {
+  box-sizing: border-box;
+}
+
+
+.container {
+  max-width: 1100px;
+  height: auto;
+  margin: 60px auto;
+}
+
+.hero {
+  margin: 150px auto 200px auto;
+  position: relative;
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    margin: 60px auto;
+  }
+}
+
+h1.name {
+  font-size: 94px;
+  font-weight: 700;
+  display: inline-block;
+  text-decoration-color: #fff;
+}
+
+#strike {
+  text-decoration: line-through;
+  text-decoration-color: red;
+  display: inline;
+}
+
+.subtitle {
+  display: block;
+  font-size: 24px;
+  font-weight: 300;
+  color: #81899c;
+  margin-top: 10px;
+}
+
+.lead {
+  font-size: 44px;
+  font-weight: 300;
+  margin-top: 60px;
+  line-height: 55px;
+}
+
+
+.sections {
+  vertical-align: top;
+  display: inline-block;
+
+  min-height: 50px;
+}
+
+.sectionleft {
+  width: 40%;
+}
+
+.sectionright {
+  width: 59%;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.list-card.example {
+  margin: 30px 0;
+  -moz-box-shadow: 0px 0px 29px -4px rgba(0, 0, 0, 0.46);
+  margin: 30px 80px 30px 0;
+  padding: 25px 25px 10px 25px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: -20px 20px 60px #d9d9d9, 20px -20px 60px #ffffff;
+}
+
+
+.list-card .exp,
+.list-card div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.list-card .exp {
+  margin-right: 15px;
+  color: #4a90e2;
+  font-weight: 600;
+  width: 100px;
+}
+
+.list-card div {
+  width: 100%;
+}
+
+.list-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #5b6a9a;
+  line-height: 26px;
+  margin-bottom: 8px;
+}
+
+.list-card div p {
+  font-size: 18px;
+  color: #616061;
+  line-height: 24px;
+  margin-bottom: 22px;
+}
+
+.list-card div p:first-of-type {
+  margin-top: 55px;
+}
+
+ul {
+  list-style: none;
+  font-size: 18px;
+  color: #616061;
+  line-height: 24px;
+  margin-bottom: 16px;
+  margin-left: 20px;
+  margin-top: -20px;
+  opacity: 70%;
+}
+
+ul.nonos li:before {
+  content: "×";
+  color: red;
+  font-weight: bold;
+  padding-right: 10px;
+  opacity: 100% !important;
+}
+
+ul.muchbetter li:before {
+  content: "✓";
+  font-size: 14px;
+  font-weight: bold;
+  color: green;
+  padding-right: 10px;
+  opacity: 100% !important;
+}
+
+#preloadimg {
+  background: url(img/why.gif) no-repeat -9999px -9999px;
+}
+
+.slack {
+  padding-bottom: 15px;
+}
+
+.slack img {
+  width: 42px;
+  height: 42px;
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
+}
+
+.slack .slackname {
+  font-weight: 600;
+  font-size: 16px;
+  color: #1d1c1d;
+}
+
+.slack .slacktime {
+  font-size: 14px;
+  color: #616061;
+}
+
+.slack .slackmessage {
+  font-size: 16px;
+  color: #1d1c1d;
+}
+
+.cards {
+  max-width: 1120px;
+  display: block;
+  margin-top: 80px;
+}
+
+.card {
+  width: 47.9%;
+  height: 200px;
+  background-color: #eef0f7;
+  display: inline-block;
+  margin: 7px 5px;
+  vertical-align: top;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.card-active,
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.5s;
+  background-color: #fff;
+  box-shadow: 0px 5px 50px -8px #ddd;
+  cursor: pointer;
+}
+
+/* media queries*/
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 15px;
+    margin: 0px auto;
+  }
+  .cards {
+    margin-top: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+    margin: 0px auto;
+  }
+  .cards {
+    margin-top: 320px;
+  }
+
+  .card {
+    padding: 15px;
+    text-align: left;
+  }
+  .card h2 {
+    font-size: 70px;
+  }
+  .card,
+  .sections {
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+    float: left;
+  }
+}
+
+@media (max-width: 425px) {
+  h1.name {
+    font-size: 40px;
+  }
+
+  .card,
+  .sections {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    float: left;
+  }
+
+  .lead {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .container {
+    margin: 0px;
+    padding: 0 15px;
+  }
+  footer {
+    padding: 150px 15px 80px 15px !important;
+    margin-top: -30px !important;
+  }
+
+  .list-card.example {
+    margin: 30px 10px -20px 0;
+    padding: 25px 25px 10px 25px;
+    border-radius: 10px;
+  }
+
+  .section-title {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .section-title.yepyep {
+    margin-top: 80px;
+  }
+}
