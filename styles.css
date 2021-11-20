@@ -363,12 +363,6 @@ ul.muchbetter li:before {
   color: #1d1c1d;
 }
 
-.cards {
-  max-width: 1120px;
-  display: block;
-  margin-top: 80px;
-}
-
 .card {
   width: 47.9%;
   height: 200px;
@@ -397,9 +391,6 @@ ul.muchbetter li:before {
     padding: 15px;
     margin: 0px auto;
   }
-  .cards {
-    margin-top: 250px;
-  }
 }
 
 @media (max-width: 768px) {
@@ -407,10 +398,6 @@ ul.muchbetter li:before {
     padding: 15px;
     margin: 0px auto;
   }
-  .cards {
-    margin-top: 320px;
-  }
-
   .card {
     padding: 15px;
     text-align: left;
