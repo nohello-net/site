@@ -26,6 +26,7 @@ document.addEventListener('keydown', function (e) {
 
 function activateWut() {
   document.body.style.backgroundImage = "url('img/why.gif')";
+  document.body.style.backgroundSize = "cover";
 
   [
     document.getElementById('wholesite')
