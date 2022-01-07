@@ -1,22 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-169824146-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-
-      gtag('config', 'UA-169824146-1');
-    </script>
-
     <title>no hello</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
 
@@ -73,8 +59,8 @@
       </div>
 
       <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-      <script src="nohello.js"></script>
-      <script src="hello.js"></script>
+      <script src="js/nohello.js"></script>
+      <script src="js/hello.js"></script>
 
       <div class="container">
         <div class="sections sectionleft">
@@ -250,5 +236,46 @@
     </div>
 
     <div id="preloadimg"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@klaxit/cookie-consent@0.3.4/dist/cookie-consent.js"></script>
+
+    <script>
+      function updateAnalytics() {
+        const MEASUREMENT_ID = '169824146-1';
+
+        if (window.CookieConsent.acceptedCategories?.includes('analytics')) {
+          window[`ga-disable-${MEASUREMENT_ID}`] = undefined;
+
+          if (typeof window.ga === 'undefined') {
+            const script = document.createElement('script');
+            script.src = `//www.googletagmanager.com/gtag/js?id=UA-${MEASUREMENT_ID}`;
+            script.async = 1;
+
+            const firstScript = document.getElementsByTagName('script')[0];
+            firstScript.parentNode.insertBefore(script, firstScript);
+          }
+
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+
+          gtag('js', new Date());
+          gtag('config', `UA-${MEASUREMENT_ID}`, { anonymize_ip: true });
+        } else {
+          window[`ga-disable-${MEASUREMENT_ID}`] = true;
+        }
+      }
+
+      const CookieConsent = window.CookieConsent;
+      const cc = new CookieConsent({
+        title: 'We use cookies 🍪',
+      });
+
+      cc.on('change', (cc) => {
+        updateAnalytics();
+      });
+      updateAnalytics();
+    </script>
   </body>
 </html>
