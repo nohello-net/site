@@ -26,15 +26,14 @@ document.addEventListener('keydown', function (e) {
 
 function activateWut() {
   document.body.style.backgroundImage = "url('img/why.gif')";
-  document.body.style.backgroundSize = "cover";
+  document.body.style.backgroundSize = 'cover';
 
   [
-    document.getElementById('wholesite')
-    , ...document.getElementsByTagName("p")
-    , ...document.getElementsByTagName("ul")
+    document.getElementById('wholesite'),
+    ...document.getElementsByTagName('p'),
+    ...document.getElementsByTagName('ul'),
   ].forEach((ele) => {
-    ele.style.cssText =
-      'color:white !important';
+    ele.style.cssText = 'color:white !important';
   });
 
   document.getElementsByTagName('footer')[0].style.cssText =
