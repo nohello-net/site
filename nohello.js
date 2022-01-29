@@ -41,6 +41,7 @@ var typed2 = new Typed('#strike', {
     'ਸਤ ਸ੍ਰੀ ਅਕਾਲ',
     'ping',
     'Χαίρετε',
+    'سلام',
   ],
   typeSpeed: 80,
   backSpeed: 60,
