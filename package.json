@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
+    "nunjucks": "^3.2.3",
     "prettier": "^2.3.2"
   }
 }
