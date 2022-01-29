@@ -1,7 +1,27 @@
 {
+  "name": "nohello.net",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/nohello-net/nohello-net.github.io/"
+  },
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve --port=8123",
+    "format": "prettier --write .",
+    "ci": "start-server-and-test serve 8123 test",
+    "test": "yarn test:ui && yarn test:unit",
+    "test:ui": "playwright test test/ui",
+    "test:ui:update": "yarn test:ui --update-snapshots",
+    "test:unit": "mocha test/unit"
+  },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
+    "@playwright/test": "^1.18.1",
+    "expect": "^27.4.6",
+    "mocha": "^9.2.0",
     "nunjucks": "^3.2.3",
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "start-server-and-test": "^1.14.0"
   }
 }
