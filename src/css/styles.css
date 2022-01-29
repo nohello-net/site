@@ -130,6 +130,10 @@ footer {
   font-weight: 300;
 }
 
+footer p {
+  color: #616061;
+}
+
 footer a {
   color: red;
   text-decoration: underline;
