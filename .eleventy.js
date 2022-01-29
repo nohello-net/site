@@ -5,5 +5,9 @@ module.exports = (eleventyConfig) => {
 
   return {
     passthroughFileCopy: true,
+    dir: {
+      input: 'site',
+      output: 'www',
+    },
   };
 };
