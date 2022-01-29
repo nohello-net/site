@@ -31,6 +31,7 @@ var typed2 = new Typed('#strike', {
     'שלום',
     'yooooooooooo!',
     '你好',
+    '在吗？',
     'you there?',
     'fraeslis',
     '여보세요',
