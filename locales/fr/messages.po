@@ -1,0 +1,2 @@
+msgid "please don't say just hello in chat"
+msgstr "[fr] please don't say just hello in chat"

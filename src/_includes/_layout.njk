@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="{{ lang }}" dir="{{ langDir }}">
+  <head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <!-- primary meta -->
+    <meta name="title" content="no hello" />
+    <meta name="description" content="please don't say just hello in chat" />
+    <!-- opengraph/facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ site.root }}/" />
+    <meta property="og:title" content="no hello" />
+    <meta
+      property="og:description"
+      content="please don't say just hello in chat"
+    />
+    <meta property="og:image" content="{{ site.root }}/img/newmeta.png" />
+    <!-- twitter -->
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:url" content="{{ site.root }}/" />
+    <meta property="twitter:title" content="no hello" />
+    <meta
+      property="twitter:description"
+      content="please don't say just hello in chat"
+    />
+    <meta property="twitter:image" content="{{ site.root }}/img/newmeta.png" />
+    <!-- icons -->
+    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="/img/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div>
+    <p>todo: title, with default/string builder</p>
+      <p>lang:</p>
+      <ul>
+        <li>
+              {%- for locale in locales -%}
+                <a href="{%- relocalizePath locale.path, page.url -%}">{{ locale.name }}</a>
+              {%- endfor -%}
+          </li>
+      </ul>
+
+    </div>
+
+    {{ content | safe }}
+
+    <script src="https://cdn.jsdelivr.net/npm/@klaxit/cookie-consent@0.3.4/dist/cookie-consent.js"></script>
+    <script>
+      function updateAnalytics() {
+        const MEASUREMENT_ID = "169824146-1";
+        if (window.CookieConsent.acceptedCategories?.includes("analytics")) {
+          window[`ga-disable-${MEASUREMENT_ID}`] = undefined;
+          if (typeof window.ga === "undefined") {
+            const script = document.createElement("script");
+            script.src = `//www.googletagmanager.com/gtag/js?id=UA-${MEASUREMENT_ID}`;
+            script.async = 1;
+            const firstScript = document.getElementsByTagName("script")[0];
+            firstScript.parentNode.insertBefore(script, firstScript);
+          }
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+          gtag("config", `UA-${MEASUREMENT_ID}`, { anonymize_ip: true });
+        } else {
+          window[`ga-disable-${MEASUREMENT_ID}`] = true;
+        }
+      }
+      const CookieConsent = window.CookieConsent;
+      const cc = new CookieConsent({ title: "We use cookies 🍪" });
+      cc.on("change", (cc) => {
+        updateAnalytics();
+      });
+      updateAnalytics();
+    </script>
+  </body>
+</html>
