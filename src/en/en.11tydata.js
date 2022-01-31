@@ -1,6 +1,6 @@
 'use strict';
 
-const i18n = require('eleventy-plugin-i18n-gettext');
+const i18n = require('../util/i18n');
 
 module.exports = () => {
   return i18n.enhance11tydata({}, __dirname);

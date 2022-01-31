@@ -20,6 +20,7 @@
     "@playwright/test": "^1.18.1",
     "eleventy-plugin-i18n-gettext": "^1.5.1",
     "expect": "^27.4.6",
+    "marked": "^4.0.12",
     "mocha": "^9.2.0",
     "nunjucks": "^3.2.3",
     "prettier": "^2.3.2",

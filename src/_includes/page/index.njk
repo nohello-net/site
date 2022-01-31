@@ -7,177 +7,103 @@
               <span id="strike">hello</span>
             </h1>
           </div>
-          <span class="subtitle">{{ _("please don't say just hello in chat") }}</span>
+          <span class="subtitle">{{ _("header.subtitle") }}</span>
           <h2 class="lead">
-            Imagine calling someone on the phone, going
-            <span style="font-style: oblique">hello!</span>
-            then putting them on hold... 🤦‍♀️
+            {{ _md("header.introduction") }}
           </h2>
         </div>
       </div>
-      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-      <script src="/js/nohello.js"></script>
-      <script src="/js/hello.js"></script>
-      <div class="container">
+
+      <div class="container nonos">
         <div class="sections sectionleft">
-          <h2 class="section-title">❌ Don't do this</h2>
+          <h2 class="section-title">{{ _("example.bad.title") }}</h2>
           <div class="list-card example one">
             <div class="slack">
-              <img src="/img/keith.png" alt="Keith's Slack avatar" />
-              <span class="slackname">Keith</span>
-              <span class="slacktime">2:15 PM</span><br />
-              <span class="slackmessage">hi</span>
+              <img src="/img/keith.png" alt="{{ _("example.character.bad.avatar-description") }}" />
+              <span class="slackname">{{ _("example.character.bad.name") }}</span>
+              <span class="slacktime">{{ _("example.bad.message1.timestamp") }}</span><br />
+              <span class="slackmessage">{{ _("example.bad.message1.body") }}</span>
             </div>
             <div class="slack">
-              <img src="/img/tim.png" alt="Tim's Slack avatar" />
-              <span class="slackname">Tim</span>
-              <span class="slacktime">2:19 PM</span><br />
-              <span class="slackmessage">...?</span>
+              <img src="/img/tim.png" alt="{{ _("example.character.neutral.avatar-description") }}" />
+              <span class="slackname">{{ _("example.character.neutral.name") }}</span>
+              <span class="slacktime">{{ _("example.bad.reply1.timestamp") }}</span><br />
+              <span class="slackmessage">{{ _("example.bad.reply1.body") }}</span>
             </div>
             <div class="slack">
-              <img src="/img/keith.png" alt="Keith's Slack avatar" />
-              <span class="slackname">Keith</span>
-              <span class="slacktime">2:20 PM</span><br />
-              <span class="slackmessage">what time was taht thing again?</span>
+              <img src="/img/keith.png" alt="{{ _("example.character.bad.avatar-description") }}" />
+              <span class="slackname">{{ _("example.character.bad.name") }}</span>
+              <span class="slacktime">{{ _("example.bad.message2.timestamp") }}</span><br />
+              <span class="slackmessage">{{ _("example.bad.message2.body") }}</span>
             </div>
             <div class="slack">
-              <img src="/img/tim.png" alt="Tim's Slack avatar" />
-              <span class="slackname">Tim</span>
-              <span class="slacktime">2:20 PM</span><br />
-              <span class="slackmessage">oh - 3:30 mate</span>
+              <img src="/img/tim.png" alt="{{ _("example.character.neutral.avatar-description") }}" />
+              <span class="slackname">{{ _("example.character.neutral.name") }}</span>
+              <span class="slacktime">{{ _("example.bad.reply2.timestamp") }}</span><br />
+              <span class="slackmessage">{{ _("example.bad.reply2.body") }}</span>
             </div>
           </div>
         </div>
         <div class="sections sectionright">
           <div class="list-card">
             <div>
-              <p>
-                Note that Keith could have got his answer minutes sooner, and
-                needn't have kept Tim waiting. In fact, Tim could have started
-                thinking about the question right away!
-              </p>
-              <p>
-                People who do this are generally trying to be polite by not
-                jumping right into the request, like one would in person or on
-                the phone - and that's great! But it's
-                <span id="year">not 1990</span>
-                and chat is neither of those things. For most people, typing is
-                much slower than talking. So despite best intentions,
-                <strong
-                  >you're actually just making the other person wait</strong
-                >
-                for you to phrase your question, which is lost productivity (and
-                kinda annoying).
-              </p>
-              <p>The same goes for:</p>
-              <ul class="nonos">
-                <li>"Hello, are you around?"</li>
-                <li>"hi sophie - quick question."</li>
-                <li>"You got a sec?"</li>
-                <li>"yt?"</li>
-                <li>"ping"</li>
-                <li>etc.</li>
-              </ul>
-              <p>
-                <strong>Just ask the question!</strong>
-                😫
-              </p>
+              {{ _mdp('example.bad.body') }}
             </div>
           </div>
         </div>
       </div>
-      <div class="container">
+      <div class="container yepyep">
         <div class="sections sectionleft">
-          <h2 class="section-title yepyep">✅ Instead try this</h2>
+          <h2 class="section-title yepyep">{{ _("example.good.title") }}</h2>
           <div class="list-card example two">
             <div class="slack">
-              <img src="/img/dawn.png" alt="Dawn's Slack avatar" />
-              <span class="slackname">Dawn</span>
-              <span class="slacktime">2:15 PM</span><br />
-              <span class="slackmessage">Hiya! What time was that thing?</span>
+              <img src="/img/dawn.png" alt="{{ _("example.character.good.avatar-description") }}" />
+              <span class="slackname">{{ _("example.character.good.name") }}</span>
+              <span class="slacktime">{{ _("example.good.message1.timestamp") }}</span><br />
+              <span class="slackmessage">{{ _("example.good.message1.body") }}</span>
             </div>
             <div class="slack">
-              <img src="/img/tim.png" alt="Tim's Slack avatar" />
-              <span class="slackname">Tim</span>
-              <span class="slacktime">2:15 PM</span><br />
-              <span class="slackmessage">hey, 3:30</span>
+              <img src="/img/tim.png" alt="{{ _("example.character.neutral.avatar-description") }}" />
+              <span class="slackname">{{ _("example.character.neutral.name") }}</span>
+              <span class="slacktime">{{ _("example.good.reply1.timestamp") }}</span><br />
+              <span class="slackmessage">{{ _("example.good.reply1.body") }}</span>
             </div>
             <div class="slack">
-              <img src="/img/dawn.png" alt="Dawn's Slack avatar" />
-              <span class="slackname">Dawn</span>
-              <span class="slacktime">2:15 PM</span><br />
-              <span class="slackmessage">Ta - seeya then!</span>
+              <img src="/img/dawn.png" alt="{{ _("example.character.good.avatar-description") }}" />
+              <span class="slackname">{{ _("example.character.good.name") }}</span>
+              <span class="slacktime">{{ _("example.good.message2.timestamp") }}</span><br />
+              <span class="slackmessage">{{ _("example.good.message2.body") }}</span>
             </div>
             <div class="slack">
-              <img src="/img/tim.png" alt="Tim's Slack avatar" />
-              <span class="slackname">Tim</span>
-              <span class="slacktime">2:16 PM</span><br />
-              <span class="slackmessage">👌 np</span>
+              <img src="/img/tim.png" alt="{{ _("example.character.neutral.avatar-description") }}" />
+              <span class="slackname">{{ _("example.character.neutral.name") }}</span>
+              <span class="slacktime">{{ _("example.good.reply2.timestamp") }}</span><br />
+              <span class="slackmessage">{{ _("example.good.reply2.body") }}</span>
             </div>
           </div>
         </div>
         <div class="sections sectionright">
           <div class="list-card">
             <div>
-              <p>
-                If you feel it's a bit brusque to simply say "Hi" and ask the
-                question,
-                <strong
-                  >you can still preface your message with as many pleasantries
-                  as you see fit.</strong
-                >
-              </p>
-              <p>For example:</p>
-              <ul class="muchbetter">
-                <li>
-                  "hey man, what's up? also, any idea when that thing's due?"
-                </li>
-                <li>
-                  "Hi there! Hope you're well. I'm after the latest deck, when
-                  you get a sec :)"
-                </li>
-                <li>"hey, if you're not busy, could you update those NFRs?"</li>
-                <li>etc.</li>
-              </ul>
-              <p>
-                It may seem trivial, but asking your question before getting
-                that initial salutatory reply also allows for
-                <strong>asynchronous communication</strong>. If the other party
-                is away, and you leave before they come back, they can still
-                answer your question, instead of just staring at a "Hello" and
-                wondering what they missed.
-              </p>
-              <p>When done right - everyone's happy! 🎉</p>
+              {{ _mdp('example.good.body') }}
             </div>
           </div>
         </div>
       </div>
       <footer class="container">
         <p>
-          This is kinda only half serious (kinda 👀) so please don't get
-          <a href="https://www.youtube.com/watch?v=xzpndHtdl9A">mad</a>
-          at the person who sent you here.
+          {{ _md('footer.note') }}
         </p>
         <p>
-          That said, if you see this sites URL as someone's status/bio, be
-          prepared to be ignored if you only say "Hello!"
+          {{ _md('footer.warning') }}
         </p>
         <p>
-          Based on the wonderful
-          <a
-            href="https://web.archive.org/web/20131127020115/http://www.nohello.com/"
-            >nohello.com</a
-          >. Avatars taken from
-          <em>
-            <a
-              href="https://en.wikipedia.org/wiki/The_Office_(British_TV_series)"
-              >The Office</a
-            > </em
-          >. Open-source on
-          <a href="https://github.com/nohello-net/nohello-net.github.io"
-            >GitHub</a
-          >.
+          {{ _md('footer.thanks') }}
         </p>
       </footer>
     </div>
     <div id="preloadimg"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+      <script src="/js/nohello.js"></script>
+      <script src="/js/hello.js"></script>

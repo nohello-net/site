@@ -13,6 +13,13 @@ module.exports = (eleventyConfig) => {
     localeRegex: /^(?<lang>.{2})(?:-(?<country>.{2}))*$/,
   });
 
+  if (eleventyConfig.setNunjucksEnvironmentOptions) {
+    eleventyConfig.setNunjucksEnvironmentOptions({
+      throwOnUndefined: true,
+      autoescape: false,
+    });
+  }
+
   return {
     passthroughFileCopy: true,
     dir: {
