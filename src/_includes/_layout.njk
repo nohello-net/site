@@ -1,29 +1,30 @@
 <!doctype html>
 <html lang="{{ lang }}" dir="{{ langDir }}">
+  {% set fullTitle = [_(title), 'no hello'] | select() | join(' - ') %}
   <head>
-    <title>{{ [title, 'no hello'] | join(' - ') }}</title>
+    <title>{{ fullTitle }}</title>
     <link rel="stylesheet" type="text/css" href="/css/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
     <!-- primary meta -->
-    <meta name="title" content="no hello" />
-    <meta name="description" content="please don't say just hello in chat" />
+    <meta name="title" content="{{ fullTitle }}" />
+    <meta name="description" content="{{ _("header.subtitle") }}" />
     <!-- opengraph/facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ site.root }}/" />
-    <meta property="og:title" content="no hello" />
+    <meta property="og:title" content="{{ fullTitle }}" />
     <meta
       property="og:description"
-      content="please don't say just hello in chat"
+      content="{{ _("header.subtitle") }}"
     />
     <meta property="og:image" content="{{ site.root }}/img/newmeta.png" />
     <!-- twitter -->
     <meta property="twitter:card" content="summary" />
     <meta property="twitter:url" content="{{ site.root }}/" />
-    <meta property="twitter:title" content="no hello" />
+    <meta property="twitter:title" content="{{ fullTitle }}" />
     <meta
       property="twitter:description"
-      content="please don't say just hello in chat"
+      content="{{ _("header.subtitle") }}"
     />
     <meta property="twitter:image" content="{{ site.root }}/img/newmeta.png" />
     <!-- icons -->
@@ -35,11 +36,11 @@
     <div>
       <p>lang:</p>
       <ul>
-        <li>
-              {%- for locale in locales -%}
-                <a href="{%- relocalizePath locale.path, page.url -%}">{{ locale.name }}</a>
-              {%- endfor -%}
+        {%- for locale in locales -%}
+          <li>
+            <a href="{%- relocalizePath locale.path, page.url -%}">{{ locale.name }}</a>
           </li>
+        {%- endfor -%}
       </ul>
 
     </div>

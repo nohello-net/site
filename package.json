@@ -13,7 +13,9 @@
     "test": "yarn test:ui && yarn test:unit",
     "test:ui": "playwright test test/ui",
     "test:ui:update": "yarn test:ui --update-snapshots",
-    "test:unit": "mocha test/unit"
+    "test:unit": "mocha test/unit",
+    "strings:push": "tx push",
+    "strings:pull": "tx pull"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
