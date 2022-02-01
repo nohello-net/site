@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ lang }}" dir="{{ langDir }}">
   <head>
-    <title>no hello</title>
+    <title>{{ [title, 'no hello'] | join(' - ') }}</title>
     <link rel="stylesheet" type="text/css" href="/css/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
@@ -33,7 +33,6 @@
   </head>
   <body>
     <div>
-    <p>todo: title, with default/string builder</p>
       <p>lang:</p>
       <ul>
         <li>
