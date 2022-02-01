@@ -23,7 +23,7 @@ test.describe('index snapshots', () => {
   test('page looks the same', async ({ page }) => {
     const screenshot = await page.screenshot({ fullPage: true });
     expect(screenshot).toMatchSnapshot('index.png', {
-      threshold: 0.2,
+      threshold: 0.05,
     });
   });
 
@@ -31,6 +31,6 @@ test.describe('index snapshots', () => {
     await page.keyboard.type('hello');
 
     const screenshot = await page.screenshot();
-    expect(screenshot).toMatchSnapshot('why.png', { threshold: 0.2 });
+    expect(screenshot).toMatchSnapshot('why.png', { threshold: 0.05 });
   });
 });

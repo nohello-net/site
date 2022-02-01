@@ -18,7 +18,7 @@ analytics: false
   } else {
     // no explicit language, let's check our environment
     // might be like 'en-US', so normalise to just 'en' while we only have simple languages
-    const language = (navigator.languagexx ?? '').toLowerCase().replace(/[^\w].*$/, '');
+    const language = (navigator.language ?? '').toLowerCase().replace(/[^\w].*$/, '');
     if (langs.includes(language)) {
       window.location = `/${language}`;
     } else {
