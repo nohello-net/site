@@ -1,122 +1,150 @@
+# 
+# Translators:
+# joshua may, 2022
+# 
+msgid ""
+msgstr ""
+"Last-Translator: joshua may, 2022\n"
+"Language-Team: French (https://www.transifex.com/nohello/teams/131463/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 msgid "header.subtitle"
-msgstr "[fr] please don't say just hello in chat"
+msgstr "s'il vous plaît, ne dites pas juste bonjour dans le chat"
 
 msgid "header.introduction"
-msgstr "[fr] Imagine calling someone on the phone, going _hello!_ then putting them on hold... 🤦‍♀️"
+msgstr ""
+"Imaginez que vous appelez quelqu'un au téléphone, que vous lui dites "
+"\"Bonjour !\" et que vous le mettez en attente... 🤦‍♀️"
 
 msgid "example.character.neutral.name"
-msgstr "[fr] Tim"
+msgstr "Tim"
 
 msgid "example.character.neutral.avatar-description"
-msgstr "[fr] Tim's Slack avatar"
+msgstr "L'avatar de Tim sur Slack"
 
 msgid "example.character.bad.name"
-msgstr "[fr] Keith"
+msgstr "Keith"
 
 msgid "example.character.bad.avatar-description"
-msgstr "[fr] Keith's Slack avatar"
+msgstr "L'avatar de Keith sur Slack"
 
 msgid "example.character.good.name"
-msgstr "[fr] Dawn"
+msgstr "Dawn"
 
 msgid "example.character.good.avatar-description"
-msgstr "[fr] Dawn's Slack avatar"
+msgstr "L'avatar de Dawn sur Slack"
 
 msgid "example.bad.title"
-msgstr "[fr] ❌ Don't do this"
+msgstr "❌ Ne fais pas ça"
 
+# the [year][/year] is replaced with the current year for most users, but may
+# use the placeholder
 msgid "example.bad.body"
 msgstr ""
-"[fr] Note that Keith could have got his answer minutes sooner, and needn't have kept Tim waiting. In fact, Tim could have started thinking about the question right away!\n"
+"Notez que Keith aurait pu obtenir sa réponse quelques minutes plus tôt, et n'aurait pas eu besoin de faire attendre Tim. En fait, Tim aurait pu commencer à réfléchir à la question tout de suite !\n"
 "\n"
-"People who do this are generally trying to be polite by not jumping right into the request, like one would in person or on the phone - and that's great! But it's [year]not 1990[/year] and chat is neither of those things. For most people, typing is much slower than talking. So despite best intentions, **you're actually just making the other person wait** for you to phrase your question, which is lost productivity (and kinda annoying).\n"
+"Les personnes qui agissent ainsi essaient généralement d'être polies en ne se lançant pas directement dans la demande, comme on le ferait en personne ou au téléphone - et c'est très bien ! Mais nous sommes en [year]et non en 1990[/year] et le chat n'est ni l'un ni l'autre. Pour la plupart des gens, taper est beaucoup plus lent que parler. Ainsi, malgré vos meilleures intentions, **vous faites attendre votre interlocuteur** pour que vous puissiez formuler votre question, ce qui est une perte de productivité (et un peu ennuyeux).\n"
 "\n"
-"The same goes for:\n"
+"Il en va de même pour :\n"
 "\n"
-"- \"Hello, are you around?\"\n"
-"- \"hi sophie - quick question.\"\n"
-"- \"You got a sec?\"\n"
-"- \"yt?\"\n"
+"- \"Bonjour, tu es dans le coin ?\"\n"
+"- \"Salut Sophie - Petite question.\"\n"
+"- \"Tu as une seconde ?\"\n"
+"- \"yt ?\"\n"
 "- \"ping\"\n"
 "- etc.\n"
 "\n"
 "**Just ask the question!** 😫\n"
 
 msgid "example.bad.message1.timestamp"
-msgstr "[fr] 2:15 PM"
+msgstr "2:15 PM"
 
 msgid "example.bad.message1.body"
-msgstr "[fr] hi"
+msgstr "salut"
 
 msgid "example.bad.reply1.timestamp"
-msgstr "[fr] 2:19 PM"
+msgstr "2:19 PM"
 
 msgid "example.bad.reply1.body"
-msgstr "[fr] ...?"
+msgstr "...?"
 
 msgid "example.bad.message2.timestamp"
-msgstr "[fr] 2:20 PM"
+msgstr "2:20 PM"
 
+# the typo here is intentional - please maintain a similar unprofessional
+# tone!
 msgid "example.bad.message2.body"
-msgstr "[fr] what time was taht thing again?"
+msgstr "a quelle huere était ce truc déjà ?"
 
 msgid "example.bad.reply2.timestamp"
-msgstr "[fr] 2:20 PM"
+msgstr "2:20 PM"
 
 msgid "example.bad.reply2.body"
-msgstr "[fr] oh - 3:30 mate"
+msgstr "oh - 3:30 mon pote"
 
 msgid "example.good.title"
-msgstr "[fr] ✅ Instead try this"
+msgstr "✅ Essayez plutôt ceci"
 
 msgid "example.good.body"
 msgstr ""
-"[fr] If you feel it's a bit brusque to simply say \"Hi\" and ask the question, **you can still preface your message with as many pleasantries as you see fit.**\n"
+"Si vous estimez qu'il est un peu brusque de dire simplement \"Bonjour\" et de poser la question, **vous pouvez toujours faire précéder votre message d'autant de civilités que vous le jugez nécessaire**.\n"
 "\n"
-"For example:\n"
+"Par exemple :\n"
 "\n"
-"- \"hey man, what's up? also, any idea when that thing's due?\"\n"
-"- \"Hi there! Hope you're well. I'm after the latest deck, when you get a sec :)\"\n"
-"- \"hey, if you're not busy, could you update those NFRs?\"\n"
+"- \"Salut mec, quoi de neuf ? Et aussi, une idée de la date de remise de ce truc ?\"\n"
+"- \"Salut ! J'espère que tu vas bien. Je cherche le dernier jeu, quand tu auras une seconde :)\"\n"
+"- \"Hé, si tu n'es pas occupé, tu peux mettre à jour ces NFRs ?\"\n"
 "- etc.\n"
 "\n"
-"It may seem trivial, but asking your question before getting that initial salutatory reply also allows for **asynchronous communication**. If the other party is away, and you leave before they come back, they can still answer your question, instead of just staring at a \"Hello\" and wondering what they missed.\n"
+"Cela peut sembler trivial, mais le fait de poser votre question avant d'obtenir cette réponse initiale de salutations permet également une communication **asynchrone**. Si l'autre partie est absente et que vous partez avant qu'elle ne revienne, elle peut toujours répondre à votre question, au lieu de se contenter de regarder un \"Bonjour\" en se demandant ce qu'elle a manqué.\n"
 "\n"
-"When done right - everyone's happy! 🎉\n"
+"Quand c'est bien fait, tout le monde est content ! 🎉\n"
 
 msgid "example.good.message1.timestamp"
-msgstr "[fr] 2:15 PM"
+msgstr "2:15 PM"
 
 msgid "example.good.message1.body"
-msgstr "[fr] Hiya! What time was that thing?"
+msgstr "Hiya ! A quelle heure était ce truc ?"
 
 msgid "example.good.reply1.timestamp"
-msgstr "[fr] 2:15 PM"
+msgstr "2:15 PM"
 
 msgid "example.good.reply1.body"
-msgstr "[fr] hey, 3:30"
+msgstr "hey, 3:30"
 
 msgid "example.good.message2.timestamp"
-msgstr "[fr] 2:15 PM"
+msgstr "2:15 PM"
 
+# "Ta" is British(/Australian/etc) for "thanks"
 msgid "example.good.message2.body"
-msgstr "[fr] Ta - seeya then!"
+msgstr "Merci - seeya alors !"
 
 msgid "example.good.reply2.timestamp"
-msgstr "[fr] 2:16 PM"
+msgstr "2:16 PM"
 
 msgid "example.good.reply2.body"
-msgstr "[fr] 👌 np"
+msgstr "👌 np"
 
 msgid "footer.note"
-msgstr "[fr] This is kinda only half serious (kinda 👀) so please don't get [mad](https://www.youtube.com/watch?v=xzpndHtdl9A) at the person who sent you here."
+msgstr ""
+"Ceci n'est qu'à moitié sérieux (un peu 👀) alors s'il vous plaît, ne vous "
+"fâchez pas (https://www.youtube.com/watch?v=xzpndHtdl9A) contre la personne "
+"qui vous a envoyé ici."
 
 msgid "footer.warning"
-msgstr "[fr] That said, if you see this sites URL as someone's status/bio, be prepared to be ignored if you only say \"Hello!\""
+msgstr ""
+"Cela dit, si vous voyez l'URL de ce site dans le statut/bio de quelqu'un, "
+"préparez-vous à être ignoré si vous dites seulement \"Bonjour !\"."
 
 msgid "footer.thanks"
-msgstr "[fr] Based on the wonderful [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/). Avatars taken from *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Open-source on [GitHub](https://github.com/nohello-net/nohello-net.github.io)."
+msgstr ""
+"Basé sur le merveilleux site "
+"[nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/)."
+" Avatars tirés de *[The "
+"Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. "
+"Source ouverte sur [GitHub](https://github.com/nohello-net/nohello-"
+"net.github.io)."
