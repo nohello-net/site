@@ -100,6 +100,35 @@
         <p>
           {{ _md('footer.thanks') }}
         </p>
+        <p>
+        </p>
+
+        <p>
+          {{ _('footer.languages') }}
+          {% for locale in locales %}
+              <a
+                href="{%- relocalizePath locale.path, page.url -%}"
+                class="lang-chooser"
+                data-lang="{{ locale.path }}"
+                hreflang="{{ locale.path }}"
+              >
+                {{ locale.name }}</a>
+                {%- if loop.last == false -%},{%- endif -%}
+                {% if loop.index == loop.length - 1 %} &amp; {%- endif -%}
+          {% endfor %}
+        </p>
+
+        <script>
+          const langChoosers = document.querySelectorAll('.lang-chooser');
+
+          for (const langChooser of langChoosers) {
+            const lang = langChooser.dataset.lang;
+
+            langChooser.addEventListener('click', (evt) => {
+              localStorage.setItem('lang', lang);
+            });
+          }
+        </script>
       </footer>
     </div>
     <div id="preloadimg"></div>

@@ -1,6 +1,8 @@
 const i18n = require('eleventy-plugin-i18n-gettext');
 const { marked } = require('marked');
 
+console.log('i18n include');
+
 // add [year]placeholder[/year] syntax
 marked.use({
   extensions: [

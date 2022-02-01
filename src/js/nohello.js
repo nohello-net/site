@@ -61,5 +61,9 @@ if (typed2.cursor != null) {
 
 document.addEventListener('DOMContentLoaded', () => {
   const year = new Date().getFullYear();
-  document.querySelector('.year').innerHTML = year.toString(10);
+  const nodes = document.querySelector('.year');
+
+  if (nodes != null) {
+    nodes.innerHTML = year.toString(10);
+  }
 });

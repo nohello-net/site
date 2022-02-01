@@ -1,5 +1,10 @@
 [
   {
+    "path": "en",
+    "alpha2Code": "EN",
+    "name": "English"
+  },
+  {
     "path": "fr",
     "alpha2Code": "FR",
     "name": "Français"
@@ -8,10 +13,5 @@
     "path": "de",
     "alpha2Code": "DE",
     "name": "Deutsch"
-  },
-  {
-    "path": "en",
-    "alpha2Code": "AU",
-    "name": "English"
   }
 ]

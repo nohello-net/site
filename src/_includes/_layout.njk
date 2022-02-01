@@ -31,51 +31,46 @@
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
     <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon" />
     <link rel="icon" href="/img/favicon.png" type="image/x-icon" />
+
+    {% for locale in locales %}
+    <link rel="alternate" hreflang="{{ locale.path }}" href="{{ site.root }}{% relocalizePath locale.path, page.url %}" />
+    {% endfor %}
+    <link rel="alternate" hreflang="x-default" href="{{ site.root }}/" />
   </head>
   <body>
-    <div>
-      <p>lang:</p>
-      <ul>
-        {%- for locale in locales -%}
-          <li>
-            <a href="{%- relocalizePath locale.path, page.url -%}">{{ locale.name }}</a>
-          </li>
-        {%- endfor -%}
-      </ul>
-
-    </div>
-
     {{ content | safe }}
 
-    <script src="https://cdn.jsdelivr.net/npm/@klaxit/cookie-consent@0.3.4/dist/cookie-consent.js"></script>
-    <script>
-      function updateAnalytics() {
-        const MEASUREMENT_ID = "169824146-1";
-        if (window.CookieConsent.acceptedCategories?.includes("analytics")) {
-          window[`ga-disable-${MEASUREMENT_ID}`] = undefined;
-          if (typeof window.ga === "undefined") {
-            const script = document.createElement("script");
-            script.src = `//www.googletagmanager.com/gtag/js?id=UA-${MEASUREMENT_ID}`;
-            script.async = 1;
-            const firstScript = document.getElementsByTagName("script")[0];
-            firstScript.parentNode.insertBefore(script, firstScript);
+    {% if analytics !== false %}
+      <script src="https://cdn.jsdelivr.net/npm/@klaxit/cookie-consent@0.3.4/dist/cookie-consent.js"></script>
+      <script>
+        function updateAnalytics() {
+          const MEASUREMENT_ID = "169824146-1";
+          if (window.CookieConsent.acceptedCategories?.includes("analytics")) {
+            window[`ga-disable-${MEASUREMENT_ID}`] = undefined;
+            if (typeof window.ga === "undefined") {
+              const script = document.createElement("script");
+              script.src = `//www.googletagmanager.com/gtag/js?id=UA-${MEASUREMENT_ID}`;
+              script.async = 1;
+              const firstScript = document.getElementsByTagName("script")[0];
+              firstScript.parentNode.insertBefore(script, firstScript);
+            }
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+              dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+            gtag("config", `UA-${MEASUREMENT_ID}`, { anonymize_ip: true });
+          } else {
+            window[`ga-disable-${MEASUREMENT_ID}`] = true;
           }
-          window.dataLayer = window.dataLayer || [];
-          function gtag() {
-            dataLayer.push(arguments);
-          }
-          gtag("js", new Date());
-          gtag("config", `UA-${MEASUREMENT_ID}`, { anonymize_ip: true });
-        } else {
-          window[`ga-disable-${MEASUREMENT_ID}`] = true;
         }
-      }
-      const CookieConsent = window.CookieConsent;
-      const cc = new CookieConsent({ title: "We use cookies 🍪" });
-      cc.on("change", (cc) => {
+        const CookieConsent = window.CookieConsent;
+        const cc = new CookieConsent({ title: "We use cookies 🍪" });
+        cc.on("change", (cc) => {
+          updateAnalytics();
+        });
         updateAnalytics();
-      });
-      updateAnalytics();
-    </script>
+      </script>
+    {% endif %}
   </body>
 </html>

@@ -3,8 +3,7 @@ const fs = require('fs');
 
 describe('Locales', () => {
   const locales = require('../../src/_data/locales.json');
-  const base = locales.find((l) => l.path === 'en');
-  const others = locales.filter((l) => l.path !== base.path);
+  const base = locales[0];
 
   it('should have base locale', () => {
     assert.notEqual(base, null);
@@ -35,7 +34,7 @@ describe('Locales', () => {
         });
       });
 
-      describe.only('translation strings', () => {
+      describe('translation strings', () => {
         const messagesjs = fs.readFileSync('locales/messages.js', 'utf-8');
         const messagespo = fs.readFileSync(messagesPoPath, 'utf-8');
 

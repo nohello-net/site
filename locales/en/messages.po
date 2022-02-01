@@ -127,3 +127,7 @@ msgstr "That said, if you see this sites URL as someone's status/bio, be prepare
 
 msgid "footer.thanks"
 msgstr "Based on the wonderful [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/). Avatars taken from *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Open-source on [GitHub](https://github.com/nohello-net/nohello-net.github.io)."
+
+# prefix before a list of languages, i.e. This site is available in: English, French, & German
+msgid "footer.languages"
+msgstr "This site is available in:"

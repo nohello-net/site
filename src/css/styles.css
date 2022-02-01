@@ -333,7 +333,7 @@ ul {
 }
 
 #preloadimg {
-  background: url(img/why.gif) no-repeat -9999px -9999px;
+  background: url(/img/why.gif) no-repeat -9999px -9999px;
 }
 
 .slack {
