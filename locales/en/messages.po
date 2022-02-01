@@ -33,6 +33,7 @@ msgstr "Dawn's Slack avatar"
 msgid "example.bad.title"
 msgstr "❌ Don't do this"
 
+# the [year][/year] is replaced with the current year for most users, but may use the placeholder
 msgid "example.bad.body"
 msgstr ""
 "Note that Keith could have got his answer minutes sooner, and needn't have kept Tim waiting. In fact, Tim could have started thinking about the question right away!\n"
@@ -65,6 +66,7 @@ msgstr "...?"
 msgid "example.bad.message2.timestamp"
 msgstr "2:20 PM"
 
+# the typo here is intentional - please maintain a similar unprofessional tone!
 msgid "example.bad.message2.body"
 msgstr "what time was taht thing again?"
 
@@ -107,6 +109,7 @@ msgstr "hey, 3:30"
 msgid "example.good.message2.timestamp"
 msgstr "2:15 PM"
 
+# "Ta" is British(/Australian/etc) for "thanks"
 msgid "example.good.message2.body"
 msgstr "Ta - seeya then!"
 
