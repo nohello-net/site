@@ -8,6 +8,7 @@
   "scripts": {
     "build": "eleventy",
     "serve": "eleventy --serve --port=8123",
+    "update-snapshots": "act -j update-snapshots -P ubuntu-latest=mcr.microsoft.com/playwright:focal --bind -W ./.github/local-workflows",
     "format": "prettier --write .",
     "lint": "eslint .",
     "test": "yarn test:ui && yarn test:unit",
@@ -15,6 +16,7 @@
     "test:ui:update": "yarn test:ui --update-snapshots",
     "test:unit": "mocha test/unit",
     "ci:ui": "start-server-and-test serve 8123 test:ui",
+    "ci:ui:update": "start-server-and-test serve 8123 test:ui:update",
     "strings:push": "tx push",
     "strings:pull": "tx pull"
   },
