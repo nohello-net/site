@@ -1,4 +1,6 @@
-var typed2 = new Typed('#strike', {
+const { Typed } = window;
+
+const typed2 = new Typed('#strike', {
   strings: [
     'hello',
     'hi',

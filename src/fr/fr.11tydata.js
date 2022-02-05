@@ -1,5 +1,3 @@
-'use strict';
-
 const i18n = require('../util/i18n');
 
 module.exports = () => {

@@ -7,7 +7,18 @@ on:
     branches: [ main ]
 
 jobs:
-  test:
+  unit-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'yarn'
+      - run: yarn install
+      - run: yarn test:unit
+
+  ui-test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -17,4 +28,15 @@ jobs:
           cache: 'yarn'
       - run: npx playwright install-deps chromium
       - run: yarn install
-      - run: yarn ci
+      - run: yarn ci:ui
+  
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'yarn'
+      - run: yarn install
+      - run: yarn lint

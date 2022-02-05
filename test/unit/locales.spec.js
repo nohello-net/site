@@ -1,8 +1,8 @@
 const assert = require('assert');
 const fs = require('fs');
+const locales = require('../../src/_data/locales.json');
 
 describe('Locales', () => {
-  const locales = require('../../src/_data/locales.json');
   const base = locales[0];
 
   it('should have base locale', () => {
