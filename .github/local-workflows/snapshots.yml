@@ -23,5 +23,6 @@ jobs:
         with:
           node-version-file: '.nvmrc'
       - run: fc-list
+      - run: ls -al /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf
       - run: yarn install
       - run: yarn ci:ui
