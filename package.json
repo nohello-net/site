@@ -37,5 +37,8 @@
   "dependencies": {
     "eleventy-plugin-i18n-gettext": "^1.5.1",
     "marked": "^4.0.12"
+  },
+  "resolutions": {
+    "@11ty/eleventy": "^1.0.0"
   }
 }
