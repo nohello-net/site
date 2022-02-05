@@ -22,5 +22,6 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version-file: '.nvmrc'
+      - run: fc-list
       - run: yarn install
       - run: yarn ci:ui

@@ -26,9 +26,9 @@ jobs:
         with:
           node-version-file: '.nvmrc'
           cache: 'yarn'
+      - run: fc-list
       - run: yarn install
-      - run: npx playwright install chromium
-      - run: npx playwright install-deps chromium
+      - run: npx playwright install --with-deps chromium
       - run: yarn ci:ui
       - uses: actions/upload-artifact@v2
         if: always()
