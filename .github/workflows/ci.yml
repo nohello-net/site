@@ -26,13 +26,14 @@ jobs:
         with:
           node-version-file: '.nvmrc'
           cache: 'yarn'
-      - run: npx playwright install-deps chromium
       - run: yarn install
+      - run: npx playwright install chromium
+      - run: npx playwright install-deps chromium
       - run: yarn ci:ui
       - uses: actions/upload-artifact@v2
         if: always()
         with:
-          name: test-results
+          name: ui-test-results
           path: test-results/
 
   lint:

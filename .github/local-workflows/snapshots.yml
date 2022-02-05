@@ -13,7 +13,6 @@ jobs:
         with:
           node-version-file: '.nvmrc'
       - run: yarn install
-      - run: npx playwright install-deps chromium
       - run: yarn ci:ui:update
 
   check-snapshots:
@@ -24,5 +23,4 @@ jobs:
         with:
           node-version-file: '.nvmrc'
       - run: yarn install
-      - run: npx playwright install-deps chromium
       - run: yarn ci:ui
