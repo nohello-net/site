@@ -19,7 +19,8 @@
     "ci:ui": "start-server-and-test serve 8123 test:ui",
     "ci:ui:update": "start-server-and-test serve 8123 test:ui:update",
     "strings:push": "tx push",
-    "strings:pull": "tx pull"
+    "strings:pull": "tx pull",
+    "postinstall": "patch-package"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
@@ -36,6 +37,11 @@
   },
   "dependencies": {
     "eleventy-plugin-i18n-gettext": "^1.5.1",
-    "marked": "^4.0.12"
+    "marked": "^4.0.12",
+    "patch-package": "^6.4.7",
+    "postinstall-postinstall": "^2.1.0"
+  },
+  "resolutions": {
+    "@11ty/eleventy": "^1.0.0"
   }
 }
