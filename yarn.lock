@@ -3606,10 +3606,10 @@ pretty@^2.0.0:
     extend-shallow "^2.0.1"
     js-beautify "^1.6.12"
 
-printf@^0.5.3:
-  version "0.5.3"
-  resolved "https://registry.npmjs.org/printf/-/printf-0.5.3.tgz"
-  integrity sha512-t3lYN6vPU5PZXDiEZZqoyXvN8wCsBfi8gPoxTKo2e5hhV673t/KUh+mfO8P8lCOCDC/BWcOGIxKyebxc5FuqLA==
+printf@^0.5.3, printf@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/printf/-/printf-0.6.1.tgz#b9afa3d3b55b7f2e8b1715272479fc756ed88650"
+  integrity sha512-is0ctgGdPJ5951KulgfzvHGwJtZ5ck8l042vRkV6jrkpBzTmb/lueTqguWHy2JfVA+RY6gFVlaZgUS0j7S/dsw==
 
 progress@^2.0.3:
   version "2.0.3"
