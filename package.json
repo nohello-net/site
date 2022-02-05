@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/nohello-net/nohello-net.github.io/"
+    "url": "https://github.com/nohello-net/site/"
   },
   "scripts": {
     "build": "eleventy",
