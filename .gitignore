@@ -1,5 +1,8 @@
 build/
 test-results/
+workflow/
+
+test/ui/**/*-darwin.png
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,node,yarn
