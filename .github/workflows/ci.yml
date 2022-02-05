@@ -29,6 +29,11 @@ jobs:
       - run: npx playwright install-deps chromium
       - run: yarn install
       - run: yarn ci:ui
+      - uses: actions/upload-artifact@v2
+        if: always()
+        with:
+          name: test-results
+          path: test-results/
 
   lint:
     runs-on: ubuntu-latest
