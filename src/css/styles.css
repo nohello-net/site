@@ -332,10 +332,6 @@ ul {
   opacity: 100% !important;
 }
 
-#preloadimg {
-  background: url(/img/why.gif) no-repeat -9999px -9999px;
-}
-
 .slack {
   padding-bottom: 15px;
 }

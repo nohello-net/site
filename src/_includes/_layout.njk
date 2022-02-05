@@ -17,7 +17,7 @@
       property="og:description"
       content="{{ _("header.subtitle") }}"
     />
-    <meta property="og:image" content="{{ site.root }}/img/newmeta.png" />
+    <meta property="og:image" content="{{ site.root }}{%- imageURL "./src/img/newmeta.png", { format: "webp" } -%}" />
     <!-- twitter -->
     <meta property="twitter:card" content="summary" />
     <meta property="twitter:url" content="{{ site.root }}/" />
@@ -26,11 +26,11 @@
       property="twitter:description"
       content="{{ _("header.subtitle") }}"
     />
-    <meta property="twitter:image" content="{{ site.root }}/img/newmeta.png" />
+    <meta property="twitter:image" content="{{ site.root }}{%- imageURL "./src/img/newmeta.png", { format: "webp" } -%}" />
     <!-- icons -->
-    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
-    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon" />
-    <link rel="icon" href="/img/favicon.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="{%- imageURL "./src/img/apple-touch-icon.png", { format: "webp" } -%}" />
+    <link rel="shortcut icon" href="{%- imageURL "./src/img/favicon.png", { format: "webp" } -%}" type="image/x-icon" />
+    <link rel="icon" href="{%- imageURL "./src/img/favicon.png", { format: "webp" } -%}" type="image/x-icon" />
 
     {% for locale in locales %}
     <link rel="alternate" hreflang="{{ locale.path }}" href="{{ site.root }}{% relocalizePath locale.path, page.url %}" />
@@ -65,11 +65,13 @@
           }
         }
         const CookieConsent = window.CookieConsent;
-        const cc = new CookieConsent({ title: "We use cookies 🍪" });
-        cc.on("change", (cc) => {
+        if (CookieConsent != null) {
+          const cc = new CookieConsent({ title: "We use cookies 🍪" });
+          cc.on("change", (cc) => {
+            updateAnalytics();
+          });
           updateAnalytics();
-        });
-        updateAnalytics();
+        }
       </script>
     {% endif %}
   </body>
