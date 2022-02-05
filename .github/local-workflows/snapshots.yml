@@ -22,7 +22,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version-file: '.nvmrc'
+      - run: yarn install
+      - run: npx playwright install --with-deps chromium
       - run: fc-list
       - run: ls -al /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf
-      - run: yarn install
       - run: yarn ci:ui

@@ -8,8 +8,8 @@
   "scripts": {
     "build": "eleventy",
     "serve": "eleventy --serve --port=8123",
-    "check-snapshots": "act -j check-snapshots -P ubuntu-latest=mcr.microsoft.com/playwright:focal --bind -W ./.github/local-workflows --reuse",
-    "update-snapshots": "act -j update-snapshots -P ubuntu-latest=mcr.microsoft.com/playwright:focal --bind -W ./.github/local-workflows --reuse",
+    "check-snapshots": "act -j check-snapshots -P ubuntu-latest=ghcr.io/catthehacker/ubuntu:js-latest --bind -W ./.github/local-workflows --reuse",
+    "update-snapshots": "act -j update-snapshots -P ubuntu-latest=ghcr.io/catthehacker/ubuntu:js-latest --bind -W ./.github/local-workflows --reuse",
     "format": "prettier --write .",
     "lint": "eslint .",
     "test": "yarn test:ui && yarn test:unit",

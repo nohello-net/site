@@ -26,10 +26,10 @@ jobs:
         with:
           node-version-file: '.nvmrc'
           cache: 'yarn'
-      - run: fc-list
-      - run: ls -al /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf
       - run: yarn install
       - run: npx playwright install --with-deps chromium
+      - run: fc-list
+      - run: ls -al /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf
       - run: yarn ci:ui
       - uses: actions/upload-artifact@v2
         if: always()
