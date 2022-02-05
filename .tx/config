@@ -1,0 +1,8 @@
+[main]
+host = https://www.transifex.com
+
+[o:nohello:p:nohellodotnet:r:messages-en]
+file_filter  = locales/<lang>/messages.po
+source_file  = locales/en/messages.po
+type         = PO
+minimum_perc = 0

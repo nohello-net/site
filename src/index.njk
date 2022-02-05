@@ -1,0 +1,29 @@
+---
+layout: _layout
+analytics: false
+---
+<script>
+  const langs = [
+    {%- for locale in locales -%}
+      '{{ locale.path }}',
+    {%- endfor -%}
+  ]
+
+  const base = '{{ locales[0].path }}';
+
+  const preferred = localStorage.getItem('lang');
+
+  if (langs.includes(preferred)) {
+    window.location = `/${preferred}`;
+  } else {
+    // no explicit language, let's check our environment
+    // might be like 'en-US', so normalise to just 'en' while we only have simple languages
+    const language = (navigator.language ?? '').toLowerCase().replace(/[^\w].*$/, '');
+    if (langs.includes(language)) {
+      window.location = `/${language}`;
+    } else {
+      // nothing from the environment? let's default to base language
+      window.location = `/${base}`;
+    }
+  }
+</script>

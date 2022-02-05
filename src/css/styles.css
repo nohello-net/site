@@ -130,6 +130,10 @@ footer {
   font-weight: 300;
 }
 
+footer p {
+  color: #616061;
+}
+
 footer a {
   color: red;
   text-decoration: underline;
@@ -311,7 +315,7 @@ ul {
   opacity: 70%;
 }
 
-ul.nonos li:before {
+.nonos ul li:before {
   content: '×';
   color: red;
   font-weight: bold;
@@ -319,7 +323,7 @@ ul.nonos li:before {
   opacity: 100% !important;
 }
 
-ul.muchbetter li:before {
+.yepyep ul li:before {
   content: '✓';
   font-size: 14px;
   font-weight: bold;
@@ -329,7 +333,7 @@ ul.muchbetter li:before {
 }
 
 #preloadimg {
-  background: url(img/why.gif) no-repeat -9999px -9999px;
+  background: url(/img/why.gif) no-repeat -9999px -9999px;
 }
 
 .slack {
@@ -449,7 +453,7 @@ ul.muchbetter li:before {
     margin-top: 20px;
   }
 
-  .section-title.yepyep {
+  .yepyep .section-title {
     margin-top: 80px;
   }
 }

@@ -1,0 +1,138 @@
+<div id="wholesite">
+      <div class="container">
+        <div class="hero">
+          <div id="plsstop">
+            <h1 class="name">
+              no
+              <span id="strike">hello</span>
+            </h1>
+          </div>
+          <span class="subtitle">{{ _("header.subtitle") }}</span>
+          <h2 class="lead">
+            {{ _md("header.introduction") }}
+          </h2>
+        </div>
+      </div>
+
+      <div class="container nonos">
+        <div class="sections sectionleft">
+          <h2 class="section-title">{{ _("example.bad.title") }}</h2>
+          <div class="list-card example one">
+            <div class="slack">
+              <img src="/img/keith.png" alt="{{ _("example.character.bad.avatar-description") }}" />
+              <span class="slackname">{{ _("example.character.bad.name") }}</span>
+              <span class="slacktime">{{ _("example.bad.message1.timestamp") }}</span><br />
+              <span class="slackmessage">{{ _("example.bad.message1.body") }}</span>
+            </div>
+            <div class="slack">
+              <img src="/img/tim.png" alt="{{ _("example.character.neutral.avatar-description") }}" />
+              <span class="slackname">{{ _("example.character.neutral.name") }}</span>
+              <span class="slacktime">{{ _("example.bad.reply1.timestamp") }}</span><br />
+              <span class="slackmessage">{{ _("example.bad.reply1.body") }}</span>
+            </div>
+            <div class="slack">
+              <img src="/img/keith.png" alt="{{ _("example.character.bad.avatar-description") }}" />
+              <span class="slackname">{{ _("example.character.bad.name") }}</span>
+              <span class="slacktime">{{ _("example.bad.message2.timestamp") }}</span><br />
+              <span class="slackmessage">{{ _("example.bad.message2.body") }}</span>
+            </div>
+            <div class="slack">
+              <img src="/img/tim.png" alt="{{ _("example.character.neutral.avatar-description") }}" />
+              <span class="slackname">{{ _("example.character.neutral.name") }}</span>
+              <span class="slacktime">{{ _("example.bad.reply2.timestamp") }}</span><br />
+              <span class="slackmessage">{{ _("example.bad.reply2.body") }}</span>
+            </div>
+          </div>
+        </div>
+        <div class="sections sectionright">
+          <div class="list-card">
+            <div>
+              {{ _mdp('example.bad.body') }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container yepyep">
+        <div class="sections sectionleft">
+          <h2 class="section-title yepyep">{{ _("example.good.title") }}</h2>
+          <div class="list-card example two">
+            <div class="slack">
+              <img src="/img/dawn.png" alt="{{ _("example.character.good.avatar-description") }}" />
+              <span class="slackname">{{ _("example.character.good.name") }}</span>
+              <span class="slacktime">{{ _("example.good.message1.timestamp") }}</span><br />
+              <span class="slackmessage">{{ _("example.good.message1.body") }}</span>
+            </div>
+            <div class="slack">
+              <img src="/img/tim.png" alt="{{ _("example.character.neutral.avatar-description") }}" />
+              <span class="slackname">{{ _("example.character.neutral.name") }}</span>
+              <span class="slacktime">{{ _("example.good.reply1.timestamp") }}</span><br />
+              <span class="slackmessage">{{ _("example.good.reply1.body") }}</span>
+            </div>
+            <div class="slack">
+              <img src="/img/dawn.png" alt="{{ _("example.character.good.avatar-description") }}" />
+              <span class="slackname">{{ _("example.character.good.name") }}</span>
+              <span class="slacktime">{{ _("example.good.message2.timestamp") }}</span><br />
+              <span class="slackmessage">{{ _("example.good.message2.body") }}</span>
+            </div>
+            <div class="slack">
+              <img src="/img/tim.png" alt="{{ _("example.character.neutral.avatar-description") }}" />
+              <span class="slackname">{{ _("example.character.neutral.name") }}</span>
+              <span class="slacktime">{{ _("example.good.reply2.timestamp") }}</span><br />
+              <span class="slackmessage">{{ _("example.good.reply2.body") }}</span>
+            </div>
+          </div>
+        </div>
+        <div class="sections sectionright">
+          <div class="list-card">
+            <div>
+              {{ _mdp('example.good.body') }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="container">
+        <p>
+          {{ _md('footer.note') }}
+        </p>
+        <p>
+          {{ _md('footer.warning') }}
+        </p>
+        <p>
+          {{ _md('footer.thanks') }}
+        </p>
+        <p>
+        </p>
+
+        <p>
+          {{ _('footer.languages') }}
+          {% for locale in locales %}
+              <a
+                href="{%- relocalizePath locale.path, page.url -%}"
+                class="lang-chooser"
+                data-lang="{{ locale.path }}"
+                hreflang="{{ locale.path }}"
+              >
+                {{ locale.name }}</a>
+                {%- if loop.last == false -%},{%- endif -%}
+                {% if loop.index == loop.length - 1 %} &amp; {%- endif -%}
+          {% endfor %}
+        </p>
+
+        <script>
+          const langChoosers = document.querySelectorAll('.lang-chooser');
+
+          for (const langChooser of langChoosers) {
+            const lang = langChooser.dataset.lang;
+
+            langChooser.addEventListener('click', (evt) => {
+              localStorage.setItem('lang', lang);
+            });
+          }
+        </script>
+      </footer>
+    </div>
+    <div id="preloadimg"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+      <script src="/js/nohello.js"></script>
+      <script src="/js/hello.js"></script>
