@@ -15,5 +15,6 @@ jobs:
         with:
           node-version-file: '.nvmrc'
           cache: 'yarn'
+      - run: npx playwright install-deps chromium
       - run: yarn install
       - run: yarn ci
