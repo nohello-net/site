@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-disable no-console */
 /* eslint-disable import/no-extraneous-dependencies */
 
 const fs = require('fs');
@@ -6,6 +7,7 @@ const fsp = require('fs/promises');
 const path = require('path');
 const util = require('util');
 const zlib = require('zlib');
+
 const gunzip = util.promisify(zlib.gunzip);
 
 // collect from:
