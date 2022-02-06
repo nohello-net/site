@@ -30,6 +30,7 @@
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-prettier": "^4.0.0",
     "mocha": "^9.2.0",
+    "netlify-plugin-cache": "^1.0.3",
     "prettier": "^2.3.2",
     "start-server-and-test": "^1.14.0"
   },
