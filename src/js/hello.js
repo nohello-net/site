@@ -5,7 +5,7 @@ const nohelloCode = ['h', 'e', 'l', 'l', 'o'];
 let nohelloCodePosition = 0;
 
 function activateWut() {
-  document.body.style.backgroundImage = "url('/img/why.gif')";
+  document.body.style.backgroundImage = window.whyyyyy;
   document.body.style.backgroundSize = 'cover';
 
   const elements = [
@@ -44,6 +44,8 @@ document.addEventListener('keydown', (e) => {
     if (nohelloCodePosition === nohelloCode.length) {
       activateWut();
       nohelloCodePosition = 0;
+    } else if (nohelloCodePosition === 2) {
+      document.getElementById('preloadimg').classList.add('now');
     }
   } else {
     nohelloCodePosition = 0;

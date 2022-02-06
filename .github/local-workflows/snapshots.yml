@@ -18,6 +18,11 @@ jobs:
       - run: yarn install
       - run: npx playwright install --with-deps chromium
       - run: yarn ci:ui:update
+      - uses: actions/upload-artifact@v2
+        if: always()
+        with:
+          name: ui-snapshots
+          path: test/ui/**/*.png
 
   check-snapshots:
     runs-on: ubuntu-latest
@@ -30,3 +35,8 @@ jobs:
       - run: npx playwright install --with-deps chromium
       - run: fc-list
       - run: yarn ci:ui
+      - uses: actions/upload-artifact@v2
+        if: always()
+        with:
+          name: ui-test-results
+          path: test-results/

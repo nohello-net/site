@@ -19,25 +19,25 @@
           <h2 class="section-title">{{ _("example.bad.title") }}</h2>
           <div class="list-card example one">
             <div class="slack">
-              <img src="/img/keith.png" alt="{{ _("example.character.bad.avatar-description") }}" />
+              {% image "./src/img/keith.png", _("example.character.bad.avatar-description") %}
               <span class="slackname">{{ _("example.character.bad.name") }}</span>
               <span class="slacktime">{{ _("example.bad.message1.timestamp") }}</span><br />
               <span class="slackmessage">{{ _("example.bad.message1.body") }}</span>
             </div>
             <div class="slack">
-              <img src="/img/tim.png" alt="{{ _("example.character.neutral.avatar-description") }}" />
+              {% image "./src/img/tim.png", _("example.character.neutral.avatar-description") %}
               <span class="slackname">{{ _("example.character.neutral.name") }}</span>
               <span class="slacktime">{{ _("example.bad.reply1.timestamp") }}</span><br />
               <span class="slackmessage">{{ _("example.bad.reply1.body") }}</span>
             </div>
             <div class="slack">
-              <img src="/img/keith.png" alt="{{ _("example.character.bad.avatar-description") }}" />
+              {% image "./src/img/keith.png", _("example.character.bad.avatar-description") %}
               <span class="slackname">{{ _("example.character.bad.name") }}</span>
               <span class="slacktime">{{ _("example.bad.message2.timestamp") }}</span><br />
               <span class="slackmessage">{{ _("example.bad.message2.body") }}</span>
             </div>
             <div class="slack">
-              <img src="/img/tim.png" alt="{{ _("example.character.neutral.avatar-description") }}" />
+              {% image "./src/img/tim.png", _("example.character.neutral.avatar-description") %}
               <span class="slackname">{{ _("example.character.neutral.name") }}</span>
               <span class="slacktime">{{ _("example.bad.reply2.timestamp") }}</span><br />
               <span class="slackmessage">{{ _("example.bad.reply2.body") }}</span>
@@ -57,25 +57,25 @@
           <h2 class="section-title yepyep">{{ _("example.good.title") }}</h2>
           <div class="list-card example two">
             <div class="slack">
-              <img src="/img/dawn.png" alt="{{ _("example.character.good.avatar-description") }}" />
+              {% image "./src/img/dawn.png", _("example.character.good.avatar-description") %}
               <span class="slackname">{{ _("example.character.good.name") }}</span>
               <span class="slacktime">{{ _("example.good.message1.timestamp") }}</span><br />
               <span class="slackmessage">{{ _("example.good.message1.body") }}</span>
             </div>
             <div class="slack">
-              <img src="/img/tim.png" alt="{{ _("example.character.neutral.avatar-description") }}" />
+              {% image "./src/img/tim.png", _("example.character.neutral.avatar-description") %}
               <span class="slackname">{{ _("example.character.neutral.name") }}</span>
               <span class="slacktime">{{ _("example.good.reply1.timestamp") }}</span><br />
               <span class="slackmessage">{{ _("example.good.reply1.body") }}</span>
             </div>
             <div class="slack">
-              <img src="/img/dawn.png" alt="{{ _("example.character.good.avatar-description") }}" />
+              {% image "./src/img/dawn.png", _("example.character.good.avatar-description") %}
               <span class="slackname">{{ _("example.character.good.name") }}</span>
               <span class="slacktime">{{ _("example.good.message2.timestamp") }}</span><br />
               <span class="slackmessage">{{ _("example.good.message2.body") }}</span>
             </div>
             <div class="slack">
-              <img src="/img/tim.png" alt="{{ _("example.character.neutral.avatar-description") }}" />
+              {% image "./src/img/tim.png", _("example.character.neutral.avatar-description") %}
               <span class="slackname">{{ _("example.character.neutral.name") }}</span>
               <span class="slacktime">{{ _("example.good.reply2.timestamp") }}</span><br />
               <span class="slackmessage">{{ _("example.good.reply2.body") }}</span>
@@ -132,6 +132,16 @@
       </footer>
     </div>
     <div id="preloadimg"></div>
+
+    <style type="text/css">
+    #preloadimg.now {
+      background: url({%- imageURL "./src/img/why.gif", { format: "webp", animated: true } -%}) no-repeat -9999px -9999px;
+    }
+    </style>
+
+<script>
+whyyyyy = "url('{%- imageURL "./src/img/why.gif", { format: "webp", animated: true } -%}')"
+</script>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
       <script src="/js/nohello.js"></script>
