@@ -1590,6 +1590,13 @@ diff@5.0.0:
   resolved "https://registry.npmjs.org/diff/-/diff-5.0.0.tgz"
   integrity sha512-/VTCrvm5Z0JGty/BWHljh+BAiw3IK+2j87NGMu8Nwc/f48WoDAC395uomO9ZD117ZOBaHmkX1oyLvkVM/aIT3w==
 
+dir-glob@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/dir-glob/-/dir-glob-3.0.1.tgz#56dbf73d992a4a93ba1584f4534063fd2e41717f"
+  integrity sha512-WkrWp9GR4KXfKGYzOLmTuGVi1UWFfws377n9cc55/tb6DuqyF6pcQ5AbiHEshaDpY9v6oaSr2XCDidGmMwdzIA==
+  dependencies:
+    path-type "^4.0.0"
+
 dlv@^1.1.3:
   version "1.1.3"
   resolved "https://registry.npmjs.org/dlv/-/dlv-1.1.3.tgz"
@@ -2052,7 +2059,7 @@ fast-diff@^1.1.2:
   resolved "https://registry.yarnpkg.com/fast-diff/-/fast-diff-1.2.0.tgz#73ee11982d86caaf7959828d519cfe927fac5f03"
   integrity sha512-xJuoT5+L99XlZ8twedaRf6Ax2TgQVxvgZOYoPKqZufmJib0tL2tegPBOZb1pVNgIhlqDlA0eO0c3wBvQcmzx4w==
 
-fast-glob@^3.2.9:
+fast-glob@^3.2.11, fast-glob@^3.2.9:
   version "3.2.11"
   resolved "https://registry.npmjs.org/fast-glob/-/fast-glob-3.2.11.tgz"
   integrity sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==
@@ -2347,6 +2354,17 @@ globals@^13.6.0, globals@^13.9.0:
   integrity sha512-317dFlgY2pdJZ9rspXDks7073GpDmXdfbM3vYYp0HAMKGDh1FfWPleI2ljVNLQX5M5lXcAslTcPTrOrMEFOjyw==
   dependencies:
     type-fest "^0.20.2"
+
+globby@^13.1.1:
+  version "13.1.1"
+  resolved "https://registry.yarnpkg.com/globby/-/globby-13.1.1.tgz#7c44a93869b0b7612e38f22ed532bfe37b25ea6f"
+  integrity sha512-XMzoDZbGZ37tufiv7g0N4F/zp3zkwdFtVbV3EHsVl1KQr4RPLfNoT068/97RPshz2J5xYNEjLKKBKaGHifBd3Q==
+  dependencies:
+    dir-glob "^3.0.1"
+    fast-glob "^3.2.11"
+    ignore "^5.2.0"
+    merge2 "^1.4.1"
+    slash "^4.0.0"
 
 globby@^5.0.0:
   version "5.0.0"
@@ -3198,7 +3216,7 @@ merge-stream@^2.0.0:
   resolved "https://registry.npmjs.org/merge-stream/-/merge-stream-2.0.0.tgz"
   integrity sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==
 
-merge2@^1.3.0:
+merge2@^1.3.0, merge2@^1.4.1:
   version "1.4.1"
   resolved "https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz"
   integrity sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==
@@ -3728,6 +3746,11 @@ path-to-regexp@^6.2.0:
   version "6.2.0"
   resolved "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-6.2.0.tgz"
   integrity sha512-f66KywYG6+43afgE/8j/GoiNyygk/bnoCbps++3ErRKsIYkGGupyv07R2Ok5m9i67Iqc+T2g1eAUGUPzWhYTyg==
+
+path-type@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
+  integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
 pause-stream@0.0.11:
   version "0.0.11"
@@ -4480,6 +4503,11 @@ slash@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/slash/-/slash-3.0.0.tgz"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
+
+slash@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/slash/-/slash-4.0.0.tgz#2422372176c4c6c5addb5e2ada885af984b396a7"
+  integrity sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew==
 
 slugify@^1.6.5:
   version "1.6.5"
