@@ -1,0 +1,33 @@
+{
+  "name": "eleventy-plugin-i18n-gettext-integration",
+  "version": "1.0.0",
+  "description": "Test integration project for eleventy-plugin-i18n-gettext.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "predev": "rimraf dist",
+    "dev": "eleventy --serve",
+    "prebuild": "rimraf dist",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sgissinger/eleventy-plugin-i18n-gettext"
+  },
+  "keywords": [
+    "eleventy",
+    "eleventy-plugin",
+    "11ty",
+    "i18n",
+    "gettext"
+  ],
+  "author": "Sebastien Gissinger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgissinger/eleventy-plugin-i18n-gettext/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "slugify": "^1.4.6"
+  }
+}

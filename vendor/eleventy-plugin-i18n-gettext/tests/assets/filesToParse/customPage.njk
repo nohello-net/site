@@ -1,0 +1,40 @@
+<div>{{ _('Fruits') }} {% _ locale,'Vegetables' %} {{ _( 'Sweets (soooo   goooood!)') }}</div>
+<div>{% _  locale,   'Hammer with  "  a wooden handle' %} {{ _(   'Red saw') }} {% _   locale,   'Screwdriver' %}</div>
+<div>{{ _ locale, 'Hammer with a %s', 'wooden handle' }}</div>
+<div>{{ _ locale,  "Hammer with   'a' ${property}", { property: 'wooden handle' } }}</div>
+
+<a href="{{ _p(fruit.path) | url }}">
+  <h4>{{ _(fruit.name) }}</h4>
+</a>
+<div>{{ _('Click on the fruit to see more details. (function)') }}</div>
+<div>{% _ locale, 'Click on the fruit to see more details. (shortcode)' %}</div>
+
+<div>{% _n locale, 'This fruit is excellent. (shortcode)', 'These fruits are excellent. (shortcode)', fruit.count %} {{ _n('This fruit is excellent. (function)', 'These fruits are excellent. (function)', fruit.count) }}</div>
+
+<div>{{ _('The %s keeps the doctor away. (function)', _(fruit.name) | lower) }}</div>
+<div>{% _ locale, 'The %s keeps the doctor away. (shortcode)', _(fruit.name) | lower %}</div>
+
+<div>{{ _(fruit.color + ' ' + fruit.name | lower) }}</div>
+<div>{% _ locale, fruit.color + ' ' + fruit.name | lower %}</div>
+
+{%- set fruity = _n(fruit.color + ' ' + fruit.name | lower, fruit.color + ' ' + fruit.plural | lower, fruit.count) -%}
+<div>{{ _('We currently have %d %s in stock. (function)', fruit.count, fruity | lower) }}</div>
+<div>{% _ locale, 'We currently have %d %s in stock. (shortcode)', fruit.count, fruity | lower %}</div>
+
+<div>{{ _i('The ${name} keeps the doctor away (${count}). (function)', { name: _(fruit.name) | lower, count: fruit.count }) }}</div>
+<div>{% _i locale, 'The ${name} keeps the doctor away (${count}). (shortcode)', { count: fruit.count, name: _(fruit.name) | lower } %}</div>
+
+<div>{{ _ni('This single fruit is excellent. (function)', 'These ${count} fruits are   " excellent. (function)', fruit.count, { count: fruit.count }) }}</div>
+<div>{% _ni locale, 'This single fruit is excellent. (shortcode)', "These ${count} fruits  ' are excellent. (shortcode)", fruit.count, { count: fruit.count } %}</div>
+
+<div>{{ _p('/index.html') | url }}</div>
+<div>{% _p locale, '/index.html' %}</div>
+
+<div>{% relocalizePath 'fr-fr', '/pt-pt/index.html' %}</div>
+
+<div>{{ _('Dates and times (function)') }} {% _ locale, 'Dates and times (shortcode)' %}</div>
+<div>{{ _('Moment.js localized formats') }}</div>
+
+<div>{{ moment.format }}</div>
+<div>{{ _d(moment.format, page.date) }}</div>
+<div>{% _d locale, moment.format, page.date %}</div>

@@ -1,4 +1,4 @@
-import i18n from 'eleventy-plugin-i18n-gettext';
+import i18n from '../../vendor/eleventy-plugin-i18n-gettext/src/i18n';
 import { marked } from 'marked';
 
 // add [year]placeholder[/year] syntax

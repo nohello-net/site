@@ -1,0 +1,27 @@
+[
+    {
+        "path": "fr-fr",
+        "alpha2Code": "FR",
+        "name": "Français"
+    },
+    {
+        "path": "nl-nl",
+        "alpha2Code": "NL",
+        "name": "Nederlands"
+    },
+    {
+        "path": "pt-pt",
+        "alpha2Code": "PT",
+        "name": "Português"
+    },
+    {
+        "path": "en-us",
+        "alpha2Code": "US",
+        "name": "English"
+    },
+    {
+        "path": "ar",
+        "alpha2Code": "UAE",
+        "name": "عربى"
+    }
+]
