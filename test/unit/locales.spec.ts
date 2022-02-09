@@ -1,6 +1,6 @@
-const assert = require('assert');
-const fs = require('fs');
-const locales = require('../../src/_data/locales.json');
+import assert from 'assert';
+import fs from 'fs';
+import locales from '../../src/_data/locales.json';
 
 describe('Locales', () => {
   const base = locales[0];
@@ -48,7 +48,7 @@ describe('Locales', () => {
             const found = messagespo.match(new RegExp(`msgid "${key}"`, 'g'));
 
             assert.notEqual(found, null);
-            assert.equal(found.length, 1);
+            assert.equal(found?.length, 1);
           });
         }
       });

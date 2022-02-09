@@ -1,5 +1,5 @@
-const i18n = require('eleventy-plugin-i18n-gettext');
-const Image = require('@11ty/eleventy-img');
+import i18n from 'eleventy-plugin-i18n-gettext';
+import Image from '@11ty/eleventy-img';
 
 const imagify = async (src, options = {}) => {
   const defaults = {

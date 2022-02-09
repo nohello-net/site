@@ -13,7 +13,7 @@
     "serve": "yarn 11ty --serve --port=8123",
     "check-snapshots": "act -j check-snapshots -P ubuntu-latest=mcr.microsoft.com/playwright:v1.16.3 -W ./.github/local-workflows --reuse --artifact-server-path build-artifacts; yarn post-snapshots",
     "update-snapshots": "act -j update-snapshots -P ubuntu-latest=mcr.microsoft.com/playwright:v1.16.3 -W ./.github/local-workflows --reuse --artifact-server-path build-artifacts; yarn post-snapshots",
-    "post-snapshots": "node ./bin/post-snapshots.js",
+    "post-snapshots": "./bin/post-snapshots.ts",
     "format": "prettier --write .",
     "lint": "eslint .",
     "test": "yarn test:ui && yarn test:unit",
@@ -30,6 +30,8 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.18.1",
+    "@types/marked": "^4.0.2",
+    "@types/mocha": "^9.1.0",
     "@types/node": "^17.0.16",
     "esbuild": "^0.14.21",
     "esbuild-runner": "^2.2.1",
