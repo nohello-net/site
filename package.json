@@ -1,22 +1,27 @@
 {
   "name": "nohello.net",
+  "description": "please don't say just hello in chat",
   "version": "1.0.0",
   "license": "MIT",
   "repository": {
     "url": "https://github.com/nohello-net/site/"
   },
+  "type": "commonjs",
   "scripts": {
-    "build": "eleventy",
-    "serve": "eleventy --serve --port=8123",
+    "11ty": "yarn esr ./node_modules/.bin/eleventy --config ./.eleventy.ts",
+    "build": "yarn 11ty",
+    "serve": "yarn 11ty --serve --port=8123",
     "check-snapshots": "act -j check-snapshots -P ubuntu-latest=mcr.microsoft.com/playwright:v1.16.3 -W ./.github/local-workflows --reuse --artifact-server-path build-artifacts; yarn post-snapshots",
     "update-snapshots": "act -j update-snapshots -P ubuntu-latest=mcr.microsoft.com/playwright:v1.16.3 -W ./.github/local-workflows --reuse --artifact-server-path build-artifacts; yarn post-snapshots",
-    "post-snapshots": "node ./bin/post-snapshots.js",
+    "post-snapshots": "./bin/post-snapshots.ts",
     "format": "prettier --write .",
     "lint": "eslint .",
     "test": "yarn test:ui && yarn test:unit",
     "test:ui": "playwright test test/ui",
     "test:ui:update": "yarn test:ui --update-snapshots",
-    "test:unit": "mocha test/unit",
+    "test:unit": "mocha --require esbuild-runner/register test/unit/**/*.ts",
+    "typecheck": "tsc",
+    "typecheck:watch": "tsc --watch",
     "ci:ui": "start-server-and-test serve 8123 test:ui",
     "ci:ui:update": "start-server-and-test serve 8123 test:ui:update",
     "strings:push": "tx push",
@@ -25,6 +30,11 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.18.1",
+    "@types/marked": "^4.0.2",
+    "@types/mocha": "^9.1.0",
+    "@types/node": "^17.0.16",
+    "esbuild": "^0.14.21",
+    "esbuild-runner": "^2.2.1",
     "eslint": "^8.8.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.3.0",
@@ -34,7 +44,8 @@
     "mocha": "^9.2.0",
     "netlify-plugin-cache": "^1.0.3",
     "prettier": "^2.3.2",
-    "start-server-and-test": "^1.14.0"
+    "start-server-and-test": "^1.14.0",
+    "typescript": "^4.5.5"
   },
   "dependencies": {
     "@11ty/eleventy": "^1.0.0",

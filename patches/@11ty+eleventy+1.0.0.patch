@@ -1,0 +1,58 @@
+diff --git a/node_modules/@11ty/eleventy/src/EleventyWatchTargets.js b/node_modules/@11ty/eleventy/src/EleventyWatchTargets.js
+index 8a4a52f..b9372e3 100644
+--- a/node_modules/@11ty/eleventy/src/EleventyWatchTargets.js
++++ b/node_modules/@11ty/eleventy/src/EleventyWatchTargets.js
+@@ -90,7 +90,7 @@ class EleventyWatchTargets {
+   getJavaScriptDependenciesFromList(files = []) {
+     let depSet = new Set();
+     files
+-      .filter((file) => file.endsWith(".js") || file.endsWith(".cjs")) // TODO does this need to work with aliasing? what other JS extensions will have deps?
++      .filter((file) => file.endsWith(".js") || file.endsWith(".cjs") || file.endsWith(".ts")) // TODO does this need to work with aliasing? what other JS extensions will have deps?
+       .forEach((file) => {
+         dependencyTree(file, { allowNotFound: true })
+           .map((dependency) => {
+diff --git a/node_modules/@11ty/eleventy/src/TemplateData.js b/node_modules/@11ty/eleventy/src/TemplateData.js
+index a26b14c..bc9f418 100755
+--- a/node_modules/@11ty/eleventy/src/TemplateData.js
++++ b/node_modules/@11ty/eleventy/src/TemplateData.js
+@@ -169,6 +169,7 @@ class TemplateData {
+       `${dir}/**/*.json`, // covers .11tydata.json too
+       `${dir}/**/*${this.config.jsDataFileSuffix}.cjs`,
+       `${dir}/**/*${this.config.jsDataFileSuffix}.js`,
++      `${dir}/**/*${this.config.jsDataFileSuffix}.ts`,
+     ];
+ 
+     if (this.hasUserDataExtensions()) {
+@@ -185,6 +186,7 @@ class TemplateData {
+     let dir = await this.getInputDir();
+     return TemplatePath.addLeadingDotSlashArray([
+       `${dir}/**/*${this.config.jsDataFileSuffix}.js`,
++      `${dir}/**/*${this.config.jsDataFileSuffix}.ts`,
+     ]);
+   }
+ 
+@@ -200,7 +202,7 @@ class TemplateData {
+   }
+ 
+   getGlobalDataExtensionPriorities() {
+-    return this.getUserDataExtensions().concat(["json", "cjs", "js"]);
++    return this.getUserDataExtensions().concat(["json", "cjs", "js", "ts"]);
+   }
+ 
+   static calculateExtensionPriority(path, priorities) {
+@@ -455,6 +457,7 @@ class TemplateData {
+ 
+     if (
+       extension === "js" ||
++      extension === "ts" ||
+       extension === "cjs" ||
+       (extension === "json" && (ignoreProcessing || !this.dataTemplateEngine))
+     ) {
+@@ -514,6 +517,7 @@ class TemplateData {
+     let dataSuffix = this.config.jsDataFileSuffix;
+ 
+     // data suffix
++    paths.push(base + dataSuffix + ".ts");
+     paths.push(base + dataSuffix + ".js");
+     paths.push(base + dataSuffix + ".cjs");
+     paths.push(base + dataSuffix + ".json");

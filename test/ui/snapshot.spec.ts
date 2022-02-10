@@ -1,5 +1,5 @@
-const { test, expect } = require('@playwright/test');
-const { BASE_URL } = require('./config');
+import { test, expect } from '@playwright/test';
+import { BASE_URL } from './config';
 
 test.describe('index snapshots', () => {
   test.beforeEach(async ({ page, context }) => {

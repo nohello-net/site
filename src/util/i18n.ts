@@ -1,12 +1,12 @@
-const i18n = require('eleventy-plugin-i18n-gettext');
-const { marked } = require('marked');
+import i18n from 'eleventy-plugin-i18n-gettext';
+import { marked } from 'marked';
 
 // add [year]placeholder[/year] syntax
 marked.use({
   extensions: [
     {
       name: 'year',
-      start: (src) => src.match(/\[year\]/)?.index,
+      start: (src) => src.match(/\[year\]/)?.index ?? 0,
       level: 'inline',
       tokenizer: (src) => {
         const rule = /^\[year\]([^\n]*)\[\/year\]/;
@@ -19,8 +19,6 @@ marked.use({
             text: match[1].trim(),
           };
         }
-
-        return null;
       },
       renderer: (token) => {
         return `<span class="year">${token.text}</span>\n`;
@@ -29,25 +27,23 @@ marked.use({
   ],
 });
 
-const enhance11tydata = (objArg, localeArg, dir = 'ltr') => {
+const enhance11tydata = (objArg: any, localeArg: string, dir = 'ltr') => {
   const obj = i18n.enhance11tydata(objArg, localeArg, dir);
   const { locale } = obj; // this gets normalised in `enhance11tydata`
 
   // markdown: inline mode
   // eslint-disable-next-line no-underscore-dangle
-  obj._md = (key, ...args) => {
+  obj._md = (key: string, ...args: string[]) => {
     return marked.parseInline(i18n._(locale, key, ...args));
   };
 
   // markdown: "paragraph" mode
   // eslint-disable-next-line no-underscore-dangle
-  obj._mdp = (key, ...args) => {
+  obj._mdp = (key: string, ...args: string[]) => {
     return marked.parse(i18n._(locale, key, ...args));
   };
 
   return obj;
 };
 
-module.exports = {
-  enhance11tydata,
-};
+export { enhance11tydata };

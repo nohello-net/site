@@ -1,12 +1,12 @@
-#!/usr/bin/env node
+#!/usr/bin/env node -r esbuild-runner/register
 /* eslint-disable no-console */
 /* eslint-disable import/no-extraneous-dependencies */
 
-const fs = require('fs');
-const fsp = require('fs/promises');
-const path = require('path');
-const util = require('util');
-const zlib = require('zlib');
+import fs from 'fs';
+import fsp from 'fs/promises';
+import path from 'path';
+import util from 'util';
+import zlib from 'zlib';
 
 const gunzip = util.promisify(zlib.gunzip);
 

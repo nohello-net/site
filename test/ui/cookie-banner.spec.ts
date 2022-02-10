@@ -1,5 +1,5 @@
-const { test, expect } = require('@playwright/test');
-const { BASE_URL } = require('./config');
+import { test, expect } from '@playwright/test';
+import { BASE_URL } from './config';
 
 test.describe('cookie banner', () => {
   test('shows banner on first load', async ({ page }) => {
