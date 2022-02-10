@@ -21,8 +21,8 @@ describe('Locales', () => {
       });
 
       describe('src/<lang>/ folder', () => {
-        it('11tydata.js exists', () => {
-          const path = `src/${locale.path}/${locale.path}.11tydata.js`;
+        it('11tydata.ts exists', () => {
+          const path = `src/${locale.path}/${locale.path}.11tydata.ts`;
           const result = fs.existsSync(path);
           assert.equal(result, true);
         });
