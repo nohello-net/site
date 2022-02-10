@@ -19,7 +19,7 @@
     "test": "yarn test:ui && yarn test:unit",
     "test:ui": "playwright test test/ui",
     "test:ui:update": "yarn test:ui --update-snapshots",
-    "test:unit": "mocha test/unit",
+    "test:unit": "mocha --require esbuild-runner/register test/unit/**/*.ts",
     "typecheck": "tsc",
     "typecheck:watch": "tsc --watch",
     "ci:ui": "start-server-and-test serve 8123 test:ui",
