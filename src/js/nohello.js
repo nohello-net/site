@@ -60,12 +60,3 @@ if (typed2.cursor != null) {
   // whether animation has started...which defeats the purpose
   typed2.cursor.classList.add('typed-cursor--blink');
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-  const year = new Date().getFullYear();
-  const nodes = document.querySelector('.year');
-
-  if (nodes != null) {
-    nodes.innerHTML = year.toString(10);
-  }
-});
