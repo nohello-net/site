@@ -1,4 +1,4 @@
-import i18n from 'eleventy-plugin-i18n-gettext';
+import i18n from './src/util/i18n';
 import Image from '@11ty/eleventy-img';
 
 const imagify = async (src, options = {}) => {

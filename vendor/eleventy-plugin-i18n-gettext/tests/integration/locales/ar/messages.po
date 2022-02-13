@@ -1,0 +1,123 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-07-31 18:48+0200\n"
+"PO-Revision-Date: 2020-07-31 18:48+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-KeywordsList: _i;_n:1,2;_ni:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: data-messages.js:1
+msgid "Apple"
+msgstr "تفاحة"
+
+#: data-messages.js:2
+msgid "Banana"
+msgstr "موز"
+
+#: data-messages.js:3
+msgid "Green"
+msgstr "فرت"
+
+#: data-messages.js:4
+msgid "Yellow"
+msgstr "يونيو"
+
+#: data-messages.js:5
+msgid "Green apple"
+msgid_plural "Green apples"
+msgstr[0] "تفاح أخضر"
+msgstr[1] "تفاح أخضر"
+msgstr[2] "تفاح اخضر"
+msgstr[3] "تفاح اخضر"
+msgstr[4] "تفاح اخضر"
+msgstr[5] "تفاح اخضر"
+
+#: data-messages.js:6
+msgid "Yellow banana"
+msgid_plural "Yellow bananas"
+msgstr[0] "موز أصفر"
+msgstr[1] "موز أصفر"
+msgstr[2] "موز أصفر"
+msgstr[3] "موز أصفر"
+msgstr[4] "موز أصفر"
+msgstr[5] "موز أصفر"
+
+#: data-messages.js:7
+msgid "Granny Smith"
+msgstr "الجدة سميث"
+
+#: data-messages.js:8
+msgid "Cavendish"
+msgstr "كافنديش"
+
+#: messages.js:3
+msgid "Fruits"
+msgstr "الفاكهة"
+
+#: messages.js:4
+msgid "Click on the fruit to see more details."
+msgstr "انقر على الفاكهة لمعرفة المزيد من التفاصيل."
+
+#: messages.js:5
+#, javascript-format
+msgid "The %s keeps the doctor away."
+msgstr "%s تبقي الطبيب بعيدا."
+
+#: messages.js:6
+#, javascript-format
+msgid "We currently have %d %s in stock."
+msgstr "لدينا حاليًا %d %s في المخزون."
+
+#: messages.js:7
+msgid "The ${name} keeps the doctor away (${count})."
+msgstr "${name} تبقي الطبيب بعيدا (${count})."
+
+#: messages.js:8
+msgid "Dates and times"
+msgstr "التواريخ والأوقات"
+
+#: messages.js:9
+msgid "Moment.js localized formats"
+msgstr "تنسيقات moment.js المترجمة"
+
+#: messages.js:10
+msgid "This fruit is excellent."
+msgid_plural "These fruits are excellent."
+msgstr[0] "هذه الفاكهة ممتازة."
+msgstr[1] "هذه الفاكهة ممتازة."
+msgstr[2] "هذه الفاكهة ممتازة."
+msgstr[3] "هذه الفاكهة ممتازة."
+msgstr[4] "هذه الفاكهة ممتازة."
+msgstr[5] "هذه الفاكهة ممتازة."
+
+#: messages.js:11
+msgid "This single fruit is excellent."
+msgid_plural "These ${count} fruits are excellent."
+msgstr[0] "هذه الفاكهة ممتازة."
+msgstr[1] "هذه الفاكهة المفردة ممتازة."
+msgstr[2] "هذه الفاكهة ${count} ممتازة."
+msgstr[3] "هذه الفاكهة ${count} ممتازة."
+msgstr[4] "هذه الفاكهة ${count} ممتازة."
+msgstr[5] "هذه الفاكهة ${count} ممتازة."
+
+#: messages.js:12
+msgid "i18n GetText Plugin for Eleventy"
+msgstr "البرنامج المساعد i18n GetText لـ عشرون"
+
+#: messages.js:13
+msgid "Home"
+msgstr "الصفحة الرئيسية"
+
+#: messages.js:14
+msgid "Select language"
+msgstr "اختار اللغة"

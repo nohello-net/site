@@ -1,3 +1,37 @@
+diff --git a/node_modules/@11ty/eleventy/src/Eleventy.js b/node_modules/@11ty/eleventy/src/Eleventy.js
+index 76e3ea9..9df3a04 100644
+--- a/node_modules/@11ty/eleventy/src/Eleventy.js
++++ b/node_modules/@11ty/eleventy/src/Eleventy.js
+@@ -632,19 +632,20 @@ Arguments:
+     await this.config.events.emit("beforeWatch", queue);
+     await this.config.events.emit("eleventy.beforeWatch", queue);
+ 
++    this.watchTargets.clearDependencyRequireCache();
++    this.resetConfig();
++
+     // reset and reload global configuration :O
+-    if (
+-      this.watchManager.hasQueuedFile(
+-        this.eleventyConfig.getLocalProjectConfigFile()
+-      )
+-    ) {
+-      this.resetConfig();
+-    }
++    // if (
++    //   this.watchManager.hasQueuedFile(
++    //     this.eleventyConfig.getLocalProjectConfigFile()
++    //   )
++    // ) {
++    //   this.resetConfig();
++    // }
+ 
+     await this.restart();
+ 
+-    this.watchTargets.clearDependencyRequireCache();
+-
+     let incrementalFile = this.watchManager.getIncrementalFile();
+     if (incrementalFile) {
+       this.writer.setIncrementalFile(incrementalFile);
 diff --git a/node_modules/@11ty/eleventy/src/EleventyWatchTargets.js b/node_modules/@11ty/eleventy/src/EleventyWatchTargets.js
 index 8a4a52f..b9372e3 100644
 --- a/node_modules/@11ty/eleventy/src/EleventyWatchTargets.js

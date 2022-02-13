@@ -1,0 +1,12 @@
+[
+    { "format": "LT" },
+    { "format": "LTS" },
+    { "format": "L" },
+    { "format": "l" },
+    { "format": "LL" },
+    { "format": "ll" },
+    { "format": "LLL" },
+    { "format": "lll" },
+    { "format": "LLLL" },
+    { "format": "llll" }
+]

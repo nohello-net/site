@@ -1,4 +1,4 @@
-import i18n from 'eleventy-plugin-i18n-gettext';
+import i18n from '../../vendor/eleventy-plugin-i18n-gettext/src/i18n';
 import { marked } from 'marked';
 
 // add [year]placeholder[/year] syntax
@@ -45,5 +45,7 @@ const enhance11tydata = (objArg: any, localeArg: string, dir = 'ltr') => {
 
   return obj;
 };
+
+export default i18n;
 
 export { enhance11tydata };

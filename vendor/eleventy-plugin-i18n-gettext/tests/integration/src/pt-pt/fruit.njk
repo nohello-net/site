@@ -1,0 +1,9 @@
+---
+layout: _layout
+pagination:
+  data: fruits
+  size: 1
+  alias: fruit
+permalink: "{{ _p(fruit.path) | url }}"
+---
+{% extends "fruit.njk" %}
