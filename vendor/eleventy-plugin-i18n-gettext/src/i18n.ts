@@ -63,17 +63,17 @@ class i18n {
         return this._ni(locale, singular, plural, count, obj);
       }
     );
-    eleventyConfig.addShortcode(
-      '_d',
-      (
-        locale: string,
-        format: string,
-        date: moment.MomentInput,
-        timezone: string
-      ) => {
-        return this._d(locale, format, date, timezone);
-      }
-    );
+    // eleventyConfig.addShortcode(
+    //   '_d',
+    //   (
+    //     locale: string,
+    //     format: string,
+    //     date: moment.MomentInput,
+    //     timezone: string
+    //   ) => {
+    //     return this._d(locale, format, date, timezone);
+    //   }
+    // );
     eleventyConfig.addShortcode('_p', (locale: string, path: string) => {
       const url = this._p(locale, path);
 
@@ -98,7 +98,9 @@ class i18n {
     }
 
     if (!['ltr', 'rtl'].includes(dir)) {
-      throw `Language direction '${dir}' is invalid. It must be 'ltr' or 'rtl'.`;
+      throw new Error(
+        `Language direction '${dir}' is invalid. It must be 'ltr' or 'rtl'.`
+      );
     }
 
     const parsedLocale = this.translater.parseLocale(locale);
@@ -173,7 +175,6 @@ class i18n {
       plural,
       count
     );
-
     return this.formatter.printf(translation, ...args);
   }
 
@@ -190,20 +191,19 @@ class i18n {
       plural,
       count
     );
-
     return this.formatter.dynamicInterpolation(translation, obj);
   }
 
-  public _d(
-    locale: string,
-    format: string,
-    date: moment.MomentInput,
-    timezone: string
-  ): string {
-    this.translater.setLocale(locale);
+  //   public _d(
+  //     locale: string,
+  //     format: string,
+  //     date: moment.MomentInput,
+  //     timezone: string
+  //   ): string {
+  //     this.translater.setLocale(locale);
 
-    return this.formatter.date(format, date, timezone);
-  }
+  //     return this.formatter.date(format, date, timezone);
+  //   }
 
   public _p(locale: string, basePath: string): string {
     const path = this.normalizePath(basePath);
@@ -221,4 +221,6 @@ class i18n {
   }
 }
 
-export = new i18n();
+const instance = new i18n();
+
+export default instance;

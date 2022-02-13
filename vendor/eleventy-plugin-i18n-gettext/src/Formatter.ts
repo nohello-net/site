@@ -1,5 +1,6 @@
-import printf from 'printf';
+// import printf from 'printf';
 // import moment from 'moment-timezone'
+import { sprintf } from 'sprintf-js';
 
 export default class Formatter {
   public dynamicInterpolation(translation: string, obj: any): string {
@@ -12,12 +13,13 @@ export default class Formatter {
 
       return eval(`${codeToEvaluate}\`${translation}\``);
     }
+
     return translation;
   }
 
   public printf(translation: string, ...args: string[]): string {
     if (args.length) {
-      return printf(translation, ...args);
+      return sprintf(translation, ...args);
     }
     return translation;
   }

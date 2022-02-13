@@ -46,4 +46,6 @@ const enhance11tydata = (objArg: any, localeArg: string, dir = 'ltr') => {
   return obj;
 };
 
+export default i18n;
+
 export { enhance11tydata };

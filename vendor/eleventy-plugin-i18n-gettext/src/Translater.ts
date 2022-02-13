@@ -14,7 +14,7 @@ export default class Translater {
     localesDirectory: 'locales',
     parserMode: 'po',
     javascriptMessages: 'messages.js',
-    tokenFilePatterns: ['src/**/*.njk', 'src/**/*.js'],
+    tokenFilePatterns: ['src/**/*.njk', 'src/**/*.js', 'src/**/*.ts'],
     localeRegex: /^(?<lang>.{2})(?:-(?<country>.{2}))*$/,
   };
   private gettext: any = undefined;
@@ -24,7 +24,9 @@ export default class Translater {
     this.configuration = { ...this.defaultConfiguration, ...options };
 
     if (!['po', 'mo'].includes(this.configuration.parserMode!)) {
-      throw `Parser mode '${this.configuration.parserMode}' is invalid. It must be 'po' or 'mo'.`;
+      throw new Error(
+        `Parser mode '${this.configuration.parserMode}' is invalid. It must be 'po' or 'mo'.`
+      );
     }
   }
 
@@ -32,7 +34,9 @@ export default class Translater {
     const match = locale.match(this.configuration.localeRegex!);
 
     if (!match || !match.groups) {
-      throw `Locale ${locale} does not match regex ${this.configuration.localeRegex}`;
+      throw new Error(
+        `Locale ${locale} does not match regex ${this.configuration.localeRegex}`
+      );
     }
 
     return {
@@ -85,7 +89,9 @@ export default class Translater {
       } else if (this.configuration.parserMode === 'mo') {
         gettextParser = parser.mo;
       } else {
-        throw `Parser mode '${this.configuration.parserMode}' is invalid. It must be 'po' or 'mo'.`;
+        throw new Error(
+          `Parser mode '${this.configuration.parserMode}' is invalid. It must be 'po' or 'mo'.`
+        );
       }
 
       const localesDir = path.join(
