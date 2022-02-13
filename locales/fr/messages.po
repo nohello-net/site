@@ -41,13 +41,12 @@ msgstr "L'avatar de Dawn sur Slack"
 msgid "example.bad.title"
 msgstr "❌ Ne fais pas ça"
 
-# the [year][/year] is replaced with the current year for most users, but may
-# use the placeholder
+# the placeholder is the year, i.e. "2022"
 msgid "example.bad.body"
 msgstr ""
 "Notez que Keith aurait pu obtenir sa réponse quelques minutes plus tôt, et n'aurait pas eu besoin de faire attendre Tim. En fait, Tim aurait pu commencer à réfléchir à la question tout de suite !\n"
 "\n"
-"Les personnes qui agissent ainsi essaient généralement d'être polies en ne se lançant pas directement dans la demande, comme on le ferait en personne ou au téléphone - et c'est très bien ! Mais nous sommes en [year]et non en 1990[/year] et le chat n'est ni l'un ni l'autre. Pour la plupart des gens, taper est beaucoup plus lent que parler. Ainsi, malgré vos meilleures intentions, **vous faites attendre votre interlocuteur** pour que vous puissiez formuler votre question, ce qui est une perte de productivité (et un peu ennuyeux).\n"
+"Les personnes qui font cela essaient généralement d'être polies en ne se lançant pas directement dans la demande, comme on le ferait en personne ou au téléphone - et c'est très bien ! Mais nous sommes en %1$s et le chat n'est ni l'un ni l'autre. Pour la plupart des gens, taper est beaucoup plus lent que parler. Ainsi, malgré vos meilleures intentions, **vous faites attendre votre interlocuteur** pour que vous puissiez formuler votre question, ce qui est une perte de productivité (et un peu ennuyeux).\n"
 "\n"
 "Il en va de même pour :\n"
 "\n"
@@ -119,7 +118,7 @@ msgstr "hey, 3:30"
 msgid "example.good.message2.timestamp"
 msgstr "2:15 PM"
 
-# "Ta" is British(/Australian/etc) for "thanks"
+# "Ta" is colloquial British(/Australian/etc) for "thanks"
 msgid "example.good.message2.body"
 msgstr "Merci - seeya alors !"
 
