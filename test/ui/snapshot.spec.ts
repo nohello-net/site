@@ -2,16 +2,7 @@ import { test, expect } from '@playwright/test';
 import { BASE_URL } from './config';
 
 test.describe('index snapshots', () => {
-  test.beforeEach(async ({ page, context }) => {
-    // prevent cookie popup
-    await context.addCookies([
-      {
-        name: 'cookie_consent',
-        value: JSON.stringify({ status: 'rejected', acceptedCategories: [] }),
-        url: BASE_URL,
-      },
-    ]);
-
+  test.beforeEach(async ({ page }) => {
     await page.goto(BASE_URL);
 
     // pause cursor blinking, otherwise snapshots can differ :(
