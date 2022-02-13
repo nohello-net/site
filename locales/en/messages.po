@@ -33,12 +33,12 @@ msgstr "Dawn's Slack avatar"
 msgid "example.bad.title"
 msgstr "❌ Don't do this"
 
-# the [year][/year] is replaced with the current year for most users, but may use the placeholder
+# the placeholder is the year, i.e. "2022"
 msgid "example.bad.body"
 msgstr ""
 "Note that Keith could have got his answer minutes sooner, and needn't have kept Tim waiting. In fact, Tim could have started thinking about the question right away!\n"
 "\n"
-"People who do this are generally trying to be polite by not jumping right into the request, like one would in person or on the phone - and that's great! But it's [year]not 1990[/year] and chat is neither of those things. For most people, typing is much slower than talking. So despite best intentions, **you're actually just making the other person wait** for you to phrase your question, which is lost productivity (and kinda annoying).\n"
+"People who do this are generally trying to be polite by not jumping right into the request, like one would in person or on the phone - and that's great! But it's %1$s and chat is neither of those things. For most people, typing is much slower than talking. So despite best intentions, **you're actually just making the other person wait** for you to phrase your question, which is lost productivity (and kinda annoying).\n"
 "\n"
 "The same goes for:\n"
 "\n"
@@ -109,7 +109,7 @@ msgstr "hey, 3:30"
 msgid "example.good.message2.timestamp"
 msgstr "2:15 PM"
 
-# "Ta" is British(/Australian/etc) for "thanks"
+# "Ta" is colloquial British(/Australian/etc) for "thanks"
 msgid "example.good.message2.body"
 msgstr "Ta - seeya then!"
 
