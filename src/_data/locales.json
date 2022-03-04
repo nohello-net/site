@@ -13,5 +13,10 @@
     "path": "de",
     "alpha2Code": "DE",
     "name": "Deutsch"
+  },
+  {
+    "path": "br",
+    "alpha2Code": "BR",
+    "name": "Português (Brazil)"
   }
 ]
