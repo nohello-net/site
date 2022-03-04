@@ -13,22 +13,22 @@ msgid "header.introduction"
 msgstr "Imagine alguém fazer uma ligação no telefone, te dizer _oi!_ e deixá-lo em espera... 🤦‍♀️"
 
 msgid "example.character.neutral.name"
-msgstr "Tim"
+msgstr "Pedro"
 
 msgid "example.character.neutral.avatar-description"
-msgstr "Tim's Slack avatar"
+msgstr "Pedro's Slack avatar"
 
 msgid "example.character.bad.name"
-msgstr "Keith"
+msgstr "João"
 
 msgid "example.character.bad.avatar-description"
-msgstr "Keith's Slack avatar"
+msgstr "João's Slack avatar"
 
 msgid "example.character.good.name"
-msgstr "Dawn"
+msgstr "Maria"
 
 msgid "example.character.good.avatar-description"
-msgstr "Dawn's Slack avatar"
+msgstr "Maria's Slack avatar"
 
 msgid "example.bad.title"
 msgstr "❌ Não faça isso"
@@ -36,7 +36,7 @@ msgstr "❌ Não faça isso"
 # the placeholder is the year, i.e. "2022"
 msgid "example.bad.body"
 msgstr ""
-"Observe que Keith poderia ter recebido sua resposta minutos antes, e não precisava ter deixado Tim esperando. Na verdade, Tim poderia ter respondido a questão imediatamente!\n"
+"Observe que João poderia ter recebido sua resposta minutos antes, e não precisava ter deixado Pedro esperando. Na verdade, Pedro poderia ter respondido a questão imediatamente!\n"
 "\n"
 "As pessoas que fazem isso geralmente tentam ser educadas, não indo direto ao ponto, como geralmente fariam pessoalmente ou por telefone - e isso é ótimo! Mas é %1$s e chat não precisa disso. Para a maioria das pessoas, digitar é muito mais lento do que falar. Então, apesar das melhores intenções, **você está apenas fazendo a outra pessoa esperar** para você formular sua pergunta, o que é perda de produtividade (e às vezes um pouco irritante).\n"
 "\n"
