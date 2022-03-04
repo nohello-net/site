@@ -148,7 +148,6 @@ msgstr ""
 "Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. "
 "Open-Source auf [GitHub](https://github.com/nohello-net/site)."
 
-# prefix before a list of languages, i.e. This site is available in: English,
-# French, & German
+# prefix before a list of languages, i.e. This site is available in: English, French, German & Portuguese (Brazil)
 msgid "footer.languages"
 msgstr "Diese Seite ist verfügbar in:"
