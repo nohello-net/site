@@ -10,7 +10,7 @@ msgid "header.subtitle"
 msgstr "por favor, não diga apenas oi no chat"
 
 msgid "header.introduction"
-msgstr "Imagine alguém fazer uma ligação no telefone, te dizer oi!_ e deixá-lo em espera... 🤦‍♀️"
+msgstr "Imagine alguém fazer uma ligação no telefone, te dizer _oi!_ e deixá-lo em espera... 🤦‍♀️"
 
 msgid "example.character.neutral.name"
 msgstr "Tim"
