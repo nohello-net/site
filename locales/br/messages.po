@@ -1,0 +1,133 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "header.subtitle"
+msgstr "por favor, não diga apenas oi no chat"
+
+msgid "header.introduction"
+msgstr "Imagine alguém fazer uma ligação no telefone, te dizer oi!_ e deixá-lo em espera... 🤦‍♀️"
+
+msgid "example.character.neutral.name"
+msgstr "Tim"
+
+msgid "example.character.neutral.avatar-description"
+msgstr "Tim's Slack avatar"
+
+msgid "example.character.bad.name"
+msgstr "Keith"
+
+msgid "example.character.bad.avatar-description"
+msgstr "Keith's Slack avatar"
+
+msgid "example.character.good.name"
+msgstr "Dawn"
+
+msgid "example.character.good.avatar-description"
+msgstr "Dawn's Slack avatar"
+
+msgid "example.bad.title"
+msgstr "❌ Não faça isso"
+
+# the placeholder is the year, i.e. "2022"
+msgid "example.bad.body"
+msgstr ""
+"Observe que Keith poderia ter recebido sua resposta minutos antes, e não precisava ter deixado Tim esperando. Na verdade, Tim poderia ter respondido a questão imediatamente!\n"
+"\n"
+"As pessoas que fazem isso geralmente tentam ser educadas, não indo direto ao ponto, como geralmente fariam pessoalmente ou por telefone - e isso é ótimo! Mas é !@#$ e chat não precisa disso. Para a maioria das pessoas, digitar é muito mais lento do que falar. Então, apesar das melhores intenções, **você está apenas fazendo a outra pessoa esperar** para você formular sua pergunta, o que é perda de produtividade (e às vezes um pouco irritante).\n"
+"\n"
+"O mesmo vale para:\n"
+"\n"
+"- \"Olá, você está por aí?\"\n"
+"- \"Oi Sophie - pergunta rápida.\"\n"
+"- \"Você tem um segundo?\"\n"
+"- \"yt?\"\n"
+"- \"ping\"\n"
+"- etc.\n"
+"\n"
+"**Basta fazer a pergunta!** 😫\n"
+
+msgid "example.bad.message1.timestamp"
+msgstr "14h15m"
+
+msgid "example.bad.message1.body"
+msgstr "oi"
+
+msgid "example.bad.reply1.timestamp"
+msgstr "14h19m"
+
+msgid "example.bad.reply1.body"
+msgstr "...?"
+
+msgid "example.bad.message2.timestamp"
+msgstr "14h20m"
+
+# the typo here is intentional - please maintain a similar unprofessional tone!
+msgid "example.bad.message2.body"
+msgstr "que horas será a reunião?"
+
+msgid "example.bad.reply2.timestamp"
+msgstr "14h20m"
+
+msgid "example.bad.reply2.body"
+msgstr "ah - 15h30m amigo"
+
+msgid "example.good.title"
+msgstr "✅ Ao invés, tente isso"
+
+msgid "example.good.body"
+msgstr ""
+"Se você achar que é um pouco rude dizer apenas  \"Oi\" e fazer a pergunta, **você ainda pode começar sua mensagem com quantas gentilezas achar necessárias.**\n"
+"\n"
+"Por exemplo:\n"
+"\n"
+"- \"Oi meu querido, tudo bem? Você tem ideia de quando isso vai acontecer?\"\n"
+"- \"Olá! Espero que você esteja bem. Estou atrás do último deck, quando você tiver um tempinho :)\"\n"
+"- \"Hey, se você não estiver ocupado, você poderia atualizar esses cadastros?\"\n"
+"- etc.\n"
+"\n"
+"Isso pode parecer trivial, mas fazer sua pergunta antes de receber a resposta inicial também permite a **comunicação assíncrona**. Se a outra parte estiver ausente e você sair antes que ela volte, ela ainda poderá responder à sua pergunta, em vez de apenas olhar para um \"Olá\" e se perguntar o que perdeu.\n"
+"\n"
+"Se bem feito - todos ficam felizes! 🎉\n"
+
+msgid "example.good.message1.timestamp"
+msgstr "14h15m"
+
+msgid "example.good.message1.body"
+msgstr "hey! que horas foi isso?"
+
+msgid "example.good.reply1.timestamp"
+msgstr "14h15m"
+
+msgid "example.good.reply1.body"
+msgstr "foi às 15h30m"
+
+msgid "example.good.message2.timestamp"
+msgstr "14h15m"
+
+# "Ta" is colloquial British(/Australian/etc) for "thanks"
+msgid "example.good.message2.body"
+msgstr "muito obrigado!"
+
+msgid "example.good.reply2.timestamp"
+msgstr "14h16m"
+
+msgid "example.good.reply2.body"
+msgstr "👌 por nada"
+
+msgid "footer.note"
+msgstr "Isso é meio sério (meio 👀) então por favor não fique [bravo](https://www.youtube.com/watch?v=xzpndHtdl9A) com a pessoa que te enviou aqui."
+
+msgid "footer.warning"
+msgstr "Dito isso, se você ver a URL deste site como o status/biografia de alguém, prepare-se para ser ignorado se disser apenas \"Olá!\""
+
+msgid "footer.thanks"
+msgstr "Baseado no maravilhoso [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/). Avatares retirados de *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Código aberto no [GitHub](https://github.com/nohello-net/site)."
+
+# prefix before a list of languages, i.e. This site is available in: English, French, German & Portuguese (Brazil)
+msgid "footer.languages"
+msgstr "Este site está disponível em:"
