@@ -1,0 +1,139 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nohello (pl)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Radosław Kierznowski <radek.kierznowski@outlook.com>\n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+msgid "header.subtitle"
+msgstr "proszę nie mówić na czacie tylko \"cześć\"."
+
+msgid "header.introduction"
+msgstr "Wyobraź sobie, że dzwonisz do kogoś, mówisz \"cześć!\", a potem każesz mu czekać... 🤦‍♀️"
+
+msgid "example.character.neutral.name"
+msgstr "Tim"
+
+msgid "example.character.neutral.avatar-description"
+msgstr "Awatar Tima na Slacku"
+
+msgid "example.character.bad.name"
+msgstr "Keith"
+
+msgid "example.character.bad.avatar-description"
+msgstr "Awatar Keitha na Slacku"
+
+msgid "example.character.good.name"
+msgstr "Dawn"
+
+msgid "example.character.good.avatar-description"
+msgstr "Awatar Dawn na Slacku"
+
+msgid "example.bad.title"
+msgstr "❌ Nie rób tego"
+
+# the placeholder is the year, i.e. "2022"
+msgid "example.bad.body"
+msgstr ""
+"Zauważ, że Keith mógł uzyskać swoją odpowiedź kilka minut wcześniej i nie musiał kazać Timowi czekać. W rzeczywistości Tim mógł od razu zacząć zastanawiać się nad pytaniem!\n"
+"\n"
+"Osoby, które tak postępują, zazwyczaj starają się być uprzejme, nie przechodząc od razu do konkretnej prośby, tak jak ma to miejsce w kontaktach osobistych lub telefonicznych - i to jest świetne! Ale to %1$s a czat nie jest żadną z tych rzeczy. Dla większości ludzi pisanie na klawiaturze jest znacznie wolniejsze niż rozmowa. Więc mimo najlepszych chęci, **w rzeczywistości sprawiasz, że druga osoba tylko czeka** aby użytkownik mógł sformułować swoje pytanie, co oznacza utratę produktywności (i jest nieco irytujące).\n"
+"\n"
+"To samo dotyczy:\n"
+"\n"
+"- \"Cześć, jesteś w pobliżu?\"\n"
+"- \"cześć sophie - szybkie pytanie.\"\n"
+"- \"Masz chwilkę?\"\n"
+"- \"jesteś?\"\n"
+"- \"ping\"\n"
+"- itp.\n"
+"\n"
+"**Wystarczy zadać pytanie!** 😫"
+
+msgid "example.bad.message1.timestamp"
+msgstr "14:15"
+
+msgid "example.bad.message1.body"
+msgstr "Cześć"
+
+msgid "example.bad.reply1.timestamp"
+msgstr "14:19"
+
+msgid "example.bad.reply1.body"
+msgstr "...?"
+
+msgid "example.bad.message2.timestamp"
+msgstr "14:20"
+
+# the typo here is intentional - please maintain a similar unprofessional tone!
+msgid "example.bad.message2.body"
+msgstr "o której godzinie to się stało?"
+
+msgid "example.bad.reply2.timestamp"
+msgstr "14:20"
+
+msgid "example.bad.reply2.body"
+msgstr "o - 3:30 kolego"
+
+msgid "example.good.title"
+msgstr "✅ Zamiast tego spróbuj"
+
+msgid "example.good.body"
+msgstr ""
+"Jeśli uważasz, że to trochę zbyt brutalne, aby po prostu powiedzieć \"Cześć\" i zadać pytanie, **możesz poprzedzić swoją wiadomość taką ilością uprzejmości, jaką uznasz za stosowną**.\n"
+"\n"
+"Na przykład:\n"
+"\n"
+"- \"Hej, stary, jak leci? Wiadomo już, kiedy to będzie?\"\n"
+"- \"Cześć! Mam nadzieję, że u Ciebie wszystko w porządku. Jestem po najnowszym pokładzie, jak będziesz miał chwilę :)\"\n"
+"- \"Hej, jeśli nie jesteś zajęty, mógłbyś zaktualizować te NFR?\"\n"
+"- itp.\n"
+"\n"
+"Może się to wydawać banalne, ale zadanie pytania przed otrzymaniem odpowiedzi na pozdrowienie pozwala także na **komunikację asynchroniczną**. Jeśli rozmówca jest poza domem, a Ty wyjdziesz, zanim wróci, będzie mógł odpowiedzieć na Twoje pytanie, a nie tylko gapić się na \"Cześć\" i zastanawiać się, co przeoczył.\n"
+"\n"
+"Gdy robi się to dobrze - wszyscy są zadowoleni! 🎉"
+
+msgid "example.good.message1.timestamp"
+msgstr "14:15"
+
+msgid "example.good.message1.body"
+msgstr "Cześć! O której godzinie to było?"
+
+msgid "example.good.reply1.timestamp"
+msgstr "14:15"
+
+msgid "example.good.reply1.body"
+msgstr "hej, 15:30"
+
+msgid "example.good.message2.timestamp"
+msgstr "14:15"
+
+# "Ta" is colloquial British(/Australian/etc) for "thanks"
+msgid "example.good.message2.body"
+msgstr "Ta - do zobaczenia!"
+
+msgid "example.good.reply2.timestamp"
+msgstr "14:16"
+
+msgid "example.good.reply2.body"
+msgstr "👌 nie ma problemu"
+
+msgid "footer.note"
+msgstr "To jest tak jakby tylko pół serio (tak jakby 👀), więc proszę nie [wściekaj się](https://www.youtube.com/watch?v=xzpndHtdl9A) na osobę, która Cię tu wysłała."
+
+msgid "footer.warning"
+msgstr "To powiedziawszy, jeśli zobaczysz adres URL tej strony jako czyjś status/bio, przygotuj się na to, że zostaniesz zignorowany, jeśli powiesz tylko \"Cześć!\"."
+
+msgid "footer.thanks"
+msgstr "Na podstawie wspaniałej strony [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/). Awatary zaczerpnięte z *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Open-source na [GitHub](https://github.com/nohello-net/site)."
+
+# prefix before a list of languages, i.e. This site is available in: English, French, & German
+msgid "footer.languages"
+msgstr "Ta strona jest dostępna w:"
