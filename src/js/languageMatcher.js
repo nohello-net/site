@@ -34,4 +34,5 @@ const languageMatcher = (langs, base, preferred, matching) => {
   return `/${base}`;
 };
 
-export default languageMatcher;
+// eslint-disable-next-line import/prefer-default-export
+export { languageMatcher };

@@ -1,5 +1,5 @@
 import assert from 'assert';
-import languageMatcher from './../../src/js/languageMatcher';
+import { languageMatcher } from './../../src/js/languageMatcher';
 import locales from '../../src/_data/locales.json';
 
 const langs = locales.map((v) => v.path);
