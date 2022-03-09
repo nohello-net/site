@@ -1,28 +1,18 @@
 ---
 layout: _layout
 ---
-<script>
-  const langs = [
-    {%- for locale in locales -%}
-      '{{ locale.path }}',
-    {%- endfor -%}
-  ]
+<script type="module">
+import { languageMatcher } from '/js/languageMatcher.js';
 
-  const base = '{{ locales[0].path }}';
+const langs = [
+  {%- for locale in locales -%}
+    '{{ locale.path }}',
+  {%- endfor -%}
+];
 
-  const preferred = localStorage.getItem('lang');
+const base = langs[0];
+const preferred = localStorage.getItem('lang');
 
-  if (langs.includes(preferred)) {
-    window.location = `/${preferred}`;
-  } else {
-    // no explicit language, let's check our environment
-    // might be like 'en-US', so normalise to just 'en' while we only have simple languages
-    const language = (navigator.language ?? '').toLowerCase().replace(/[^\w].*$/, '');
-    if (langs.includes(language)) {
-      window.location = `/${language}`;
-    } else {
-      // nothing from the environment? let's default to base language
-      window.location = `/${base}`;
-    }
-  }
+const destination = languageMatcher(langs, base, preferred, navigator.language);
+window.location = destination;
 </script>

@@ -31,6 +31,24 @@ test.describe('locale detection', () => {
     });
   });
 
+  test.describe('pt-br', () => {
+    test.use({ locale: 'pt-BR' });
+    test('base locale', async ({ page }) => {
+      await page.goto(BASE_URL);
+
+      expect(page.url()).toBe(url('pt-br/'));
+    });
+  });
+
+  test.describe('pt', () => {
+    test.use({ locale: 'pt' });
+    test('base locale', async ({ page }) => {
+      await page.goto(BASE_URL);
+
+      expect(page.url()).toBe(url('en/'));
+    });
+  });
+
   test('remembers override setting', async ({ page }) => {
     await page.goto(BASE_URL);
     expect(page.url()).toBe(url('en/'));

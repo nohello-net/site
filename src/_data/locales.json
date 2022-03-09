@@ -1,17 +1,22 @@
 [
   {
     "path": "en",
-    "alpha2Code": "EN",
     "name": "English"
   },
   {
+    "path": "de",
+    "name": "Deutsch"
+  },
+  {
     "path": "fr",
-    "alpha2Code": "FR",
     "name": "Français"
   },
   {
-    "path": "de",
-    "alpha2Code": "DE",
-    "name": "Deutsch"
+    "path": "pt-br",
+    "name": "Português do Brasil"
+  },
+  {
+    "path": "zh-cn",
+    "name": "简体中文"
   }
 ]
