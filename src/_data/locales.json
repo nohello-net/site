@@ -12,6 +12,10 @@
     "name": "Français"
   },
   {
+    "path": "pl",
+    "name": "Polski"
+  },
+  {
     "path": "pt-br",
     "name": "Português do Brasil"
   },
