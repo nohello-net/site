@@ -5,8 +5,12 @@ import locales from '../../src/_data/locales.json';
 describe('Locales', () => {
   const base = locales[0];
 
-  it('should have base locale', () => {
+  it('base locale should always be English', () => {
     assert.notEqual(base, null);
+    assert.deepEqual(base, {
+      path: 'en',
+      name: 'English',
+    });
   });
 
   for (const locale of locales) {

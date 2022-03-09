@@ -1,11 +1,11 @@
 [
   {
-    "path": "de",
-    "name": "Deutsch"
-  },
-  {
     "path": "en",
     "name": "English"
+  },
+  {
+    "path": "de",
+    "name": "Deutsch"
   },
   {
     "path": "fr",
