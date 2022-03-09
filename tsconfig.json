@@ -97,5 +97,10 @@
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
-  }
+  },
+  "exclude": [
+    "build",
+    "vendor/eleventy-plugin-i18n-gettext/tests/**",
+    "locales/messages.js"
+  ]
 }

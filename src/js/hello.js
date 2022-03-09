@@ -5,6 +5,7 @@ const nohelloCode = ['h', 'e', 'l', 'l', 'o'];
 let nohelloCodePosition = 0;
 
 function activateWut() {
+  // @ts-ignore
   document.body.style.backgroundImage = window.whyyyyy;
   document.body.style.backgroundSize = 'cover';
 
@@ -15,17 +16,22 @@ function activateWut() {
   ];
 
   for (const ele of elements) {
-    ele.style.cssText = 'color:white !important';
+    if (ele != null) {
+      ele.style.cssText = 'color:white !important';
+    }
   }
 
   document.getElementsByTagName('footer')[0].style.cssText =
     'background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 45%) !important; color:white !important';
 
+  // @ts-ignore
   document.getElementsByClassName('one')[0].style.cssText =
     'box-shadow: -20px 20px 60px #000000, 20px -20px 60px #000000 !important';
+  // @ts-ignore
   document.getElementsByClassName('two')[0].style.cssText =
     'box-shadow: -20px 20px 60px #000000, 20px -20px 60px #000000 !important';
 
+  // @ts-ignore
   document.getElementsByClassName('subtitle')[0].style.cssText =
     'color:white !important; opacity: 50%';
 }
@@ -45,7 +51,10 @@ document.addEventListener('keydown', (e) => {
       activateWut();
       nohelloCodePosition = 0;
     } else if (nohelloCodePosition === 2) {
-      document.getElementById('preloadimg').classList.add('now');
+      const preload = document.getElementById('preloadimg');
+      if (preload != null) {
+        preload.classList.add('now');
+      }
     }
   } else {
     nohelloCodePosition = 0;

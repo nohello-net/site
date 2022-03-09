@@ -1,3 +1,4 @@
+// @ts-ignore
 const { Typed } = window;
 
 const typed2 = new Typed('#strike', {
