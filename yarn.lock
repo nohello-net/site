@@ -1678,9 +1678,9 @@ ejs@^3.1.6:
     jake "^10.6.1"
 
 electron-to-chromium@^1.4.76:
-  version "1.4.79"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.79.tgz#02b504e1e6039b2e61edfc5f856895a0927925f5"
-  integrity sha512-nWfAxof87mGHkbORCwVRPst4FlSVdprOKS6dBMrcwn3sjwf8iHXEhsu1+FU5Psd7Ps3KKeBufAdfsPK5BmbSUg==
+  version "1.4.81"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.81.tgz#a9ce8997232fb9fb0ec53de8931a85b18c0a7383"
+  integrity sha512-Gs7xVpIZ7tYYSDA+WgpzwpPvfGwUk3KSIjJ0akuj5XQHFdyQnsUoM76EA4CIHXNLPiVwTwOFay9RMb0ChG3OBw==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -2439,10 +2439,10 @@ get-symbol-description@^1.0.0:
     call-bind "^1.0.2"
     get-intrinsic "^1.1.1"
 
-gettext-parser@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/gettext-parser/-/gettext-parser-5.0.0.tgz#300b92972d679a35f4cf34375df72be830172525"
-  integrity sha512-Kznb+OWfsVlMjgme4t/AFPbuZXtOhD5ZNRRRry6awdl8vb3w5SK2bVf6QT4+57OyBOK5C75jTLfMQDqgwuz3vQ==
+gettext-parser@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/gettext-parser/-/gettext-parser-5.1.0.tgz#665c5657785e9d9de4cc6543c0b84dba0df6a256"
+  integrity sha512-nP2AXqgs0rm6DrIYeQd7oo+xVE4ARCfixSIKQCawzVUTLatZ6Y+J+HMcejA+D6OYYLt/wPWVOBbKfzRkiL8WOQ==
   dependencies:
     content-type "^1.0.4"
     encoding "^0.1.13"
@@ -5015,9 +5015,9 @@ uc.micro@^1.0.1, uc.micro@^1.0.5:
   integrity sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==
 
 uglify-js@^3.1.4:
-  version "3.15.2"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.15.2.tgz#1ed2c976f448063b1f87adb68c741be79959f951"
-  integrity sha512-peeoTk3hSwYdoc9nrdiEJk+gx1ALCtTjdYuKSXMTDqq7n1W7dHPqWDdSi+BPL0ni2YMeHD7hKUSdbj3TZauY2A==
+  version "3.15.3"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.15.3.tgz#9aa82ca22419ba4c0137642ba0df800cb06e0471"
+  integrity sha512-6iCVm2omGJbsu3JWac+p6kUiOpg3wFO2f8lIXjfEb8RrmLjzog1wTPMmwKB7swfzzqxj9YM+sGUM++u1qN4qJg==
 
 unbox-primitive@^1.0.1:
   version "1.0.1"

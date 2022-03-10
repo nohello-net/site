@@ -52,7 +52,7 @@
   "dependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-img": "^1.1.0",
-    "gettext-parser": "^5.0.0",
+    "gettext-parser": "^5.1.0",
     "glob": "^7.2.0",
     "marked": "^4.0.12",
     "node-gettext": "^3.0.0",
