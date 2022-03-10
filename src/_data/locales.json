@@ -8,6 +8,10 @@
     "name": "Deutsch"
   },
   {
+    "path": "es",
+    "name": "Español"
+  },
+  {
     "path": "fr",
     "name": "Français"
   },
