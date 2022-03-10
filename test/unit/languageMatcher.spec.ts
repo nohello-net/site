@@ -31,10 +31,16 @@ describe('languageMatcher', () => {
       assert.equal(result, '/en');
     });
 
-    it('pt -> /en', () => {
-      const result = languageMatcher(langs, base, undefined, 'pt');
+    it('zh -> /en', () => {
+      const result = languageMatcher(langs, base, undefined, 'zh');
 
       assert.equal(result, '/en');
+    });
+
+    it('zh-cn -> /zh-cn', () => {
+      const result = languageMatcher(langs, base, undefined, 'zh-CN');
+
+      assert.equal(result, '/zh-cn');
     });
 
     it('pt-br -> /pt-br', () => {

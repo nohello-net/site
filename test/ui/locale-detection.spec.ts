@@ -23,6 +23,15 @@ test.describe('locale detection', () => {
   });
 
   test.describe('en', () => {
+    test.use({ locale: 'en' });
+    test('base locale', async ({ page }) => {
+      await page.goto(BASE_URL);
+
+      expect(page.url()).toBe(url('en/'));
+    });
+  });
+
+  test.describe('en-AU', () => {
     test.use({ locale: 'en-AU' });
     test('base locale', async ({ page }) => {
       await page.goto(BASE_URL);
@@ -31,17 +40,17 @@ test.describe('locale detection', () => {
     });
   });
 
-  test.describe('pt-br', () => {
-    test.use({ locale: 'pt-BR' });
+  test.describe('zh-cn', () => {
+    test.use({ locale: 'zh-CN' });
     test('base locale', async ({ page }) => {
       await page.goto(BASE_URL);
 
-      expect(page.url()).toBe(url('pt-br/'));
+      expect(page.url()).toBe(url('zh-cn/'));
     });
   });
 
-  test.describe('pt', () => {
-    test.use({ locale: 'pt' });
+  test.describe('zh', () => {
+    test.use({ locale: 'zh' });
     test('base locale', async ({ page }) => {
       await page.goto(BASE_URL);
 
