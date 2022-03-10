@@ -1,30 +1,12 @@
 [
-  {
-    "path": "en",
-    "name": "English"
-  },
-  {
-    "path": "de",
-    "name": "Deutsch"
-  },
-  {
-    "path": "es",
-    "name": "Español"
-  },
-  {
-    "path": "fr",
-    "name": "Français"
-  },
-  {
-    "path": "pl",
-    "name": "Polski"
-  },
-  {
-    "path": "pt-br",
-    "name": "Português do Brasil"
-  },
-  {
-    "path": "zh-cn",
-    "name": "简体中文"
-  }
+  { "path": "en", "name": "English" },
+  { "path": "cs", "name": "Čeština" },
+  { "path": "de", "name": "Deutsch" },
+  { "path": "es", "name": "Español" },
+  { "path": "fa", "name": "فارسی" },
+  { "path": "fr", "name": "Français" },
+  { "path": "pl", "name": "Polski" },
+  { "path": "pt", "name": "Português" },
+  { "path": "pt-br", "name": "Português do Brasil" },
+  { "path": "zh-cn", "name": "简体中文" }
 ]
