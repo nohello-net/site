@@ -90,7 +90,7 @@ msgstr "✅ Raději zkuste tohle"
 
 msgid "example.good.body"
 msgstr ""
-"Pokud si myslíte že je trochu nezdvořílé prostě říct \"Ahoj\" a položit otázku, **můžete na začátek vaši zprávy dát kolik pozdravů jen chcete.\"\"\n"
+"Pokud si myslíte že je trochu nezdvořílé prostě říct \"Ahoj\" a položit otázku, **můžete na začátek vaši zprávy dát kolik pozdravů jen chcete.**\n"
 "\n"
 "Například:\n"
 "\n"
