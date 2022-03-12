@@ -345,6 +345,12 @@ h1.name {
   opacity: 100% !important;
 }
 
+*[dir='rtl'] .nonos ul li:before,
+*[dir='rtl'] .yepyep ul li:before {
+  padding-right: 0;
+  padding-left: 10px;
+}
+
 .slack {
   padding-bottom: 15px;
 }
