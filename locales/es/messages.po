@@ -99,7 +99,7 @@ msgstr ""
 "- \"hola, si no estás ocupado, ¿podrías actualizar esos NFRs?\"\n"
 "- etc.\n"
 "\n"
-"Puede parecer trivial, pero hacer la pregunta antes de que te respondan el saludo también permite la **comunicación asincrónica**. Si tu contraparte está ausente, y te vas antes de que regrese, igualmente puede responder tu pregunta, en lugar de quedarse mirando un \"Hola\" y preguntarse qué se perdieron.\n"
+"Puede parecer trivial, pero hacer la pregunta antes de que te respondan el saludo también permite la **comunicación asincrónica**. Si tu contraparte está ausente, y te vas antes de que regrese, igualmente puede responder tu pregunta, en lugar de quedarse mirando un \"Hola\" y preguntarse qué se perdió.\n"
 "\n"
 "Cuando se hace bien... ¡todo el mundo queda contento! 🎉\n"
 
