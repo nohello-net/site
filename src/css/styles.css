@@ -328,6 +328,11 @@ h1.name {
   opacity: 70%;
 }
 
+*[dir='rtl'] .container ul {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
 .nonos ul li:before {
   content: '×';
   color: red;
