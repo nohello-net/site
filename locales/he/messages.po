@@ -75,7 +75,7 @@ msgstr "14:20"
 # the typo here is intentional - please maintain a similar unprofessional
 # tone!
 msgid "example.bad.message2.body"
-msgstr "מתי זה הבדר הזה?"
+msgstr "מתי זה הדבר הזה?"
 
 msgid "example.bad.reply2.timestamp"
 msgstr "14:20"
