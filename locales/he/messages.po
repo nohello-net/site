@@ -31,10 +31,10 @@ msgid "example.character.bad.avatar-description"
 msgstr "התמונה של טל בסלאק"
 
 msgid "example.character.good.name"
-msgstr "דודו"
+msgstr "יעל"
 
 msgid "example.character.good.avatar-description"
-msgstr "התמונה של דודו בסלאק"
+msgstr "התמונה של יעל בסלאק"
 
 msgid "example.bad.title"
 msgstr "❌ לא לעשות ככה"
