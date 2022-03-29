@@ -1,8 +1,44 @@
 /* load google font*/
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
-/* reset styles */
+/* color variables */
+html {
+  --color-bg-1: #fff;
+  --color-bg-2: #fefefe;
+  --color-bg-3: #eee;
+  --color-bg-4: #eef0f7;
+  --color-txt-1: #81899c;
+  --color-txt-2: #5b6a9a;
+  --color-txt-3: #616061;
+  --color-txt-4: #1d1c1d;
+  --color-txt-5: #15171a;
+  --color-txt-6: #04143a;
+  --color-txt-7: #4a90e2;
+  --color-shadow-1: #d9d9d9;
+  --color-shadow-2: #ddd;
+  --color-red: #f00;
+  --color-green: #080;
+}
 
+html[darkmode] {
+  --color-bg-1: #040406;
+  --color-bg-2: #0c0c14;
+  --color-bg-3: #08080e;
+  --color-bg-4: #14130c;
+  --color-txt-1: #5f6675;
+  --color-txt-2: #46537a;
+  --color-txt-3: #9f9f9f;
+  --color-txt-4: #d2d2d2;
+  --color-txt-5: #a3b1c7;
+  --color-txt-6: #9dabcc;
+  --color-txt-7: #18314e;
+  --color-shadow-1: #111;
+  --color-shadow-2: #222;
+  --color-red: #a30e0e;
+  --color-green: #368b36;
+}
+
+/* reset styles */
 html,
 body,
 div,
@@ -108,7 +144,7 @@ section {
 a {
   text-decoration: none;
   text-transform: none;
-  color: #4a90e2;
+  color: var(--color-txt-7);
 }
 
 footer {
@@ -118,24 +154,22 @@ footer {
   font-size: 14px;
   padding: 150px 150px 80px 150px !important;
   margin-top: 0px !important;
-  color: #616061;
-  background-color: #eee;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(238, 238, 238, 1) 45%
-  );
+  color: var(--color-txt-3);
+  background-color: var(--color-bg-3);
+  background: linear-gradient(180deg,
+      var(--color-bg-1) 0%,
+      var(--color-bg-3) 45%);
   max-width: none !important;
   margin-bottom: 0 !important;
   font-weight: 300;
 }
 
 footer p {
-  color: #616061;
+  color: var(--color-txt-3);
 }
 
 footer a {
-  color: red;
+  color: var(--color-red);
   text-decoration: underline;
 }
 
@@ -155,8 +189,8 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-size: 19px;
-  background-color: #fefefe;
-  color: #04143a;
+  background-color: var(--color-bg-2);
+  color: var(--color-txt-6);
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -179,7 +213,7 @@ table {
 }
 
 p {
-  color: #15171a;
+  color: var(--color-txt-5);
   font-size: 17;
   line-height: 31px;
 }
@@ -219,12 +253,12 @@ h1.name {
   font-size: 94px;
   font-weight: 700;
   display: inline-block;
-  text-decoration-color: #fff;
+  text-decoration-color: var(--color-bg-1);
 }
 
 #strike {
   text-decoration: line-through;
-  text-decoration-color: red;
+  text-decoration-color: var(--color-red);
   display: inline;
 }
 
@@ -232,7 +266,7 @@ h1.name {
   display: block;
   font-size: 24px;
   font-weight: 300;
-  color: #81899c;
+  color: var(--color-txt-1);
   margin-top: 10px;
 }
 
@@ -269,8 +303,8 @@ h1.name {
   margin: 30px 80px;
   padding: 25px 25px 10px 25px;
   border-radius: 10px;
-  background: #ffffff;
-  box-shadow: -20px 20px 60px #d9d9d9, 20px -20px 60px #ffffff;
+  background: var(--color-bg-1);
+  box-shadow: -20px 20px 60px var(--color-shadow-1), 20px -20px 60px var(--color-bg-1);
 }
 
 *[dir='ltr'] .list-card.example {
@@ -289,7 +323,7 @@ h1.name {
 
 .list-card .exp {
   margin-right: 15px;
-  color: #4a90e2;
+  color: var(--color-txt-7);
   font-weight: 600;
   width: 100px;
 }
@@ -301,14 +335,14 @@ h1.name {
 .list-card h3 {
   font-size: 20px;
   font-weight: 600;
-  color: #5b6a9a;
+  color: var(--color-txt-2);
   line-height: 26px;
   margin-bottom: 8px;
 }
 
 .list-card div p {
   font-size: 18px;
-  color: #616061;
+  color: var(--color-txt-3);
   line-height: 24px;
   margin-bottom: 22px;
 }
@@ -320,7 +354,7 @@ h1.name {
 .container ul {
   list-style: none;
   font-size: 18px;
-  color: #616061;
+  color: var(--color-txt-3);
   line-height: 24px;
   margin-bottom: 16px;
   margin-left: 20px;
@@ -335,7 +369,7 @@ h1.name {
 
 .nonos ul li:before {
   content: '×';
-  color: red;
+  color: var(--color-red);
   font-weight: bold;
   padding-right: 10px;
   opacity: 100% !important;
@@ -345,7 +379,7 @@ h1.name {
   content: '✓';
   font-size: 14px;
   font-weight: bold;
-  color: green;
+  color: var(--color-green);
   padding-right: 10px;
   opacity: 100% !important;
 }
@@ -377,23 +411,23 @@ h1.name {
 .slack .slackname {
   font-weight: 600;
   font-size: 16px;
-  color: #1d1c1d;
+  color: var(--color-txt-4);
 }
 
 .slack .slacktime {
   font-size: 14px;
-  color: #616061;
+  color: var(--color-txt-3);
 }
 
 .slack .slackmessage {
   font-size: 16px;
-  color: #1d1c1d;
+  color: var(--color-txt-4);
 }
 
 .card {
   width: 47.9%;
   height: 200px;
-  background-color: #eef0f7;
+  background-color: var(--color-bg-4);
   display: inline-block;
   margin: 7px 5px;
   vertical-align: top;
@@ -406,8 +440,8 @@ h1.name {
 .card:hover {
   transform: scale(1.02);
   transition: 0.5s;
-  background-color: #fff;
-  box-shadow: 0px 5px 50px -8px #ddd;
+  background-color: var(--color-bg-1);
+  box-shadow: 0px 5px 50px -8px var(--color-shadow-2);
   cursor: pointer;
 }
 
@@ -429,8 +463,26 @@ h1.name {
   content: '.';
 }
 
-/* media queries*/
+/* theme selector */
+.themeSelector img {
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  display: none;
+  cursor: pointer;
+  background: var(--color-bg-1);
+  box-shadow: -5px 5px 10px var(--color-shadow-1);
+}
 
+html:not([darkmode]) .themeSelector img[alt$="darkmode"],
+html[darkmode] .themeSelector img[alt$="lightmode"] {
+  display: block;
+}
+
+/* media queries*/
 @media (max-width: 1024px) {
   footer,
   .container {
