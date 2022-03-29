@@ -429,8 +429,26 @@ h1.name {
   content: '.';
 }
 
-/* media queries*/
+/* theme selector */
+.themeSelector img {
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  display: none;
+  cursor: pointer;
+  background: #ffffff;
+  box-shadow: -5px 5px 10px #d9d9d9;
+}
 
+html:not([darkmode]) .themeSelector img[alt$="darkmode"],
+html[darkmode] .themeSelector img[alt$="lightmode"] {
+  display: block;
+}
+
+/* media queries*/
 @media (max-width: 1024px) {
   footer,
   .container {
