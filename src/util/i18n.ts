@@ -1,7 +1,13 @@
-import i18n from '../../vendor/eleventy-plugin-i18n-gettext/src/i18n';
 import { marked } from 'marked';
+import i18n, {
+  LanguageDirection,
+} from '../../vendor/eleventy-plugin-i18n-gettext/src/i18n';
 
-const enhance11tydata = (objArg: any, localeArg: string, dir = 'ltr') => {
+const enhance11tydata = (
+  objArg: any,
+  localeArg: string,
+  dir: LanguageDirection = 'ltr'
+) => {
   const obj = i18n.enhance11tydata(objArg, localeArg, dir);
   const { locale } = obj; // this gets normalised in `enhance11tydata`
 
