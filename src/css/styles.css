@@ -20,6 +20,24 @@ html {
   --color-green: #080;
 }
 
+html[darkmode] {
+  --color-bg-1: #040406;
+  --color-bg-2: #0c0c14;
+  --color-bg-3: #08080e;
+  --color-bg-4: #14130c;
+  --color-txt-1: #5f6675;
+  --color-txt-2: #46537a;
+  --color-txt-3: #9f9f9f;
+  --color-txt-4: #d2d2d2;
+  --color-txt-5: #a3b1c7;
+  --color-txt-6: #9dabcc;
+  --color-txt-7: #18314e;
+  --color-shadow-1: #111;
+  --color-shadow-2: #222;
+  --color-red: #a30e0e;
+  --color-green: #368b36;
+}
+
 /* reset styles */
 html,
 body,
