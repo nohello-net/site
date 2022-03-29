@@ -8,6 +8,8 @@ import type IConfiguration from './IConfiguration';
 
 import type { UserConfig } from '@11ty/eleventy';
 
+export type LanguageDirection = 'ltr' | 'rtl';
+
 class i18n {
   private formatter: Formatter = new Formatter();
   private translater: Translater = new Translater();
@@ -89,7 +91,11 @@ class i18n {
     );
   }
 
-  public enhance11tydata(obj: any, locale: string, dir: string = 'ltr'): any {
+  public enhance11tydata(
+    obj: any,
+    locale: string,
+    dir: LanguageDirection = 'ltr'
+  ): any {
     if (fs.existsSync(locale)) {
       // Use path.win32 because it can handle all path styles:
       // - Windows with C:\xxx\yyy\zzz

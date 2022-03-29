@@ -6,11 +6,13 @@
   { "path": "fa", "name": "فارسی" },
   { "path": "fr", "name": "Français" },
   { "path": "he", "name": "עברית" },
+  { "path": "id", "name": "Bahasa Indonesia" },
   { "path": "it", "name": "Italiano" },
   { "path": "pl", "name": "Polski" },
   { "path": "pt", "name": "Português" },
   { "path": "pt-br", "name": "Português do Brasil" },
   { "path": "ru", "name": "русский" },
   { "path": "tr", "name": "Türkçe" },
+  { "path": "vi", "name": "Tiếng Việt" },
   { "path": "zh-cn", "name": "简体中文" }
 ]
