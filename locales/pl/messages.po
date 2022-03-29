@@ -4,7 +4,7 @@
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Łukasz Nowak, 2022\n"
+"Last-Translator: joshua may, 2022\n"
 "Language-Team: Polish (https://www.transifex.com/nohello/teams/131463/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,8 +17,8 @@ msgstr "proszę… nie mów tylko cześć na czacie"
 
 msgid "header.introduction"
 msgstr ""
-"Wyobraź sobie, że dzwonisz do kogoś tylko po to, aby powiedzieć _cześć!_, "
-"a potem zawiesić połączenie… 🤦‍♀️"
+"Wyobraź sobie, że dzwonisz do kogoś tylko po to, aby powiedzieć _cześć!_, a "
+"potem zawiesić połączenie… 🤦‍♀️"
 
 msgid "example.character.neutral.name"
 msgstr "Tomasz"
@@ -131,12 +131,14 @@ msgstr "👌 nie ma problemu"
 msgid "footer.note"
 msgstr ""
 "To jest pół żartem, pół serio 👀, dlatego nie bądź "
-"[zły](https://www.youtube.com/watch?v=xzpndHtdl9A) na osobę, która wysłała ci ten link."
+"[zły](https://www.youtube.com/watch?v=xzpndHtdl9A) na osobę, która wysłała "
+"ci ten link."
 
 msgid "footer.warning"
 msgstr ""
 "Podsumowując, jeśli otworzyłeś tę stronę z czyjegoś statusu, przygotuj się "
-"na bycie zignorowanym, jeśli napiszesz po prostu „cześć” czy coś w tym stylu."
+"na bycie zignorowanym, jeśli napiszesz po prostu „cześć” czy coś w tym "
+"stylu."
 
 msgid "footer.thanks"
 msgstr ""
@@ -144,7 +146,8 @@ msgstr ""
 "[nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/)."
 " Awatary pochodzą z serialu *[The "
 "Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. "
-"Strona posiada otwarte źródło na [GitHub](https://github.com/nohello-net/site)."
+"Strona posiada otwarte źródło na [GitHub](https://github.com/nohello-"
+"net/site)."
 
 # prefix before a list of languages, i.e. This site is available in: English,
 # French, & German
