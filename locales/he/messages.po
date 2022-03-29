@@ -1,10 +1,11 @@
 # 
 # Translators:
 # Yaron Shahrabani <sh.yaron@gmail.com>, 2022
+# joshua may, 2022
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>, 2022\n"
+"Last-Translator: joshua may, 2022\n"
 "Language-Team: Hebrew (https://www.transifex.com/nohello/teams/131463/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,10 +32,10 @@ msgid "example.character.bad.avatar-description"
 msgstr "התמונה של טל בסלאק"
 
 msgid "example.character.good.name"
-msgstr "דודו"
+msgstr "יעל"
 
 msgid "example.character.good.avatar-description"
-msgstr "התמונה של דודו בסלאק"
+msgstr "התמונה של יעל בסלאק"
 
 msgid "example.bad.title"
 msgstr "❌ לא לעשות ככה"
