@@ -3,6 +3,7 @@
   { "path": "cs", "name": "Čeština" },
   { "path": "de", "name": "Deutsch" },
   { "path": "es", "name": "Español" },
+  { "path": "np-en", "name": "Nepali-English" },
   { "path": "fa", "name": "فارسی" },
   { "path": "fr", "name": "Français" },
   { "path": "he", "name": "עברית" },
