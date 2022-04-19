@@ -80,7 +80,7 @@ msgstr "✅ Probeer dit eens"
 
 msgid "example.good.body"
 msgstr ""
-"Als je denkt dat het onbeleefd is om in een chat direct na \"hoi\" je vraagt te stellen... **Er zijn genoeg andere manieren om het tóch vriendelijk te houden.**\n"
+"Als je denkt dat het onbeleefd is om in een chat direct na \"hoi\" je vraagt te stellen... **Er zijn genoeg manieren om het tóch vriendelijk te houden.**\n"
 "\n"
 "Bijvoorbeeld:\n"
 "\n"
