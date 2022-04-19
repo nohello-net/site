@@ -76,7 +76,7 @@ msgid "example.bad.reply2.body"
 msgstr "Ah, half 4"
 
 msgid "example.good.title"
-msgstr "✅ Probeer eens dit"
+msgstr "✅ Probeer dit eens"
 
 msgid "example.good.body"
 msgstr ""
