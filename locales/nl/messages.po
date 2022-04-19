@@ -120,7 +120,7 @@ msgid "example.good.reply2.body"
 msgstr "👌 np"
 
 msgid "footer.note"
-msgstr "Deze pagina is grappig bedoeld (een beetje 👀) dus geen reden om [boos](https://www.youtube.com/watch?v=xzpndHtdl9A) te worden op diegene die je deze link heeft gestuurd."
+msgstr "Deze pagina is grappig bedoeld (een beetje 👀) en is dus geen reden om [boos](https://www.youtube.com/watch?v=xzpndHtdl9A) te worden op diegene die je deze link heeft gestuurd."
 
 msgid "footer.warning"
 msgstr "Maar als je iemand ziet met deze link in zijn profiel, wees dan voorbereid om genegeerd te worden als je een gesprek start met enkel \"Hoi!\""
