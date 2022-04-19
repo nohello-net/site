@@ -126,7 +126,7 @@ msgid "footer.warning"
 msgstr "Maar als je iemand ziet met deze link in zijn profiel, wees dan voorbereid om genegeerd te worden als je een gesprek start met enkel \"Hoi!\""
 
 msgid "footer.thanks"
-msgstr "Website gebasseerd op [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/). De afbeeldingen zijn afkomstig van *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Open-source op [GitHub](https://github.com/nohello-net/site)."
+msgstr "Website gebaseerd op [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/). De afbeeldingen zijn afkomstig van *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Open-source op [GitHub](https://github.com/nohello-net/site)."
 
 # prefix before a list of languages, i.e. This site is available in: English, French, & German
 msgid "footer.languages"
