@@ -16,5 +16,6 @@
   { "path": "tr", "name": "Türkçe" },
   { "path": "uk", "name": "Українська" },
   { "path": "vi", "name": "Tiếng Việt" },
-  { "path": "zh-cn", "name": "简体中文" }
+  { "path": "zh-cn", "name": "简体中文" },
+  { "path": "th", "name": "Thai"}
 ]
