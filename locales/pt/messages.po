@@ -77,7 +77,7 @@ msgstr "14:20"
 # the typo here is intentional - please maintain a similar unprofessional
 # tone!
 msgid "example.bad.message2.body"
-msgstr "a que horas era aqulea reunião?"
+msgstr "a que horas era aquela reunião?"
 
 msgid "example.bad.reply2.timestamp"
 msgstr "14:20"
@@ -94,7 +94,7 @@ msgstr ""
 "\n"
 "Por exemplo:\n"
 "\n"
-"- \"Olá meu, tudo bem? tens ideia de quando temos de entregar aquela projeto?\"\n"
+"- \"Olá meu, tudo bem? tens ideia de quando temos de entregar aquele projeto?\"\n"
 "- \"Olá! Espero que estejas bem. Quando tiveres um bocadinho, precisava que me enviasses aquele ficheiro :)\"\n"
 "- \"Oi, se não estiveres muito ocupado, podes atualizar aqueles relatórios?\"\n"
 "- etc.\n"
