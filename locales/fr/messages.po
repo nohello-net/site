@@ -57,7 +57,7 @@ msgstr ""
 "- \"ping\"\n"
 "- etc.\n"
 "\n"
-"**Just ask the question!** 😫\n"
+"**Posez simplement la question!** 😫\n"
 
 msgid "example.bad.message1.timestamp"
 msgstr "2:15 PM"
