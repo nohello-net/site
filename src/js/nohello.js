@@ -18,6 +18,7 @@ const typed2 = new Typed('#strike', {
     'hoi',
     "m'athchomaroon",
     'hiya',
+    'xin chào'
     'Привет',
     'you got a sec?',
     'مرحبا',
