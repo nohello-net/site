@@ -123,7 +123,7 @@ msgid "footer.note"
 msgstr "This is kinda only half serious (kinda 👀) so please don't get [mad](https://www.youtube.com/watch?v=xzpndHtdl9A) at the person who sent you here."
 
 msgid "footer.warning"
-msgstr "That said, if you see this sites URL as someone's status/bio, be prepared to be ignored if you only say \"Hello!\""
+msgstr "That said, if you see this site URL as someone's status/bio, be prepared to be ignored if you only say \"Hello!\""
 
 msgid "footer.thanks"
 msgstr "Based on the wonderful [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/). Avatars taken from *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Open-source on [GitHub](https://github.com/nohello-net/site)."
