@@ -25,6 +25,12 @@ describe('languageMatcher', () => {
       assert.equal(result, '/de');
     });
 
+    it('hu -> /hu', () => {
+      const result = languageMatcher(langs, base, undefined, 'hu');
+
+      assert.equal(result, '/hu');
+    });
+
     it('en-AU -> en', () => {
       const result = languageMatcher(langs, base, undefined, 'en-AU');
 
@@ -85,6 +91,12 @@ describe('languageMatcher', () => {
       const result = languageMatcher(langs, base, 'de');
 
       assert.equal(result, '/de');
+    });
+
+    it('hu -> /hu', () => {
+      const result = languageMatcher(langs, base, 'hu');
+
+      assert.equal(result, '/hu');
     });
 
     it('pt-br -> /pt-br', () => {
