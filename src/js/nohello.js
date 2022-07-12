@@ -27,7 +27,7 @@ const typed2 = new Typed('#strike', {
     'buenos dias',
     'nuqneH',
     'heya',
-    'olà',
+    'olá',
     'apipoulaï',
     'j0',
     'howdy',
