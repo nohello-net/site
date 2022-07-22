@@ -38,7 +38,7 @@ msgid "example.character.good.name"
 msgstr "Даша"
 
 msgid "example.character.good.avatar-description"
-msgstr "Аватар Даша в Слаке"
+msgstr "Аватар Даши в Слаке"
 
 msgid "example.bad.title"
 msgstr "❌ Не делайте так"
