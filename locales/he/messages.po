@@ -2,6 +2,7 @@
 # Translators:
 # Yaron Shahrabani <sh.yaron@gmail.com>, 2022
 # joshua may, 2022
+# Guy Porat, 2022
 # 
 msgid ""
 msgstr ""
@@ -45,7 +46,7 @@ msgid "example.bad.body"
 msgstr ""
 "נא לשים לב שטל יכול היה לקבל את התשובה הרבה לפני כן, ולא היה צריך להמתין לאלי. למעשה, אלי יכול היה לחשוב על השאלה שלו באותו רגע!\n"
 "\n"
-"אנשים שעושים את זה בדרך כלל מנסים להיות מנומסים על ידי כך שאינם קופצים ישירות לבקשה, כמו שעושים פנים מול פנים או בטלפון - וזה נהדר! אבל אנחנו ב־%1$s וצ׳אט אינו אף אחד מאלה. לרוב האנשים הקלדה היא אטית משמעותית מדיבור. לכן, למרות כל הכוונות הטובות **זה רק גורם לצד השני להמתין** לך לנסח את השאלה שלך, שזה אובדן יעילות (ודי מעצבן).\n"
+"אנשים שעושים את זה בדרך כלל מנסים להיות מנומסים על ידי כך שאינם קופצים ישירות לבקשה, כמו שעושים פנים מול פנים או בטלפון - וזה נהדר! אבל אנחנו ב־%1$s וצ׳אט אינו אף אחד מאלה. לרוב האנשים הקלדה היא איטית משמעותית מדיבור. לכן, למרות כל הכוונות הטובות **זה רק גורם לצד השני להמתין** לך לנסח את השאלה שלך, שזה אובדן יעילות (ודי מעצבן).\n"
 "\n"
 "כנ״ל לגבי:\n"
 "\n"
@@ -76,7 +77,7 @@ msgstr "14:20"
 # the typo here is intentional - please maintain a similar unprofessional
 # tone!
 msgid "example.bad.message2.body"
-msgstr "מתי זה הבדר הזה?"
+msgstr "מתי זה הדבר הזה?"
 
 msgid "example.bad.reply2.timestamp"
 msgstr "14:20"
@@ -130,7 +131,7 @@ msgstr "👌 סגור"
 msgid "footer.note"
 msgstr ""
 "זה חצי בצחוק (סוג של 👀) אז אין מה "
-"[להתעצבן](https://www.youtube.com/watch?v=xzpndHtdl9A) על מי ששלח או שלחה "
+"[להתעצבן](https://www.youtube.com/watch?v=xzpndHtdl9A) על מי ששלח/ה "
 "אותך לכאן."
 
 msgid "footer.warning"
