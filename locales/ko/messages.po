@@ -8,7 +8,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "header.subtitle"
-msgstr "채팅에 인사하지 말아주세요"
+msgstr "채팅에 인사만 하지 말아주세요"
 
 msgid "header.introduction"
 msgstr "누군가 폰을 들었는데, _안녕하세요!_ 이제 다시 폰을 넣는 상황을 상상해보세요... 🤦‍♀️"
@@ -118,7 +118,7 @@ msgid "example.good.reply2.timestamp"
 msgstr "오후 2:16"
 
 msgid "example.good.reply2.body"
-msgstr "👌 문제 없어요"
+msgstr "👌 좋아요"
 
 msgid "footer.note"
 msgstr "이건 그렇게까지 심각한 문제는 아니니까 (👀) [여기](https://www.youtube.com/watch?v=xzpndHtdl9A)에서 보내신 분한테 화내지 마세요."
@@ -131,4 +131,4 @@ msgstr "멋진 [nohello.com](https://web.archive.org/web/20131127020115/http://w
 
 # prefix before a list of languages, i.e. This site is available in: English, French, & German
 msgid "footer.languages"
-msgstr "이 사이트는 이 언어에서 사용할 수 있습니다:"
+msgstr "이 사이트는 다음 언어들을 제공합니다:"
