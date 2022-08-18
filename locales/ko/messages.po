@@ -37,9 +37,9 @@ msgstr "❌ 이렇게 하지 마세요"
 # the placeholder is the year, i.e. "2022"
 msgid "example.bad.body"
 msgstr ""
-"현우는 그의 대답을 몇 분 더 일찍 받을 수 있었고, 준서를 기다리게 할 필요가 없었다는 것을 주의하세요. 사실, 준서은 그 질문에 대해 즉시 생각할 수 있었어요!\n"
+"현우는 그의 대답을 몇 분 더 일찍 받을 수 있었고, 준서를 기다리게 할 필요가 없었다는 것을 주의하세요. 사실, 준서는 그 질문에 대해 즉시 생각할 수 있었어요!\n"
 "\n"
-"이런 일을 하는 사람들은 일반적으로 대면이나 전화로 하는 것처럼 바로 요청을 하지 않음으로써 예의를 갖추려고 노력하고 있습니다. 이 점은 훌륭해요! 하지만 지금은 %1$s년이고 채팅에서 이 행동은 좋은 게 아니에요. 대부분의 사람들에게 채팅 치는 것은 말하는 것보다 훨씬 더 느립니다.. 따라서 예의를 갖추려 함에도 불구하고 **상대방을 기다리게 하는 것**은 생산성 저하(그리고 약간의 짜증)를 만드는 질문입니다.\n"
+"이런 일을 하는 사람들은 일반적으로 대면이나 전화로 하는 것처럼 바로 요청을 하지 않음으로써 예의를 갖추려고 노력하고 있습니다. 이 점은 훌륭해요! 하지만 지금은 %1$s년이고 채팅에서 이 행동은 좋은 게 아니에요. 대부분의 사람들에게 채팅 치는 것은 말하는 것보다 훨씬 더 느립니다. 따라서 예의를 갖추려 함에도 불구하고 **상대방을 기다리게 하는 것**은 생산성 저하(그리고 약간의 짜증)를 만드는 질문입니다.\n"
 "\n"
 "이런 것도 마찬가지입니다.n"
 "\n"
@@ -53,7 +53,7 @@ msgstr ""
 "**그냥 질문부터 하세요!** 😫\n"
 
 msgid "example.bad.message1.timestamp"
-msgstr "2:15 PM"
+msgstr "오후 2:15"
 
 msgid "example.bad.message1.body"
 msgstr "안녕하세요"
@@ -69,7 +69,7 @@ msgstr "오후 2:20"
 
 # the typo here is intentional - please maintain a similar unprofessional tone!
 msgid "example.bad.message2.body"
-msgstr "지금 몇 시ㄴ이가요?"
+msgstr "지금 몇 시인가요?"
 
 msgid "example.bad.reply2.timestamp"
 msgstr "오후 2:20"
@@ -127,7 +127,7 @@ msgid "footer.warning"
 msgstr "그렇긴 하지만, 만약 누군가가 이 사이트 URL을 상태메세지에 둔다면, 여러분이 \"안녕하세요!\"라고만 말했을 땐 무시당할 준비를 하세요!\""
 
 msgid "footer.thanks"
-msgstr "멋진 [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/))를 기반으로 합니다. 아바타는 *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*에서 가져왔습니다. [GitHub](https://github.com/nohello-net/site)에 소스 코드가 공개되어 있습니다.."
+msgstr "멋진 [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/))를 기반으로 합니다. 아바타는 *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*에서 가져왔습니다. [GitHub](https://github.com/nohello-net/site)에 소스 코드가 공개되어 있습니다."
 
 # prefix before a list of languages, i.e. This site is available in: English, French, & German
 msgid "footer.languages"
