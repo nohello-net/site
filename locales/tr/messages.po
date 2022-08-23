@@ -18,7 +18,7 @@ msgstr "lütfen mesajlaşırken sadece merhaba demeyin"
 
 msgid "header.introduction"
 msgstr ""
-"Birini telefonla aradığınızı, _merhaba!_ diyerek onu beklemeye aldığınızı "
+"Birini telefonla aradığınızda, _merhaba!_ diyerek onu beklemeye aldığınızı "
 "hayal edin... 🤦‍♀️"
 
 msgid "example.character.neutral.name"
@@ -100,7 +100,7 @@ msgstr ""
 "- \"selam, meşgul değilsen şu NFR'leri güncelleyebilir misin?\"\n"
 "- vs.\n"
 "\n"
-"Önemsiz görünebilir, ancak karşıdan gelen selam mesajını almadan önce sorunuzu sormak aynı zamanda **eşzamansız iletişime** de olanak tanır. Karşı taraf uzaktaysa ve onlar geri gelmeden konuşmadan ayrılırsanız, sadece bir \"Merhaba\"ya bakıp neyi kaçırdıklarını merak etmek yerine sorunuzu yanıtlayabilirler.\n"
+"Önemsiz görünebilir, ancak karşıdan gelen selam mesajını almadan önce sorunuzu sormak aynı zamanda **senkronsuz iletişime** de olanak tanır. Karşı taraf uzaktaysa ve onlar geri gelmeden konuşmadan ayrılırsanız, sadece bir \"Merhaba\"ya bakıp neyi kaçırdıklarını merak etmek yerine sorunuzu yanıtlayabilirler.\n"
 "\n"
 "Doğru şekilde yapıldığında - herkes mutlu olur! 🎉\n"
 
@@ -150,4 +150,4 @@ msgstr ""
 # prefix before a list of languages, i.e. This site is available in: English,
 # French, & German
 msgid "footer.languages"
-msgstr "Bu site şurada mevcuttur:"
+msgstr "Bu site dillerde de mevcuttur:"
