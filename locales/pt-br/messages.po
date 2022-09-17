@@ -3,10 +3,11 @@
 # Andréa, 2022
 # Guilherme Gomes Almeida, 2022
 # Lucas Fernandes, 2022
+# NickUC <nick@nickuc.com>, 2022
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Lucas Fernandes, 2022\n"
+"Last-Translator: NickUC, 2022\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/nohello/teams/131463/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -138,7 +139,7 @@ msgstr ""
 
 msgid "footer.warning"
 msgstr ""
-"Dito isso, se você ver a URL desse site na bio/status de alguém, se prepare "
+"Dito isso, se você vir a URL desse site na bio/status de alguém, se prepare "
 "para ser ignorado(a) se você só mandar um \"Olá\"!"
 
 msgid "footer.thanks"
