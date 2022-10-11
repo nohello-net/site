@@ -50,7 +50,7 @@ msgstr ""
 "- \"저기요?\"\n"
 "- 기타 등등.\n"
 "\n"
-"**그냥 질문부터 하세요!** 😫\n"
+"**먼저 질문하세요!** 😫\n"
 
 msgid "example.bad.message1.timestamp"
 msgstr "오후 2:15"
@@ -124,7 +124,7 @@ msgid "footer.note"
 msgstr "이건 그렇게까지 심각한 문제는 아니니까 (👀) [여기](https://www.youtube.com/watch?v=xzpndHtdl9A)에서 보내신 분한테 화내지 마세요."
 
 msgid "footer.warning"
-msgstr "그렇긴 하지만, 만약 누군가가 이 사이트 URL을 상태메세지에 둔다면, 여러분이 \"안녕하세요!\"라고만 말했을 땐 무시당할 준비를 하세요!\""
+msgstr "하지만, 만약 누군가가 이 사이트 URL을 상태메세지에 둔다면, 여러분이 \"안녕하세요!\"라고만 말했을 땐 무시당할 준비를 하세요!\""
 
 msgid "footer.thanks"
 msgstr "멋진 [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/))를 기반으로 합니다. 아바타는 *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*에서 가져왔습니다. [GitHub](https://github.com/nohello-net/site)에 소스 코드가 공개되어 있습니다."
