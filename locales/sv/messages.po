@@ -17,7 +17,7 @@ msgstr "snälla skriv inte bara hej"
 
 msgid "header.introduction"
 msgstr ""
-"Tänk om du skulle ringa upp någon, säga _hej!_, och sen lägga på... 🤦‍♀️"
+"Tänk om du skulle ringa upp någon, säga _hej!_, och sen parkera samtalet... 🤦‍♀️"
 
 msgid "example.character.neutral.name"
 msgstr "Lars"
