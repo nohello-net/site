@@ -2,10 +2,11 @@
 # Translators:
 # Yaron Shahrabani <sh.yaron@gmail.com>, 2022
 # joshua may, 2022
+# Amit Beckenstein <amitbeck@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
-"Last-Translator: joshua may, 2022\n"
+"Last-Translator: Amit Beckenstein, 2022\n"
 "Language-Team: Hebrew (https://www.transifex.com/nohello/teams/131463/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -135,7 +136,7 @@ msgstr ""
 
 msgid "footer.warning"
 msgstr ""
-"עם זאת, אם ראית את את הכתובת של האתר הזה בסטטוס/ביו של מישהו, כנראה שיתעלמו "
+"עם זאת, אם ראית את את הכתובת של האתר הזה בסטטוס/ביו של מישהו, כנראה יתעלמו "
 "מפנייה גנרית מצדך כמו „שלום!”"
 
 msgid "footer.thanks"
