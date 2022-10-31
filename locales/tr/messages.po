@@ -2,10 +2,11 @@
 # Translators:
 # Mert Cobanov, 2022
 # joshua may, 2022
+# Ugurcan Sarim 2022
 # 
 msgid ""
 msgstr ""
-"Last-Translator: joshua may, 2022\n"
+"Last-Translator: Ugurcan Sari, 2022\n"
 "Language-Team: Turkish (https://www.transifex.com/nohello/teams/131463/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,7 +57,7 @@ msgstr ""
 "- \"Bir dakikan var mı:\"\n"
 "- \"orda mısın?\"\n"
 "- \"...\"\n"
-"- etc.\n"
+"- v.b.\n"
 "\n"
 "**Sadece soruyu sorun işte** 😫\n"
 
@@ -98,7 +99,7 @@ msgstr ""
 "- \"Selam dostum, naber? O şeyin ne zaman geleceği hakkında bir fikrin var mı?\"\n"
 "- \"Merhaba! Umarım iyisindir. Sunumun son sayfasındayım, vaktin olduğunda görüşelim :)\"\n"
 "- \"selam, meşgul değilsen şu NFR'leri güncelleyebilir misin?\"\n"
-"- vs.\n"
+"- v.b.\n"
 "\n"
 "Önemsiz görünebilir, ancak karşıdan gelen selam mesajını almadan önce sorunuzu sormak aynı zamanda **eşzamansız iletişime** de olanak tanır. Karşı taraf uzaktaysa ve onlar geri gelmeden konuşmadan ayrılırsanız, sadece bir \"Merhaba\"ya bakıp neyi kaçırdıklarını merak etmek yerine sorunuzu yanıtlayabilirler.\n"
 "\n"
@@ -132,7 +133,7 @@ msgstr "👌 öd"
 msgid "footer.note"
 msgstr ""
 "Bu biraz ciddi (biraz 👀) bu yüzden lütfen sizi buraya gönderen "
-"[kızgın](https://www.youtube.com/watch?v=xzpndHtdl9A) kişiye kızmayın."
+"kişiye [kızmayın](https://www.youtube.com/watch?v=xzpndHtdl9A)"
 
 msgid "footer.warning"
 msgstr ""
