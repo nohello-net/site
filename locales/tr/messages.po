@@ -133,7 +133,7 @@ msgstr "👌 öd"
 msgid "footer.note"
 msgstr ""
 "Bu biraz ciddi (biraz 👀) bu yüzden lütfen sizi buraya gönderen "
-"kişiye [kızmayın](https://www.youtube.com/watch?v=xzpndHtdl9A)"
+"kişiye [kızmayın](https://www.youtube.com/watch?v=xzpndHtdl9A)."
 
 msgid "footer.warning"
 msgstr ""
