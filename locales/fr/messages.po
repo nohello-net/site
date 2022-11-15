@@ -131,7 +131,7 @@ msgstr "👌 np"
 msgid "footer.note"
 msgstr ""
 "Ceci n'est qu'à moitié sérieux (un peu 👀) alors s'il vous plaît, ne vous "
-"fâchez pas (https://www.youtube.com/watch?v=xzpndHtdl9A) contre la personne "
+"[fâchez pas](https://www.youtube.com/watch?v=xzpndHtdl9A) contre la personne "
 "qui vous a envoyé ici."
 
 msgid "footer.warning"
