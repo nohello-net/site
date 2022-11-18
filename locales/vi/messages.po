@@ -133,7 +133,7 @@ msgstr "👌 không thành vấn đề"
 msgid "footer.note"
 msgstr ""
 "Cái này không quá nghiêm túc đâu (kiểu giỡn vui thôi 👀), vì vậy đừng "
-"[cáu bẳn](https://www.youtube.com/watch?v=xzpndHtdl9A) với người đã dẫn bạn đến "
+"[cáu bẳn](https://www.youtube.com/shorts/eZJI_sJOdVk) với người đã dẫn bạn đến "
 "đây."
 
 msgid "footer.warning"
