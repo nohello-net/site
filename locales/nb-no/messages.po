@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: no\n"
+"Last-Translator: Espen Sae-Tang Ottersen, 2023\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "header.subtitle"
+msgstr "vær så snill å ikke bare si hei"
+
+msgid "header.introduction"
+msgstr "Forestill deg at du ringer noen, sier _hei!_, og så setter dem på vent... 🤦‍♀️"
+
+msgid "example.character.neutral.name"
+msgstr "Alex"
+
+msgid "example.character.neutral.avatar-description"
+msgstr "Alex sitt profilbilde på Slack"
+
+msgid "example.character.bad.name"
+msgstr "Iben"
+
+msgid "example.character.bad.avatar-description"
+msgstr "Iben sitt profilbilde på Slack"
+
+msgid "example.character.good.name"
+msgstr "Knut"
+
+msgid "example.character.good.avatar-description"
+msgstr "Knut sitt profilbilde på Slack"
+
+msgid "example.bad.title"
+msgstr "❌ Ikke gjør dette"
+
+# the placeholder is the year, i.e. "2022"
+msgid "example.bad.body"
+msgstr ""
+"Legg merke til at Iben kunne fått svaret sitt minutter tidligere, og ikke trengt å holde Alex ventende. Faktisk kunne Alex begynt å tenke på spørsmålet med en gang!\n"
+"\n"
+"Folk som gjør dette prøver generelt å være høflige ved å ikke hoppe rett inn i forespørselen, som man ville gjort ansikt til ansikt eller på telefon - og det er bra! Men det er %1$s og chat er ingen av disse tingene. For de fleste er skriving mye tregere enn å snakke. Så til tross for beste intensjoner, **fører dette til at den andre personen må vente** på at du skal formulere spørsmålet ditt, noe som er bortkastet produktivitet (og egentlig litt irriterende).\n"
+"\n"
+"Det samme gjelder:\n"
+"\n"
+"- \"Hallo! Er du på?\"\n"
+"- \"Hei Lasse - bare et lite spørsmål...\"\n"
+"- \"Har du ett minutt?\"\n"
+"- \"Et lite spørsmål bare...\"\n"
+"- \"Skjer'a?\"\n"
+"- osv.\n"
+"\n"
+"**Bare spør spørsmålet!** 😫\n"
+
+msgid "example.bad.message1.timestamp"
+msgstr "14:15"
+
+msgid "example.bad.message1.body"
+msgstr "hei"
+
+msgid "example.bad.reply1.timestamp"
+msgstr "14:19"
+
+msgid "example.bad.reply1.body"
+msgstr "...?"
+
+msgid "example.bad.message2.timestamp"
+msgstr "14:20"
+
+# the typo here is intentional - please maintain a similar unprofessional tone!
+msgid "example.bad.message2.body"
+msgstr "vilken tidspunkt vr den greia igjen?"
+
+msgid "example.bad.reply2.timestamp"
+msgstr "14:20"
+
+msgid "example.bad.reply2.body"
+msgstr "å - 15:30 kompis"
+
+msgid "example.good.title"
+msgstr "✅ Prøv dette i stedet!"
+
+msgid "example.good.body"
+msgstr ""
+"Hvis du føler det er litt brutalt å bare si \"Hei\" og stille spørsmålet, **kan du fortsatt starte meldingen din med så mange høflighetsfraser som du ønsker.**\n"
+"\n"
+"For eksempel:\n"
+"\n"
+"- \"Hei kompis, hva skjer? Forresten, vet du når den tingen skal være ferdig?\"\n"
+"- \"Hei der! Håper du har det bra. Jeg er på utkikk etter den nyeste versjonen av presentasjonen. Gi et pip når det er klart!\""
+"- \"hei. om du ikke er kjempeopptatt, kan du oppdatere kravspeken?\"\n"
+"- osv.\n"
+"\n"
+"Det kan virke triviellt, men å stille stille spørsmålet ditt før du får respons tilbake gir også muligheten for **asynkron kommunikasjon**. Hvis den andre parten er borte, og du drar før hen kommer tilbake, kan vedkommende fortsatt svaret på spørsmålet ditt, i stedet for å stirre på en \"Hei\" og lure på hva de gikk glipp av.\n"
+"\n"
+"Gjør det riktig, slik blir alle fornøyde! 🎉\n"
+
+msgid "example.good.message1.timestamp"
+msgstr "14:15"
+
+msgid "example.good.message1.body"
+msgstr "Heisann! Når var den tingen?"
+
+msgid "example.good.reply1.timestamp"
+msgstr "14:15"
+
+msgid "example.good.reply1.body"
+msgstr "halla, 15:30"
+
+msgid "example.good.message2.timestamp"
+msgstr "14:15"
+
+# "Ta" is colloquial British(/Australian/etc) for "thanks"
+msgid "example.good.message2.body"
+msgstr "Takker - da sees vi!"
+
+msgid "example.good.reply2.timestamp"
+msgstr "14:16"
+
+msgid "example.good.reply2.body"
+msgstr "👌 null stress, joggedress"
+
+msgid "footer.note"
+msgstr "Dette er bare halvseriøst (kanskje 👀) så vær så snill og ikke bli [sint](https://www.youtube.com/watch?v=xzpndHtdl9A) på personen som sendte deg hit."
+
+msgid "footer.warning"
+msgstr "Det sagt - vær forberedt på å bli ignorert om du bare sier \"Hallo!\" til hvis du ser denne nettsiden i deres status/bio."
+
+msgid "footer.thanks"
+msgstr "Basert på den fantastiske [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/). Profilbildene er hentet fra *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Nettsiden er åpen kilde, og tilgjengelig på [GitHub](https://github.com/nohello-net/site)."
+
+# prefix before a list of languages, i.e. This site is available in: English, French, & German
+msgid "footer.languages"
+msgstr "Denne siden er tilgjengelig på:"
