@@ -2,7 +2,6 @@
 
 Hello!
 
-https://searchitfirst.fyi/
 
 ## Translators
 
