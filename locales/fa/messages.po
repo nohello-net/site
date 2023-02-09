@@ -1,153 +1,0 @@
-# 
-# Translators:
-# Peyman M., 2022
-# 
-msgid ""
-msgstr ""
-"Last-Translator: Peyman M., 2022\n"
-"Language-Team: Persian (https://www.transifex.com/nohello/teams/131463/fa/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: fa\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-
-msgid "header.subtitle"
-msgstr "لطفاً در چت تنها سلام نکنید"
-
-msgid "header.introduction"
-msgstr ""
-"تصور کنید به کسی زنگ بزنید، و بگویید «سلام!» و بعد او را روی انتظار تماس "
-"بگذارید... 🤦‍♀️"
-
-msgid "example.character.neutral.name"
-msgstr "تیم"
-
-msgid "example.character.neutral.avatar-description"
-msgstr "آواتار اسلک تیم"
-
-msgid "example.character.bad.name"
-msgstr "کیث"
-
-msgid "example.character.bad.avatar-description"
-msgstr "آواتار اسلک کیث"
-
-msgid "example.character.good.name"
-msgstr "داون"
-
-msgid "example.character.good.avatar-description"
-msgstr "آواتار اسلک داون"
-
-msgid "example.bad.title"
-msgstr "❌ این کار را نکنید"
-
-# the placeholder is the year, i.e. "2022"
-msgid "example.bad.body"
-msgstr ""
-"همانطور که می‌بینید «کیث» می‌توانست پاسخ خود را چند دقیقه زودتر بگیرد، و نیازی نبود که «تیم» را منتظر نگه‌دارد. در حقیقت، «تیم» می‌توانست به سوال فوراً فکر کند!\n"
-"\n"
-"افرادی که این کار را می‌کنند معمولاً تلاش دارند که با زود نگفتن درخواستشان مؤدب باشند، همانند وقتی که حضوری یا پشت تلفن هستند - و این عالیه! اما سال %1$s است و چت هیچکدام از این‌ها نیست. برای خیلی‌ها تایپ کردن بسیار کُندتر از صحبت کردن است. بنابراین علیرغم بهترین نیت‌ها، **شما در حقیقت فرد دیگر را منتظر نگه می‌دارید** تا شما سوال خود را بپرسید، که سودمندی از دست‌رفته (و کمی اعصاب‌خوردکن است).\n"
-"\n"
-"همین برای موارد زیر صادق است:\n"
-"\n"
-"- «سلام، هستی؟»\n"
-"- «سلام سوفی - یه سوال سریع.»\n"
-"- «یه دقیقه وقت داری؟»\n"
-"- «آنی؟»\n"
-"- «.»\n"
-"- و غیره...\n"
-"\n"
-"**سوال رو بپرس!** 😫\n"
-
-msgid "example.bad.message1.timestamp"
-msgstr "2:15 ب.ظ"
-
-msgid "example.bad.message1.body"
-msgstr "سلام"
-
-msgid "example.bad.reply1.timestamp"
-msgstr "2:19 ب.ظ"
-
-msgid "example.bad.reply1.body"
-msgstr "...؟"
-
-msgid "example.bad.message2.timestamp"
-msgstr "2:20 ب.ظ"
-
-# the typo here is intentional - please maintain a similar unprofessional
-# tone!
-msgid "example.bad.message2.body"
-msgstr "اون چیزه ساعت چند بود؟"
-
-msgid "example.bad.reply2.timestamp"
-msgstr "2:20 ب.ظ"
-
-msgid "example.bad.reply2.body"
-msgstr "اوه - 3:30 عزیز"
-
-msgid "example.good.title"
-msgstr "✅ در عوض این را امتحان کنید"
-
-msgid "example.good.body"
-msgstr ""
-"اگر فکر می‌کنید کمی بی‌ادبانه است که فقط «سلام» کنید و سوالتان را بپرسید، **می‌توانید پیام خود را با هر اندازه تعارف که فکر می‌کنید آغاز کنید.**\n"
-"\n"
-"به عنوان مثال:\n"
-"\n"
-"- «سلام عزیز، چه خبرا؟ و اینکه، خبر داری که اون چیزه کی وقتشه؟»\n"
-"- «سلام! امیدوارم خوب باشی. دنبال آخرین دسته ورق می‌گردم، هروقت تونستی :)»\n"
-"- «درود، اگر مشغول نیستی، میتونی اون فرم هارو پر کنی؟»\n"
-"- و غیره...\n"
-"\n"
-"شاید به نظر بدیهی بیاید، اما پرسیدن سوال قبل از منتظر ماندن برای جواب سلام اجازه **مکالمه به صورت ناهمگام** را می‌دهد. اگر طرف دیگر نباشد، و شما قبل از اینکه برگردند بروید، آن‌ها می‌توانند به سوال شما پاسخ دهند، بجای اینکه به «سلام» شما خیره شوند و به فکر این باشند که چه چیزی را از دست داده‌اند.\n"
-"\n"
-"\n"
-"وقتی که به خوبی انجام داده شود - همه خوشحال خواهند بود! 🎉\n"
-
-msgid "example.good.message1.timestamp"
-msgstr "2:15 ب.ظ"
-
-msgid "example.good.message1.body"
-msgstr "سلام! اون چیزه ساعت چند بود؟"
-
-msgid "example.good.reply1.timestamp"
-msgstr "2:15 ب.ظ"
-
-msgid "example.good.reply1.body"
-msgstr "سلام، 3:30"
-
-msgid "example.good.message2.timestamp"
-msgstr "2:15 ب.ظ"
-
-# "Ta" is colloquial British(/Australian/etc) for "thanks"
-msgid "example.good.message2.body"
-msgstr "مرسی - می‌بینمت پس!"
-
-msgid "example.good.reply2.timestamp"
-msgstr "2:16 ب.ظ"
-
-msgid "example.good.reply2.body"
-msgstr "👌 مشکلی نیست"
-
-msgid "footer.note"
-msgstr ""
-"این مسئله نصفه‌نیمه جدیه (تا حدی 👀) پس لطفا از دست کسی که شمارو به اینجا "
-"فرستاده [عصبانی](https://www.youtube.com/watch?v=xzpndHtdl9A) نشوید."
-
-msgid "footer.warning"
-msgstr ""
-"البته، اگر این وب‌سایت را در status/bio کسی دیدید، آماده ندیده گرفته شدن "
-"پیام شما در صورتی که فقط بگویید «سلام!» باشید."
-
-msgid "footer.thanks"
-msgstr ""
-"بر اساس وب‌سایت بی‌نظیر "
-"[nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/)."
-" آواتارها از *[The "
-"Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))* "
-"گرفته‌شده‌اند. منبع باز روی [گیت هاب](https://github.com/nohello-net/site)."
-
-# prefix before a list of languages, i.e. This site is available in: English,
-# French, & German
-msgid "footer.languages"
-msgstr "این سایت در این زبان‌ها قابل دسترسی است:"

@@ -1,5 +1,5 @@
 // the sequence
-const nohelloCode = ['h', 'e', 'l', 'l', 'o'];
+const nohelloCode = ['s', 'e', 'a', 'r', 'c', 'h'];
 
 // a variable to remember the 'position' the user has reached so far.
 let nohelloCodePosition = 0;

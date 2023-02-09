@@ -223,8 +223,7 @@ h1.name {
 }
 
 #strike {
-  text-decoration: line-through;
-  text-decoration-color: red;
+  color: red;
   display: inline;
 }
 

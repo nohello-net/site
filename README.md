@@ -1,8 +1,8 @@
-# No Hello
+# Search It First
 
 Hello!
 
-https://nohello.net/
+https://searchitfirst.fyi/
 
 ## Translators
 

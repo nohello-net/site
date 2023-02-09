@@ -7,10 +7,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "header.subtitle"
-msgstr "please don't say just hello in chat"
+msgstr "please search before throw out questions"
 
 msgid "header.introduction"
-msgstr "Imagine calling someone on the phone, going _hello!_ then putting them on hold... 🤦‍♀️"
+msgstr "Imagine asking someone a question; s/he types this question to ask _google_ or _ChatGPT_ and then copies/pastes the answer to you.... 🤦‍♀️"
 
 msgid "example.character.neutral.name"
 msgstr "Tim"
@@ -36,61 +36,59 @@ msgstr "❌ Don't do this"
 # the placeholder is the year, i.e. "2022"
 msgid "example.bad.body"
 msgstr ""
-"Note that Keith could have got his answer minutes sooner, and needn't have kept Tim waiting. In fact, Tim could have started thinking about the question right away!\n"
+"Note that Keith could have got his answer from google by himself and don't even need to ask. Tim could work without interruption!\n"
 "\n"
-"People who do this are generally trying to be polite by not jumping right into the request, like one would in person or on the phone - and that's great! But it's %1$s and chat is neither of those things. For most people, typing is much slower than talking. So despite best intentions, **you're actually just making the other person wait** for you to phrase your question, which is lost productivity (and kinda annoying).\n"
+"People who do this in the workplace trust their colleagues and believe this is the best way to get the RIGHT answer. In most cases, yes, it is! But still, there are many searchable questions that Google, Wiki, and company docs could help. **Search first before throwing out questions**; it could save your and others' time.\n"
 "\n"
 "The same goes for:\n"
 "\n"
-"- \"Hello, are you around?\"\n"
-"- \"hi sophie - quick question.\"\n"
-"- \"You got a sec?\"\n"
-"- \"yt?\"\n"
-"- \"ping\"\n"
+"- \"Hello, what's your local time?\"\n"
+"- \"hi sophie - when Starbucks open?\"\n"
+"- \"How to take a screenshot on iPhone?\"\n"
+"- \"How to share screen?\"\n"
+"- \"what does a pm do?\"\n"
 "- etc.\n"
 "\n"
-"**Just ask the question!** 😫\n"
+"**Search it first!** 😫\n"
 
 msgid "example.bad.message1.timestamp"
 msgstr "2:15 PM"
 
 msgid "example.bad.message1.body"
-msgstr "hi"
+msgstr "hi, what's agile meeting"
 
 msgid "example.bad.reply1.timestamp"
 msgstr "2:19 PM"
 
 msgid "example.bad.reply1.body"
-msgstr "...?"
+msgstr "...(googling....)"
 
 msgid "example.bad.message2.timestamp"
 msgstr "2:20 PM"
 
 # the typo here is intentional - please maintain a similar unprofessional tone!
 msgid "example.bad.message2.body"
-msgstr "what time was taht thing again?"
+msgstr "I see this word in our meeting doc"
 
 msgid "example.bad.reply2.timestamp"
 msgstr "2:20 PM"
 
 msgid "example.bad.reply2.body"
-msgstr "oh - 3:30 mate"
+msgstr "balabala bala(copied and pasted from google)"
 
 msgid "example.good.title"
 msgstr "✅ Instead try this"
 
 msgid "example.good.body"
 msgstr ""
-"If you feel it's a bit brusque to simply say \"Hi\" and ask the question, **you can still preface your message with as many pleasantries as you see fit.**\n"
+"Here are some tips to help you ask a coworker a question while being prepared:\n"
 "\n"
-"For example:\n"
-"\n"
-"- \"hey man, what's up? also, any idea when that thing's due?\"\n"
-"- \"Hi there! Hope you're well. I'm after the latest deck, when you get a sec :)\"\n"
-"- \"hey, if you're not busy, could you update those NFRs?\"\n"
+"- \"1. Plan ahead: Before asking the question, think about what information you need and why you need it. This will help you to be specific and to the point when you ask the question.\"\n"
+"- \"2. Be clear and concise: When asking the question, be clear and concise in your communication. Avoid using technical jargon or complex language.\"\n"
+"- \"3. Be respectful: Remember to be respectful and polite when asking the question. Avoid interrupting your coworker or speaking in a tone that may be perceived as aggressive.\"\n"
 "- etc.\n"
 "\n"
-"It may seem trivial, but asking your question before getting that initial salutatory reply also allows for **asynchronous communication**. If the other party is away, and you leave before they come back, they can still answer your question, instead of just staring at a \"Hello\" and wondering what they missed.\n"
+"Asking thoughtful and well-reasoned questions that demonstrate your engagement and interest will help you to gain the information you need and to be perceived as a knowledgeable and competent professional.\n"
 "\n"
 "When done right - everyone's happy! 🎉\n"
 
@@ -98,20 +96,20 @@ msgid "example.good.message1.timestamp"
 msgstr "2:15 PM"
 
 msgid "example.good.message1.body"
-msgstr "Hiya! What time was that thing?"
+msgstr "Hi Tim, I found the first part of our next quarter plan, where is the second part?"
 
 msgid "example.good.reply1.timestamp"
 msgstr "2:15 PM"
 
 msgid "example.good.reply1.body"
-msgstr "hey, 3:30"
+msgstr "hey, Linda is working on it, you will see the update tomorrow!"
 
 msgid "example.good.message2.timestamp"
 msgstr "2:15 PM"
 
 # "Ta" is colloquial British(/Australian/etc) for "thanks"
 msgid "example.good.message2.body"
-msgstr "Ta - seeya then!"
+msgstr "Good to know, thanks!"
 
 msgid "example.good.reply2.timestamp"
 msgstr "2:16 PM"
@@ -123,10 +121,10 @@ msgid "footer.note"
 msgstr "This is kinda only half serious (kinda 👀) so please don't get [mad](https://www.youtube.com/watch?v=xzpndHtdl9A) at the person who sent you here."
 
 msgid "footer.warning"
-msgstr "That said, if you see this sites URL as someone's status/bio, be prepared to be ignored if you only say \"Hello!\""
+msgstr "That said, if you see this sites URL as someone's status/bio, be prepared to be ignored if you plan to ask \"Searchable question\""
 
 msgid "footer.thanks"
-msgstr "Based on the wonderful [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/). Avatars taken from *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Open-source on [GitHub](https://github.com/nohello-net/site)."
+msgstr "Based on the wonderful [nohello.net](https://www.nohello.net/) / [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/). Avatars taken from *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Open-source on [GitHub](https://github.com/nohello-net/site)."
 
 # prefix before a list of languages, i.e. This site is available in: English, French, & German
 msgid "footer.languages"

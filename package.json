@@ -1,10 +1,10 @@
 {
-  "name": "nohello.net",
-  "description": "please don't say just hello in chat",
+  "name": "searchitfirst.fyi",
+  "description": "please search your question before ask",
   "version": "1.0.0",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/nohello-net/site/"
+    "url": "https://github.com/searchitfirst/site/"
   },
   "type": "commonjs",
   "scripts": {
