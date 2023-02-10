@@ -7,7 +7,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "header.subtitle"
-msgstr "please search before throw out questions"
+msgstr "please search before throwing out questions"
 
 msgid "header.introduction"
 msgstr "Imagine asking someone a question; s/he types this question to ask _google_ or _ChatGPT_ and then copies/pastes the answer to you.... 🤦‍♀️"
@@ -124,7 +124,7 @@ msgid "footer.warning"
 msgstr "That said, if you see this sites URL as someone's status/bio, be prepared to be ignored if you plan to ask \"Searchable question\""
 
 msgid "footer.thanks"
-msgstr "Based on the wonderful [nohello.net](https://www.nohello.net/) / [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/). Avatars taken from *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Open-source on [GitHub](https://github.com/nohello-net/site)."
+msgstr "Based on the wonderful [nohello.net](https://www.nohello.net/) / [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/). Avatars taken from *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Open-source on [GitHub](https://github.com/searchitfirst/searchitfirst)."
 
 # prefix before a list of languages, i.e. This site is available in: English, French, & German
 msgid "footer.languages"
