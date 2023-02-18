@@ -119,23 +119,18 @@ footer {
   padding: 150px 150px 80px 150px !important;
   margin-top: 0px !important;
   color: #616061;
-  background-color: #eee;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(238, 238, 238, 1) 45%
-  );
+  background-color: #0a0f15;
   max-width: none !important;
   margin-bottom: 0 !important;
   font-weight: 300;
 }
 
 footer p {
-  color: #616061;
+  color: #dbdbdb;
 }
 
 footer a {
-  color: red;
+  color: #00adff;
   text-decoration: underline;
 }
 
@@ -155,7 +150,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-size: 19px;
-  background-color: #fefefe;
+  background-color: #0a0e14;
   color: #04143a;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -197,6 +192,10 @@ footer {
   box-sizing: border-box;
 }
 
+footer {
+  /* background-color: green !important; */
+}
+
 footer,
 .container {
   max-width: 1100px;
@@ -220,6 +219,7 @@ h1.name {
   font-weight: 700;
   display: inline-block;
   text-decoration-color: #fff;
+  color: white;
 }
 
 #strike {
@@ -241,17 +241,18 @@ h1.name {
   font-weight: 300;
   margin-top: 60px;
   line-height: 55px;
+  color: white;
 }
 
 .sections {
   vertical-align: top;
   display: inline-block;
-
   min-height: 50px;
 }
 
 .sectionleft {
   width: 40%;
+  /* border-color: green; */
 }
 
 .sectionright {
@@ -262,6 +263,7 @@ h1.name {
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 15px;
+  color: white;
 }
 
 .list-card.example {
@@ -269,8 +271,8 @@ h1.name {
   margin: 30px 80px;
   padding: 25px 25px 10px 25px;
   border-radius: 10px;
-  background: #ffffff;
-  box-shadow: -20px 20px 60px #d9d9d9, 20px -20px 60px #ffffff;
+  background: #23262a;
+  box-shadow: -20px 20px 60px #1d2026, 20px -20px 60px #202020;
 }
 
 *[dir='ltr'] .list-card.example {
@@ -311,21 +313,23 @@ h1.name {
   color: #616061;
   line-height: 24px;
   margin-bottom: 22px;
+  color: white;
 }
 
 .list-card div p:first-of-type {
   margin-top: 55px;
+  color: white;
 }
 
 .container ul {
   list-style: none;
   font-size: 18px;
-  color: #616061;
+  color: #ffffff;
   line-height: 24px;
   margin-bottom: 16px;
   margin-left: 20px;
   margin-top: -20px;
-  opacity: 70%;
+  opacity: 85%;
 }
 
 *[dir='rtl'] .container ul {
@@ -377,7 +381,7 @@ h1.name {
 .slack .slackname {
   font-weight: 600;
   font-size: 16px;
-  color: #1d1c1d;
+  color: #dfd6df;
 }
 
 .slack .slacktime {
@@ -387,7 +391,7 @@ h1.name {
 
 .slack .slackmessage {
   font-size: 16px;
-  color: #1d1c1d;
+  color: #d9cfd9;
 }
 
 .card {
