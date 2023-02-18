@@ -508,3 +508,30 @@ h1.name {
     margin-top: 80px;
   }
 }
+
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    /* background: #f1f1f1; */
+    background: rgba(255, 0, 0, 0);
+    /* background-color: transparent; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0.075);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(136, 136, 136, 0.445);
+}
+
+::-webkit-scrollbar-corner {
+    background: rgba(136, 136, 136, 0.445);
+}
