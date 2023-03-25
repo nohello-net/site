@@ -192,10 +192,6 @@ footer {
   box-sizing: border-box;
 }
 
-footer {
-  /* background-color: green !important; */
-}
-
 footer,
 .container {
   max-width: 1100px;
