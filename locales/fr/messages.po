@@ -57,22 +57,22 @@ msgstr ""
 "- \"ping\"\n"
 "- etc.\n"
 "\n"
-"**Just ask the question!** 😫\n"
+"**Pose juste la question !** 😫\n"
 
 msgid "example.bad.message1.timestamp"
-msgstr "2:15 PM"
+msgstr "14:15"
 
 msgid "example.bad.message1.body"
 msgstr "salut"
 
 msgid "example.bad.reply1.timestamp"
-msgstr "2:19 PM"
+msgstr "14:19"
 
 msgid "example.bad.reply1.body"
 msgstr "...?"
 
 msgid "example.bad.message2.timestamp"
-msgstr "2:20 PM"
+msgstr "14:20"
 
 # the typo here is intentional - please maintain a similar unprofessional
 # tone!
@@ -80,7 +80,7 @@ msgid "example.bad.message2.body"
 msgstr "a quelle huere était ce truc déjà ?"
 
 msgid "example.bad.reply2.timestamp"
-msgstr "2:20 PM"
+msgstr "14:20"
 
 msgid "example.bad.reply2.body"
 msgstr "oh - 3:30 mon pote"
