@@ -14,11 +14,11 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "header.subtitle"
-msgstr "làm ơn đừng nói chỉ xin chào trong cuộc trò chuyện"
+msgstr "Làm ơn đừng chỉ nói 'xin chào' trong cuộc trò chuyện"
 
 msgid "header.introduction"
 msgstr ""
-"Hãy tưởng tượng bạn đang gọi điện thoại cho ai đó, _chào bạn!_ sau đó đặt "
+"Hãy tưởng tượng bạn đang gọi điện thoại cho ai đó, rồi nói _chào bạn!_ sau đó đặt "
 "chúng ở trạng thái chờ... 🤦‍♀️"
 
 msgid "example.character.neutral.name"
@@ -40,7 +40,7 @@ msgid "example.character.good.avatar-description"
 msgstr "Dawn's Slack avatar"
 
 msgid "example.bad.title"
-msgstr "❌ Đừng làm điều này"
+msgstr "❌ Đừng nhắn như thế này"
 
 # the placeholder is the year, i.e. "2022"
 msgid "example.bad.body"
@@ -108,7 +108,7 @@ msgid "example.good.message1.timestamp"
 msgstr "2:15 PM"
 
 msgid "example.good.message1.body"
-msgstr "xin chào! Thứ đó là lúc mấy giờ?"
+msgstr "xin chào! Chuyện đó xảy ra lúc mấy giờ?"
 
 msgid "example.good.reply1.timestamp"
 msgstr "2:15 PM"
