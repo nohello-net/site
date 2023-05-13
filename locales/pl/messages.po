@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 msgid "header.subtitle"
-msgstr "proszę… nie mów tylko cześć na czacie"
+msgstr "Proszę… Nie mów tylko cześć na czacie"
 
 msgid "header.introduction"
 msgstr ""
@@ -77,13 +77,13 @@ msgstr "2:20 PM"
 # the typo here is intentional - please maintain a similar unprofessional
 # tone!
 msgid "example.bad.message2.body"
-msgstr "o której gozdinie jest ta konferencja"
+msgstr "o której godzinie jest ta konferencja"
 
 msgid "example.bad.reply2.timestamp"
-msgstr "2:20 PM"
+msgstr "14:20"
 
 msgid "example.bad.reply2.body"
-msgstr "o 4:15PM"
+msgstr "o 16:15"
 
 msgid "example.good.title"
 msgstr "✅ Zamiast tego zrób to"
@@ -104,29 +104,29 @@ msgstr ""
 "Kiedy tak robisz, każdy jest szcześliwy! 🎉\n"
 
 msgid "example.good.message1.timestamp"
-msgstr "2:15 PM"
+msgstr "14:15"
 
 msgid "example.good.message1.body"
 msgstr "Siemka! O której jest ta konferencja?"
 
 msgid "example.good.reply1.timestamp"
-msgstr "2:15 PM"
+msgstr "14:15"
 
 msgid "example.good.reply1.body"
-msgstr "no siemka, o 4:40 PM"
+msgstr "no siemka, o 16:40"
 
 msgid "example.good.message2.timestamp"
-msgstr "2:15 PM"
+msgstr "14:15"
 
 # "Ta" is colloquial British(/Australian/etc) for "thanks"
 msgid "example.good.message2.body"
-msgstr "dzienks!"
+msgstr "Dzięki!"
 
 msgid "example.good.reply2.timestamp"
-msgstr "2:16 PM"
+msgstr "14:16"
 
 msgid "example.good.reply2.body"
-msgstr "👌 nie ma problemu"
+msgstr "👌 Nie ma problemu."
 
 msgid "footer.note"
 msgstr ""
