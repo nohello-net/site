@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "header.subtitle"
+msgstr "채팅에서 그저 안녕하세요! 라고 말하지 마세요"
+
+msgid "header.introduction"
+msgstr "전화를 걸어서 안녕하세요! 하고 나서 대기 상태로 두는 것을 상상해보세요... 🤦‍♀️"
+
+msgid "example.character.neutral.name"
+msgstr "Tim"
+
+msgid "example.character.neutral.avatar-description"
+msgstr "Tim의 슬랙 아바타"
+
+msgid "example.character.bad.name"
+msgstr "Keith"
+
+msgid "example.character.bad.avatar-description"
+msgstr "Keith의 슬랙 아바타"
+
+msgid "example.character.good.name"
+msgstr "Dawn"
+
+msgid "example.character.good.avatar-description"
+msgstr "Dawn의 슬랙 아바타"
+
+msgid "example.bad.title"
+msgstr "❌ 이렇게 하지 마세요"
+
+msgid "example.bad.body"
+msgstr ""
+"Keith는 Tim의 대답을 몇 분 더 빨리 얻을 수 있었고, Tim을 기다리게 할 필요가 없었습니다. 또한 Tim은 질문에 대해 바로 생각할 수 있었습니다!\n"
+"\n"
+"이렇게 대화를 시작하는 사람들은 대부분 간접적으로 요청함으로써 상대방에게 예의를 표하는 것입니다. 정말 예의바른 자세입니다! 그러나 %1$s년이고, 채팅은 그런 예의를 표시하기 어렵습니다. 대부분의 사람들은 말하는 것보다 채팅하는 속도가 훨씬 느립니다. 그래서 좋은 의도에도 불구하고 사실상 당신은 그저 다른 사람이 당신의 질문에 답장하는 것을 기다리게 하는 것입니다. 이것은 생산성을 저하시키고 약간 짜증나게도 합니다.\n"
+"\n"
+"다음도 마찬가지입니다:\n"
+"\n"
+"- \"안녕, 무슨일 있니?\"\n"
+"- \"안녕 소피, 질문 하나만 할게\"\n"
+"- \"시간 있니?\"\n"
+"- \"자리에 있나요?\"\n"
+"- \"저기요\"\n"
+"- 등등.\n"
+"\n"
+"그냥 질문하세요! 😫\n"
+
+msgid "example.bad.message1.timestamp"
+msgstr "오후 2:15"
+
+msgid "example.bad.message1.body"
+msgstr "안녕하세요"
+
+msgid "example.bad.reply1.timestamp"
+msgstr "오후 2:19"
+
+msgid "example.bad.reply1.body"
+msgstr "...?"
+
+msgid "example.bad.message2.timestamp"
+msgstr "오후 2:20"
+
+msgid "example.bad.message2.body"
+msgstr "회의가 언제였죠?"
+
+msgid "example.bad.reply2.timestamp"
+msgstr "오후 2:20"
+
+msgid "example.bad.reply2.body"
+msgstr "아, 3시 30분 입니다"
+
+msgid "example.good.title"
+msgstr "✅ 대신 이렇게 해보세요"
+
+msgid "example.good.body"
+msgstr ""
+"\"안녕하세요\"하고 바로 질문하는 것이 너무 무례하다고 느껴진다면, 메시지의 시작을 원하는 만큼의 인사로 할 수 있습니다.\n"
+"\n"
+"예를 들어:\n"
+"\n"
+"- \"요즘 어떻게 지내요? 그리고 예전에 말했던 일은 언제까지 해야 되는지 아시나요?\"\n"
+"- \"안녕하세요! 잘 지내시죠? 최신 정보가 올라오면 알려주세요 :)\"\n"
+"- \"안녕하세요, 바쁘지 않다면 NFR을 업데이트 해주시겠어요?\"\n"
+"- 등등.\n"
+"\n"
+"사소해 보일 수 있지만, 첫 번째 인사를 받기 전에 질문하는 것은 상대방이 질문을 다시 기다릴 필요가 없습니다. 상대방은 자리에 있지만 당신은 자리에 없는 상태일지라도, 상대방은 여전히 당신의 질문에 대답할 수 있습니다, 그저 \"안녕\"을 쳐다보며 무슨 일인지 궁금해 할 필요가 없습니다.\n"
+"\n"
+"잘하면 - 모두 행복합니다! 🎉\n"
+
+msgid "example.good.message1.timestamp"
+msgstr "오후 2:15"
+
+msgid "example.good.message1.body"
+msgstr "안녕하세요! 회의가 언제죠?"
+
+msgid "example.good.reply1.timestamp"
+msgstr "오후 2:15"
+
+msgid "example.good.reply1.body"
+msgstr "안녕하세요, 3시 30분입니다"
+
+msgid "example.good.message2.timestamp"
+msgstr "오후 2:15"
+
+msgid "example.good.message2.body"
+msgstr "감사합니다! 그때 봐요!"
+
+msgid "example.good.reply2.timestamp"
+msgstr "오후 2:16"
+
+msgid "example.good.reply2.body"
+msgstr "👌 문제 없습니다"
+
+msgid "footer.note"
+msgstr "약간 조금 진지하게 말합니다 (정말로 👀) 당신을 여기로 보낸 사람에게 화를 내지 마세요."
+
+msgid "footer.warning"
+msgstr "그러나, 이 사이트의 URL을 누군가의 상태/자기소개에서 보게 된다면, \"안녕하세요!\"만 말하면 무시될 준비를 해야 합니다."
+
+msgid "footer.thanks"
+msgstr "멋진 nohello.com을 기반으로 합니다. 아바타는 *The Office*에서 가져왔습니다. GitHub에서 오픈소스로 제공됩니다."
+
+msgid "footer.languages"
+msgstr "이 사이트는 다음 언어로 제공됩니다:"
