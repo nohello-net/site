@@ -2,10 +2,11 @@
 # Translators:
 # Yaron Shahrabani <sh.yaron@gmail.com>, 2022
 # joshua may, 2022
+# Robert Barron, 2023
 # 
 msgid ""
 msgstr ""
-"Last-Translator: joshua may, 2022\n"
+"Last-Translator: Robert Barron, 2023\n"
 "Language-Team: Hebrew (https://www.transifex.com/nohello/teams/131463/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -76,7 +77,7 @@ msgstr "14:20"
 # the typo here is intentional - please maintain a similar unprofessional
 # tone!
 msgid "example.bad.message2.body"
-msgstr "מתי זה הבדר הזה?"
+msgstr "מתי הדבר הזה?"
 
 msgid "example.bad.reply2.timestamp"
 msgstr "14:20"
