@@ -129,12 +129,12 @@ msgstr "👌 nemas"
 
 msgid "footer.note"
 msgstr ""
-"Detta är bara halft seriöst (kanske 👀) så snälla bli inte "
+"Detta är bara halvt seriöst (kanske 👀) så snälla bli inte "
 "[arg](https://youtu.be/bkGJ7BvAVDs?t=11) på personen som skicka hit dig."
 
 msgid "footer.warning"
 msgstr ""
-"Med det sagt, om du ser denna läk i någons status/bio, va beredd på att bli "
+"Med det sagt, om du ser denna länk i någons status/bio, va beredd på att bli "
 "ignorerad när du skriver \"Hej!\""
 
 msgid "footer.thanks"
