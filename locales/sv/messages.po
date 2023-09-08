@@ -134,7 +134,7 @@ msgstr ""
 
 msgid "footer.warning"
 msgstr ""
-"Med det sagt, om du ser denna läk i någons status/bio, va beredd på att bli "
+"Med det sagt, om du ser denna länk i någons status/bio, va beredd på att bli "
 "ignorerad när du skriver \"Hej!\""
 
 msgid "footer.thanks"
