@@ -12,6 +12,7 @@
   { "path": "pt", "name": "Português" },
   { "path": "pt-br", "name": "Português do Brasil" },
   { "path": "ru", "name": "русский" },
+  { "path": "ro", "name": "Română"},
   { "path": "sv", "name": "svenska" },
   { "path": "tr", "name": "Türkçe" },
   { "path": "uk", "name": "Українська" },
