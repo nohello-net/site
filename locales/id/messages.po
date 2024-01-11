@@ -1,11 +1,11 @@
 # 
 # Translators:
-# dhani, 2022
+# ark, 2024
 # 
 msgid ""
 msgstr ""
-"Last-Translator: dhani, 2022\n"
-"Language-Team: Indonesian (https://www.transifex.com/nohello/teams/131463/id/)\n"
+"Last-Translator: ark, 2024\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,51 +13,53 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "header.subtitle"
-msgstr "tolong jangan hanya menyapa dalam obrolan"
+msgstr "jangan hanya menyapa dalam _chat_"
 
 msgid "header.introduction"
 msgstr ""
-"Bayangkan menelepon seseorang di telepon, bilang _halo!_ lalu membuat mereka"
-" menunggu... 🤦‍♀️"
+"Coba bayangkan: Kamu menelepon seseorang, mengucapkan _halo!_, kemudian _diem aja_ dan _bikin_ orang lain"
+" _nunggu_ Kamu bicara lagi... 🤦‍♀️"
 
 msgid "example.character.neutral.name"
-msgstr "Tim"
+msgstr "Budi"
 
 msgid "example.character.neutral.avatar-description"
 msgstr "Tim's Slack avatar"
 
 msgid "example.character.bad.name"
-msgstr "Keith"
+msgstr "Andi"
 
 msgid "example.character.bad.avatar-description"
 msgstr "Keith's Slack avatar"
 
 msgid "example.character.good.name"
-msgstr "Dawn"
+msgstr "Erik"
 
 msgid "example.character.good.avatar-description"
 msgstr "Dawn's Slack avatar"
 
 msgid "example.bad.title"
-msgstr "❌ Jangan lakukan ini"
+msgstr "❌ Jangan chat seperti ini"
 
-# the placeholder is the year, i.e. "2022"
+# the placeholder is the year, i.e. "2024"
 msgid "example.bad.body"
 msgstr ""
-"Perhatikan bahwa Keith bisa mendapatkan jawabannya beberapa menit lebih cepat, dan tidak perlu membuat Tim menunggu. Sebenarnya, Tim bisa saja langsung memikirkan pertanyaan itu!\n"
+"Lihat _nih_, contohnya. Dari percakapan di samping, Kalau misalnya Andi langsung _to the point_, pasti Budi juga _nggak_ perlu nunggu Andi memberikan konteks dari keperluannya!\n"
 "\n"
-"Orang yang melakukan ini biasanya mencoba bersikap sopan dengan tidak langsung menjawab permintaan, seperti yang dilakukan secara langsung atau melalui telepon - dan itu bagus! Tapi itu %1$s dan obrolan bukan keduanya. Bagi kebanyakan orang, mengetik jauh lebih lambat daripada berbicara. Jadi terlepas dari niat terbaik, **Anda sebenarnya hanya membuat orang lain menunggu** Anda untuk mengutarakan pertanyaan Anda, yang kehilangan produktivitas (dan agak mengganggu).\n"
+"Biasanya, orang melakukan ini supaya sopan, _nggak_ lompat langsung ke inti permintaannya, seperti dalam percakapan langsung atau lewat telepon - dan itu sebenarnya sah - sah _aja_! Tapi ini sudah %1$s dan tujuan dari _chatting_ bukanlah seperti itu. Bagi kebanyakan orang, mengetik jauh lebih lambat daripada berbicara. Jadi terlepas dari sopan atau _enggak_, **Kamu sebenarnya hanya membuat orang lain menunggumu** untuk mengutarakan pertanyaanmu, akibatnya bisa buang - buang waktu (dan terkesan agak _'ganggu_).\n"
 "\n"
 "Hal yang sama berlaku untuk:\n"
 "\n"
-"- \"Halo, apakah Anda ada di sekitar?\"\n"
-"- \"hai sophie - pertanyaan singkat.\"\n"
-"- \"Anda punya waktu sebentar?\"\n"
-"- \"yt?\"\n"
+"- \"Halo, lagi on, _ga_, _nih_?\"\n"
+"- \"p\"\n"
 "- \"ping\"\n"
+"- \"ass/asw/aswb/askum (singkatan dari Assalamualaikum) \"\n"
+"- \"hai sophie - mau tanya, _dong_.\"\n"
+"- \"Lagi senggang?\"\n"
+"- \"_you there_? (yt?) \"\n"
 "- dll.\n"
 "\n"
-"**Ajukan saja pertanyaannya!**\n"
+"**LANGSUNG AJA TANYA LAH!**\n"
 
 msgid "example.bad.message1.timestamp"
 msgstr "2:15 PM"
@@ -69,7 +71,7 @@ msgid "example.bad.reply1.timestamp"
 msgstr "2:19 PM"
 
 msgid "example.bad.reply1.body"
-msgstr "...?"
+msgstr "ya, kenapa?"
 
 msgid "example.bad.message2.timestamp"
 msgstr "2:20 PM"
@@ -77,50 +79,50 @@ msgstr "2:20 PM"
 # the typo here is intentional - please maintain a similar unprofessional
 # tone!
 msgid "example.bad.message2.body"
-msgstr "jam berapa yang itu tuh?"
+msgstr "jam berapa sih acaranya, kak?"
 
 msgid "example.bad.reply2.timestamp"
 msgstr "2:20 PM"
 
 msgid "example.bad.reply2.body"
-msgstr "oh - 3:30 teman"
+msgstr "ohh, jam 3.30, kak"
 
 msgid "example.good.title"
-msgstr "✅ Alih-alih coba ini"
+msgstr "✅ coba lakukan ini"
 
 msgid "example.good.body"
 msgstr ""
-"Jika Anda merasa agak kasar untuk sekedar mengatakan \"Hai\" dan mengajukan pertanyaan, **Anda masih dapat mengawali pesan Anda dengan basa-basi sebanyak yang Anda inginkan.**\n"
+"Kalau Kamu masih merasa agak kasar _buat_ sekedar _bilang_ \"Hai\" dan langsung mengajukan inti pertanyaanmu, **coba awali pesanmu dengan basa-basi dulu sebanyak yang kamu mau.**\n"
 "\n"
-"Sebagai contoh:\n"
+"Contohnya:\n"
 "\n"
-"- \"hey man, ada apa? dan, ada yang tahu kapan waktunya?\"\n"
-"- \"Hai! Semoga kamu baik-baik saja. Saya mencari info terbaru, kalau kamu punya waktu sebentar :)\"\n"
+"- \"Halo bang, gimana nih kabarnya? Kira - kira kapan, ya, deadline-nya?\"\n"
+"- \"Hai! Semoga kamu baik-baik saja. Saya mau minta info terbaru, apakah kamu punya waktu sebentar?  :)\"\n"
 "- \"hei, jika kamu tidak sibuk, bisakah kamu memperbarui NFR itu?\"\n"
-"- dll.\n"
+"- dan sebagainya.\n"
 "\n"
-"Ini mungkin tampak sepele, tetapi mengajukan pertanyaan sebelum mendapatkan balasan salam awal juga memungkinkan **komunikasi asinkron**. Jika pihak lain sedang pergi, dan Anda pergi sebelum mereka kembali, mereka masih dapat menjawab pertanyaan Anda, alih-alih hanya menatap \"Halo\" dan bertanya-tanya apa yang mereka lewatkan.\n"
+"Ini mungkin tampak sepele, tetapi dengan kamu mengajukan pertanyaan sebelum mendapatkan balasan salam awal juga memungkinkan adanya **komunikasi asinkron**. Jika penerima pesan sedang _afk_, atau kamu pergi sebelum mereka cek pesanmu, mereka masih dapat menjawab pertanyaanmu, daripada nanti mereka cuma termenung melihat tulisan \"Halo\" dan bertanya-tanya apa yang mereka lewatkan.\n"
 "\n"
-"Ketika dilakukan dengan benar - semua orang senang! 🎉.\n"
+"Ketika _chatting_ dilakukan dengan benar, pasti semua orang senang! 🎉.\n"
 
 msgid "example.good.message1.timestamp"
 msgstr "2:15 PM"
 
 msgid "example.good.message1.body"
-msgstr "Hai! Jam berapa itu tuh?"
+msgstr "Hai! Jam berapa itu nih acaranya kira - kira?"
 
 msgid "example.good.reply1.timestamp"
 msgstr "2:15 PM"
 
 msgid "example.good.reply1.body"
-msgstr "hai, 3:30"
+msgstr "halo, jam 3:30 yaa"
 
 msgid "example.good.message2.timestamp"
 msgstr "2:15 PM"
 
 # "Ta" is colloquial British(/Australian/etc) for "thanks"
 msgid "example.good.message2.body"
-msgstr "Terimakasih - sampai nanti kalo begitu!"
+msgstr "Terima kasih, sampai ketemu di sana, ya!"
 
 msgid "example.good.reply2.timestamp"
 msgstr "2:16 PM"
@@ -130,24 +132,24 @@ msgstr "👌 Sama-sama"
 
 msgid "footer.note"
 msgstr ""
-"Ini hanya setengah serius (agak 👀) jadi tolong jangan "
-"[marah](https://www.youtube.com/watch?v=xzpndHtdl9A) pada orang yang "
-"mengirimkan Anda ke sini."
+"Pesan masyarakat ini hanya setengah bercanda, kok (kayaknya, sih 👀) jadi jangan "
+"[marah](https://www.youtube.com/watch?v=xzpndHtdl9A), ya, pada orang yang "
+"mengantar kamu ke halaman ini."
 
 msgid "footer.warning"
 msgstr ""
-"Jadi, jika Anda melihat URL situs ini sebagai status/bio seseorang, "
-"bersiaplah untuk diabaikan jika Anda hanya mengatakan \"Halo!\""
+"Jadi, kalau kamu melihat URL situs ini sebagai status/bio seseorang, "
+"bersiaplah untuk diabaikan jika kamu hanya _chat_ \"Halo!\" pada orang itu"
 
 msgid "footer.thanks"
 msgstr ""
-"Berdasarkan "
+"Halmaan web ini terinspirasi dari "
 "[nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/)"
-" yang luar biasa. Avatar diambil dari *[The "
+" yang legendaris. Avatar diambil dari *[The "
 "Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. "
-"Sumber terbuka di [GitHub](https://github.com/nohello-net/site)."
+"Proyek ini merupakan proyek _open-source_ yang dapat diakses di [GitHub](https://github.com/nohello-net/site)."
 
 # prefix before a list of languages, i.e. This site is available in: English,
 # French, & German
 msgid "footer.languages"
-msgstr "Situs ini tersedia dalam:"
+msgstr "Situs ini tersedia dalam bahasa:"
