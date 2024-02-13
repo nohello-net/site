@@ -56,7 +56,7 @@ msgstr ""
 "- \"Bir dakikan var mı:\"\n"
 "- \"orda mısın?\"\n"
 "- \"...\"\n"
-"- etc.\n"
+"- vb.\n"
 "\n"
 "**Sadece soruyu sorun işte** 😫\n"
 
