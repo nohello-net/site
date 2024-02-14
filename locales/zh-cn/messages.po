@@ -128,10 +128,10 @@ msgstr "👌 没问题"
 
 msgid "footer.note"
 msgstr ""
-"这不是非常严重的事情（一定程度上👀），所以请不要对送你来看这个网站的人[生气](https://www.youtube.com/watch?v=xzpndHtdl9A)。"
+"这些都是说笑（一定程度上👀），所以请不要对送你来看这个网站的人[生气](https://www.youtube.com/watch?v=xzpndHtdl9A)。"
 
 msgid "footer.warning"
-msgstr "也就是说，如果你看到某个人的状态 / 简介里包含这个网站的地址，那么你如果仅仅对他说：“在吗” 或者 “你好”，就请做好被无视的心理准备。"
+msgstr "虽然这么说，但是如果你看到某个人的状态 / 简介里包含这个网站的地址，然后你仅对他说：“在吗” 或者 “你好”，就请做好被无视的心理准备。"
 
 msgid "footer.thanks"
 msgstr ""
