@@ -22,22 +22,22 @@ msgstr ""
 "hayal edin... 🤦‍♀️"
 
 msgid "example.character.neutral.name"
-msgstr "Tim"
+msgstr "Ali"
 
 msgid "example.character.neutral.avatar-description"
-msgstr "Tim'in Slack fotoğrafı"
+msgstr "Ali'in Slack fotoğrafı"
 
 msgid "example.character.bad.name"
-msgstr "Keith"
+msgstr "Süleyman"
 
 msgid "example.character.bad.avatar-description"
-msgstr "Keith'in Slack fotoğrafı"
+msgstr "Süleyman'in Slack fotoğrafı"
 
 msgid "example.character.good.name"
-msgstr "Dawn"
+msgstr "Esin"
 
 msgid "example.character.good.avatar-description"
-msgstr "Dawn'ın Slack fotoğrafı"
+msgstr "Esin'ın Slack fotoğrafı"
 
 msgid "example.bad.title"
 msgstr "❌ Bunu yapmayın"
@@ -45,7 +45,7 @@ msgstr "❌ Bunu yapmayın"
 # the placeholder is the year, i.e. "2022"
 msgid "example.bad.body"
 msgstr ""
-"Keith'in cevabını dakikalar önce alabileceğini ve Tim'i bekletmesi gerekmediğini unutmayın. Aslında Tim soruyu hemen düşünmeye başlayabilirdi!\n"
+"Süleyman'in cevabını dakikalar önce alabileceğini ve Ali'i bekletmesi gerekmediğini unutmayın. Aslında Ali soruyu hemen düşünmeye başlayabilirdi!\n"
 "\n"
 "Bunu yapan insanlar genellikle, şahsen veya telefonda olduğu gibi, isteğe doğrudan atlamayarak kibar olmaya çalışırlar - ve bu harika! Ama yıl %1$s ve mesajlaşmak bunun yeri değil. Çoğu insan için yazmak, konuşmaktan çok daha yavaştır. Bu nedenle, en iyi niyetinize rağmen, **aslında sadece diğer kişiyi, üretkenliğinizi yitiren (ve biraz can sıkıcı) sorunuzu ifade etmeniz için bekletiyorsunuz**.\n"
 "\n"
