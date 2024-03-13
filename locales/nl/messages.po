@@ -1,0 +1,132 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "header.subtitle"
+msgstr "zeg alsjeblieft niet alleen hallo"
+
+msgid "header.introduction"
+msgstr "Stel je voor, je belt iemand, en zegt _hallo!_, en dan zet je diegene in de wacht... 🤦‍♀️"
+
+msgid "example.character.neutral.name"
+msgstr "Tim"
+
+msgid "example.character.neutral.avatar-description"
+msgstr "Tim's profielfoto"
+
+msgid "example.character.bad.name"
+msgstr "Jaap"
+
+msgid "example.character.bad.avatar-description"
+msgstr "Jaap's avatar"
+
+msgid "example.character.good.name"
+msgstr "Selma"
+
+msgid "example.character.good.avatar-description"
+msgstr "Selma's profielfoto"
+
+msgid "example.bad.title"
+msgstr "❌ Doe dit niet"
+
+# the placeholder is the year, i.e. "2022"
+msgid "example.bad.body"
+msgstr ""
+"Zie je hoe Jaap zijn antwoord al een paar minuten eerder had kunnen krijgen en Tim niet hoefde te laten wachten. Tim had namelijk meteen over de vraag kunnen nadenken!\n"
+"\n"
+"Mensen die dit doen proberen over het algemeen beleefd te zijn door niet meteen een verzoek te doen, zoals mensen dat tijdens het bellen doen, en dat is geweldig! Maar het is %1$s, en chatten is geen van beide. Voor de meeste mensen is typen veel langzamer dan oraten. Dus ondanks de beste bedoelingen, **laat je de andere persoon eigenlijk alleen maar wachten** todat je de vraag stelt, wat minder productief is (en nogal vervelend).\n"
+"\n"
+"Hetzelfde geldt voor:\n"
+"\n"
+"- \"Hey, ben je er?\"\n"
+"- \"hey sophie - korte vraag.\"\n"
+"- \"Heb je even?\"\n"
+"- \"ping\"\n"
+"- etc.\n"
+"\n"
+"**Stel gewoon je vraag!** 😫\n"
+
+msgid "example.bad.message1.timestamp"
+msgstr "2:15 PM"
+
+msgid "example.bad.message1.body"
+msgstr "hey"
+
+msgid "example.bad.reply1.timestamp"
+msgstr "2:19 PM"
+
+msgid "example.bad.reply1.body"
+msgstr "...?"
+
+msgid "example.bad.message2.timestamp"
+msgstr "2:20 PM"
+
+# the typo here is intentional - please maintain a similar unprofessional tone!
+msgid "example.bad.message2.body"
+msgstr "wanneer was dta ding ook alweer?"
+
+msgid "example.bad.reply2.timestamp"
+msgstr "2:20 PM"
+
+msgid "example.bad.reply2.body"
+msgstr "oh - 3:30 maat"
+
+msgid "example.good.title"
+msgstr "✅ Probeer dit eens"
+
+msgid "example.good.body"
+msgstr ""
+"Als het een beetje kortaf voelt om \"Hoi\" te zeggen en dan je vraag te stellen, **kun je nog steeds zoveel beleefdheden toevoegen aan je bericht als je maar wilt.**\n"
+"\n"
+"Bijvoorbeeld:\n"
+"\n"
+"- \"hey man, hoe gaat het? heb je enig idee wanneer dat ding klaar moet zijn?\"\n"
+"- \"Hey daar! Hoop dat het goed gaat. Ik ben op zoek naar het nieuwste deck, als je even tijd hebt :)\"\n"
+"- \"hey, als je niet te druk bent, kan je helpen met het vernieuwen van de NFR's?\"\n"
+"- etc.\n"
+"\n"
+"Het lijkt misschien niet van belang, maar het stellen van je vraag voor het ontvangen van een \"hoi\" terug, maakt ook **asynchrone communicatie** mogelijk. Als de persoon waarmee je praat er niet is en jij gaat weg voordat ze terugkomen, kunnen ze nog steeds je vraag beantwoorden, in plaats van alleen naar je begroeting te staren en zich afvragen wat ze hebben gemist."
+"\n"
+"Als je het goed doet is iedereen blij! 🎉\n"
+
+msgid "example.good.message1.timestamp"
+msgstr "2:15 PM"
+
+msgid "example.good.message1.body"
+msgstr "Heyy! Hoe laat was dat ding?"
+
+msgid "example.good.reply1.timestamp"
+msgstr "2:15 PM"
+
+msgid "example.good.reply1.body"
+msgstr "hoi, 3:30"
+
+msgid "example.good.message2.timestamp"
+msgstr "2:15 PM"
+
+# "Ta" is colloquial British(/Australian/etc) for "thanks"
+msgid "example.good.message2.body"
+msgstr "Dankjewel, ik zie je dan!"
+
+msgid "example.good.reply2.timestamp"
+msgstr "2:16 PM"
+
+msgid "example.good.reply2.body"
+msgstr "👌 geen probleem"
+
+msgid "footer.note"
+msgstr "Dit is maar een beetje serieus (soort van 👀) dus word alsjeblieft niet [boos](https://www.youtube.com/watch?v=xzpndHtdl9A) op degene die dit stuurde."
+
+msgid "footer.warning"
+msgstr "Dat gezegd te hebben, als je iemand ziet met deze site's URL in z'n status/bio, wees bereid om genegeerd te worden als je alleen \"Hallo!\" zegt."
+
+msgid "footer.thanks"
+msgstr "Gebaseerd op de mooie website [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/). Profielfoto's genomen van *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Open-source op [GitHub](https://github.com/nohello-net/site)."
+
+# prefix before a list of languages, i.e. This site is available in: English, French, & German
+msgid "footer.languages"
+msgstr "Deze site is beschikbaar in:"
