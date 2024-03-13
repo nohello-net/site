@@ -122,7 +122,7 @@ msgid "footer.note"
 msgstr "Dit is maar een beetje serieus (soort van 👀) dus word alsjeblieft niet [boos](https://www.youtube.com/watch?v=xzpndHtdl9A) op degene die dit stuurde."
 
 msgid "footer.warning"
-msgstr "Dat gezegd te hebben, als je iemand ziet met deze site's URL in z'n status/bio, wees bereid om genegeerd te wirdeb als je alleen \"Hallo!\" zegt."
+msgstr "Dat gezegd te hebben, als je iemand ziet met deze site's URL in z'n status/bio, wees bereid om genegeerd te worden als je alleen \"Hallo!\" zegt."
 
 msgid "footer.thanks"
 msgstr "Gebaseerd op de mooie website [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/). Profielfoto's genomen van *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Open-source op [GitHub](https://github.com/nohello-net/site)."
