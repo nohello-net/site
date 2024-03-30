@@ -2,6 +2,7 @@
   { "path": "en", "name": "English" },
   { "path": "cs", "name": "Čeština" },
   { "path": "de", "name": "Deutsch" },
+  { "path": "el", "name": "Ελληνικά" },
   { "path": "es", "name": "Español" },
   { "path": "fa", "name": "فارسی" },
   { "path": "fr", "name": "Français" },
