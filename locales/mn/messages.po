@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: mn\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "header.subtitle"
+msgstr "Чатаар хэн нэгэнд зүгээр л \"Сайн уу?\" гэж битгий хэлээрэй."
+
+msgid "header.introduction"
+msgstr "Хэн нэгэн рүү залгаад _hi!_ гэхээс өөр үг хэлэхгүй байна гээд төсөөлөөд үз дээ 🤦‍♀️"
+
+msgid "example.character.neutral.name"
+msgstr "Болдоо"
+
+msgid "example.character.neutral.avatar-description"
+msgstr "Болдоогийн Slack аватар"
+
+msgid "example.character.bad.name"
+msgstr "Дорж"
+
+msgid "example.character.bad.avatar-description"
+msgstr "Доржийн Slack аватар"
+
+msgid "example.character.good.name"
+msgstr "Цэцгээ"
+
+msgid "example.character.good.avatar-description"
+msgstr "Цэцгээгийн Slack аватар"
+
+msgid "example.bad.title"
+msgstr "❌ Битгий ингээрэй"
+
+# the placeholder is the year, i.e. "2022"
+msgid "example.bad.body"
+msgstr ""
+"Болдоо хариултаа илүү хурдан авах боломжтой байсан. Гэвч тэр Доржийг хүлээх шаардлагатай болгосон. Үнэн хэрэгтээ, Болдоо анхаасаа асуултаа цуг бичээд илгээж болох л байсан!\n"
+"\n"
+"Ингэдэг хүмүүс ерөнхийдөө биечлэн эсвэл утсаар ярьж байгаа шиг асуултаа шууд асуухгүй байх нь эелдэг гэж боддог - тэр нь ч зөв байх! Гэхдээ энэ чинь %1$s он! чат бол шаал өөр. Ихэнх хүмүүсийн хувьд бичих нь ярихаас хамаагүй удаан байдаг. Хэдий чи эелдэг байхыг хичээж байгаа ч **чи яг үнэндээ нөгөө хүнээ хүлээлгээд байгаа** бөгөөд энэ нь бүтээмж алдагдах (мөн ядаргаатай) юм.\n"
+"\n"
+"Яг үүнтэй адилаар:\n"
+"\n"
+"- \"Сайн уу?, Чи чатандаа байна уу?\"\n"
+"- \"Сайн, сайн уу Чимгээ? - Гялс ганц юм асууя.\"\n"
+"- \"Завтай байна уу?\"\n"
+"- \"yt?\"\n"
+"- \"ping\"\n"
+"- гэх мэт.\n"
+"\n"
+"**Зүгээр л асуултаа асуу!** 😫\n"
+
+msgid "example.bad.message1.timestamp"
+msgstr "2:15 PM"
+
+msgid "example.bad.message1.body"
+msgstr "hi"
+
+msgid "example.bad.reply1.timestamp"
+msgstr "2:19 PM"
+
+msgid "example.bad.reply1.body"
+msgstr "...?"
+
+msgid "example.bad.message2.timestamp"
+msgstr "2:20 PM"
+
+# the typo here is intentional - please maintain a similar unprofessional tone!
+msgid "example.bad.message2.body"
+msgstr "Нгөөдөх чинь хэдэд байлаа?"
+
+msgid "example.bad.reply2.timestamp"
+msgstr "2:20 PM"
+
+msgid "example.bad.reply2.body"
+msgstr "Аан - 3:30-д шүү дээ найзаа"
+
+msgid "example.good.title"
+msgstr "✅ Харин ингээд үз"
+
+msgid "example.good.body"
+msgstr ""
+"Хэрэв та зүгээр л \"Сайн уу\" гэж хэлээд асуулт асуух нь арай бүдүүлэг санагдаж байвал **та өөрийн хүссэнээр мессежийнхээ өмнө үг хэлэх боломжтой.**\n"
+"\n"
+"Жишээ нь:\n"
+"\n"
+"- \"Hey хөгшөө, юу байна? Нөгөөд шалгалт хэзээ авах талаар мэдээ байна уу?\"\n"
+"- \"Сайн уу! Сайн л биз дээ. Би сүүлийн ажилын талаар ярих хэрэгтэй байна. Хэзээ завтай болохоор байна :)\"\n"
+"- \"hey, if you're not busy, could you update those NFRs?\"\n"
+"- \"hey, Завтай бол нөгөө шаардлагын жагсаалтаа шинэчилэхүү?\"\n"
+"- гэх мэт.\n"
+"\n"
+"Энэ нь өчүүхэн мэт санагдаж болох ч анхны мэндчилгээний хариуг авахаасаа өмнө асуултаа асуух нь **асинхрон харилцааг** үүсгэх боломжийг олгодог. Хэрэв нөгөө тал эзгүй байгаа бөгөөд та тэднийг буцаж ирэхээс нь өмнө явчихвал тэд зүгээр л \"Сайн уу\" гэж ширтэж, юу алдсаныг гайхаж суухын оронд таны асуултад хариулж чадна.\n"
+"\n"
+"Зөв хийвэл бүгд аз жаргалтай! 🎉\n"
+
+msgid "example.good.message1.timestamp"
+msgstr "2:15 PM"
+
+msgid "example.good.message1.body"
+msgstr "Сайн уу? Нөгөө уулзалт чинь хэдэд байлаа?"
+
+msgid "example.good.reply1.timestamp"
+msgstr "2:15 PM"
+
+msgid "example.good.reply1.body"
+msgstr "Сайн уу?, 3:30-д"
+
+msgid "example.good.message2.timestamp"
+msgstr "2:15 PM"
+
+# "Ta" is colloquial British(/Australian/etc) for "thanks"
+msgid "example.good.message2.body"
+msgstr "Баярлалаа, Тэр үед тааралдая!"
+
+msgid "example.good.reply2.timestamp"
+msgstr "2:16 PM"
+
+msgid "example.good.reply2.body"
+msgstr "👌 ок"
+
+msgid "footer.note"
+msgstr "Бараг үнэнгээсээ тэгээгүй (яахав бага зэрэг л 👀) болохоор нөгөө [хүндээ битгий](https://www.youtube.com/watch?v=xzpndHtdl9A) хүлээж аваарай."
+
+msgid "footer.warning"
+msgstr "Хэрэв та энэ сайтын URL-г хэн нэгний статус/био дээрээс олж харвал \"Сайн уу?\" гэж хэлээд үл тоомсорлуулахдаа бэлэн байгаарай."
+
+msgid "footer.thanks"
+msgstr "Агуу [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/) дээр суурилав. Аватаруудыг *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))* авсан болно. Нээлттэй эх [GitHub](https://github.com/nohello-net/site) дээр байрлаж байгаа."
+
+# prefix before a list of languages, i.e. This site is available in: English, French, & German
+msgid "footer.languages"
+msgstr "Бусад хэлүүд дээр:"
