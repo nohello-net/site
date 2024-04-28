@@ -1,0 +1,137 @@
+# 
+# Translators:
+# Rizhan Ruslan, 2024
+# 
+msgid ""
+msgstr ""
+"Last-Translator: Rizhan Ruslan, 2024\n"
+"Language-Team: Bahasa Melayu (https://www.transifex.com/nohello/teams/131463/my/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: my\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "header.subtitle"
+msgstr "tolong jangan hanya berkata 'hello' dalam chat."
+
+msgid "header.introduction"
+msgstr "bayangkan memanggil seseorang di telefon, mengucapkan 'Halo!' kemudian meninggalkan mereka menunggu... 🤦‍♀️"
+
+msgid "example.character.neutral.name"
+msgstr "Tim"
+
+msgid "example.character.neutral.avatar-description"
+msgstr "Tim's Slack avatar"
+
+msgid "example.character.bad.name"
+msgstr "Keith"
+
+msgid "example.character.bad.avatar-description"
+msgstr "Keith's Slack avatar"
+
+msgid "example.character.good.name"
+msgstr "Dawn"
+
+msgid "example.character.good.avatar-description"
+msgstr "Dawn's Slack avatar"
+
+msgid "example.bad.title"
+msgstr "❌ jangan buat macam ini."
+
+# the placeholder is the year, i.e. "2022"
+msgid "example.bad.body"
+msgstr ""
+"Perlu diingat bahawa Keith sebenarnya boleh mendapat jawapannya beberapa minit lebih awal dan tidak perlu membuat Tim menunggu. Malah, Tim boleh memulakan pemikiran tentang soalan tersebut segera!\n"
+"\n"
+"Orang yang melakukan ini biasanya cuba bersopan-santun dengan tidak terus menyatakan permintaan, seperti yang dilakukan secara langsung atau melalui telefon - dan itu bagus! Tetapi %1$s dan sembang tidaklah seperti itu. Bagi kebanyakan orang, menaip adalah lebih perlahan daripada bercakap. Jadi walaupun dengan niat terbaik, anda sebenarnya hanya membuatkan orang lain menunggu untuk anda menyusun soalan anda, yang mengakibatkan kurang produktiviti (dan agak mengganggu).\n"
+"\n"
+"Sama juga untuk:\n"
+"\n"
+"- \"Hello, kau free tak?\"\n"
+"- \"hi sophie - soalan kejap.\"\n"
+"- \"Ada masa ke?\"\n"
+"- \"yt?\"\n"
+"- \"ping\"\n"
+"- etc.\n"
+"\n"
+"**Tanya sahaja soalan tu!** 😫\n"
+
+msgid "example.bad.message1.timestamp"
+msgstr "2:15 PM"
+
+msgid "example.bad.message1.body"
+msgstr "hi"
+
+msgid "example.bad.reply1.timestamp"
+msgstr "2:19 PM"
+
+msgid "example.bad.reply1.body"
+msgstr "...?"
+
+msgid "example.bad.message2.timestamp"
+msgstr "2:20 PM"
+
+# the typo here is intentional - please maintain a similar unprofessional tone!
+msgid "example.bad.message2.body"
+msgstr "pukul berapa eh benda tadi?"
+
+msgid "example.bad.reply2.timestamp"
+msgstr "2:20 PM"
+
+msgid "example.bad.reply2.body"
+msgstr "oh - 3:30 mat"
+
+msgid "example.good.title"
+msgstr "✅ Sebaliknya, cuba ini"
+
+msgid "example.good.body"
+msgstr ""
+"Jika anda rasa agak terlalu terus sahaja dengan hanya berkata \"Hi\" dan bertanya soalan, **anda masih boleh memulakan mesej anda dengan seberapa banyak kata-kata sopan yang anda rasa sesuai.**\n"
+"\n"
+"Contohnya:\n"
+"\n"
+"- \"hey dude, apa khabar? also, tau ke due date benda tadi?\"\n"
+"- \"Salam! Harap kau dalam keadaan baik. Aku tengah kejar info baru, nanti roger bila free :)\"\n"
+"- \"hey, kalau kau tak busy, boleh kau update NFR tu?\"\n"
+"- etc.\n"
+"\n"
+"Perkara ini mungkin kelihatan remeh, tetapi bertanya soalan anda sebelum mendapat balasan salam awal juga membolehkan **komunikasi secara asinkronus**. Jika pihak lain sedang tiada, dan anda pergi sebelum mereka kembali, mereka masih boleh menjawab soalan anda, bukannya hanya menatap pada \"Hello\" dan tertanya-tanya apa yang mereka terlepas.\n"
+"Apabila dilakukan dengan betul - semua orang gembira! 🎉\n"
+
+msgid "example.good.message1.timestamp"
+msgstr "2:15 PM"
+
+msgid "example.good.message1.body"
+msgstr "Hiya! Pukul berapa itu tu?"
+
+msgid "example.good.reply1.timestamp"
+msgstr "2:15 PM"
+
+msgid "example.good.reply1.body"
+msgstr "hey, 3:30"
+
+msgid "example.good.message2.timestamp"
+msgstr "2:15 PM"
+
+# "Ta" is colloquial British(/Australian/etc) for "thanks"
+msgid "example.good.message2.body"
+msgstr "Alright - jumpa nanti!"
+
+msgid "example.good.reply2.timestamp"
+msgstr "2:16 PM"
+
+msgid "example.good.reply2.body"
+msgstr "👌 np"
+
+msgid "footer.note"
+msgstr "Ini agak separuh-serius (agak 👀), jadi sila jangan [marah](https://www.youtube.com/watch?v=xzpndHtdl9A) pada orang yang menghantar anda ke sini. "
+
+msgid "footer.warning"
+msgstr "Walaupun begitu, jika anda melihat URL laman web ini sebagai status/bio seseorang, bersedia untuk diabaikan jika anda hanya berkata \"Hello!\""
+msgid "footer.thanks"
+msgstr "Berdasarkan laman web hebat [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/).  Avatar diambil dari *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Sumber terbuka di GitHub. [GitHub](https://github.com/nohello-net/site)."
+
+# prefix before a list of languages, i.e. Laman web ini tersedia dalam: English, French, & German
+msgid "footer.languages"
+msgstr "Laman web ini tersedia dalam:"
