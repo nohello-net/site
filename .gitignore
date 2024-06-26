@@ -38,6 +38,10 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+
+# IntelliJ
+.idea
+
 ### Node ###
 # Logs
 logs
