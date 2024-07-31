@@ -17,8 +17,8 @@ msgstr "s'il vous plaît, ne dites pas juste bonjour dans le chat"
 
 msgid "header.introduction"
 msgstr ""
-"Imaginez que vous appelez quelqu'un au téléphone, que vous lui dites "
-"\"Bonjour !\" et que vous le mettez en attente... 🤦‍♀️"
+"Imaginez que vous appeliez quelqu'un au téléphone, que vous lui dites "
+"\"Bonjour !\" et que vous le mettiez en attente... 🤦‍♀️"
 
 msgid "example.character.neutral.name"
 msgstr "Tim"
@@ -39,14 +39,14 @@ msgid "example.character.good.avatar-description"
 msgstr "L'avatar de Dawn sur Slack"
 
 msgid "example.bad.title"
-msgstr "❌ Ne fais pas ça"
+msgstr "❌ Ne faites pas ça"
 
 # the placeholder is the year, i.e. "2022"
 msgid "example.bad.body"
 msgstr ""
 "Notez que Keith aurait pu obtenir sa réponse quelques minutes plus tôt, et n'aurait pas eu besoin de faire attendre Tim. En fait, Tim aurait pu commencer à réfléchir à la question tout de suite !\n"
 "\n"
-"Les personnes qui font cela essaient généralement d'être polies en ne se lançant pas directement dans la demande, comme on le ferait en personne ou au téléphone - et c'est très bien ! Mais nous sommes en %1$s et le chat n'est ni l'un ni l'autre. Pour la plupart des gens, taper est beaucoup plus lent que parler. Ainsi, malgré vos meilleures intentions, **vous faites attendre votre interlocuteur** pour que vous puissiez formuler votre question, ce qui est une perte de productivité (et un peu ennuyeux).\n"
+"Les personnes qui font cela essaient généralement d'être polies en ne se lançant pas directement dans la demande, comme on le ferait en personne ou au téléphone — et c'est très bien ! Mais nous sommes en %1$s et le chat n'est ni l'un ni l'autre. Pour la plupart des gens, taper est beaucoup plus lent que parler. Ainsi, malgré vos meilleures intentions, **vous faites attendre votre interlocuteur** pendant que vous formulez votre question, ce qui est une perte de productivité (et un peu ennuyeux).\n"
 "\n"
 "Il en va de même pour :\n"
 "\n"
@@ -77,7 +77,7 @@ msgstr "2:20 PM"
 # the typo here is intentional - please maintain a similar unprofessional
 # tone!
 msgid "example.bad.message2.body"
-msgstr "a quelle huere était ce truc déjà ?"
+msgstr "a quelle heure était ce truc déjà ?"
 
 msgid "example.bad.reply2.timestamp"
 msgstr "2:20 PM"
