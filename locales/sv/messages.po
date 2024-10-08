@@ -62,7 +62,7 @@ msgid "example.bad.message1.timestamp"
 msgstr "14:15"
 
 msgid "example.bad.message1.body"
-msgstr "hi"
+msgstr "hej"
 
 msgid "example.bad.reply1.timestamp"
 msgstr "14:19"
