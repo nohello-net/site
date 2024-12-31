@@ -37,7 +37,7 @@ const typed2 = new Typed('#strike', {
     '在吗？',
     'you there?',
     'fraeslis',
-    '여보세요',
+    '안녕하세요',
     'sul sul',
     'quick question...',
     'achuta',

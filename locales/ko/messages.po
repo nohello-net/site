@@ -1,0 +1,137 @@
+# 
+# Translators:
+# Junho Song, 2024
+# 
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "header.subtitle"
+msgstr "채팅에서 간단한 인사는 하지 마세요"
+
+msgid "header.introduction"
+msgstr "상대방에게 전화를 걸어 _안녕하세요!_ 라고 말한 후 기다리게 한다고 상상해 보세요... 🤦‍♀️"
+
+msgid "example.character.neutral.name"
+msgstr "도연"
+
+msgid "example.character.neutral.avatar-description"
+msgstr "도연의 슬랙 아바타"
+
+msgid "example.character.bad.name"
+msgstr "준호"
+
+msgid "example.character.bad.avatar-description"
+msgstr "준호의 슬랙 아바타"
+
+msgid "example.character.good.name"
+msgstr "지선"
+
+msgid "example.character.good.avatar-description"
+msgstr "지선의 슬랙 아바타"
+
+msgid "example.bad.title"
+msgstr "❌ 이렇게 하지 마세요"
+
+# the placeholder is the year, i.e. "2022"
+msgid "example.bad.body"
+msgstr ""
+"준호는 몇 분 더 빨리 답을 받을 수 있었고, 도연이를 기다리게 할 필요가 없었을 것입니다. 사실, 도연이는 질문에 대해 바로 생각을 시작할 수 있었어요!\n"
+"\n"
+"이렇게 하는 사람들은 보통 바로 본론을 말하는 대신 예의를 차리려고 합니다. 마치 직접 만나거나 전화할 때처럼요 - 이 부분은 훌륭합니다! 하지만 지금은 2022년이고, 채팅은 다릅니다. 대부분의 사람들에게 채팅은 말하는 것보다 훨씬 느린 의사소통 수단입니다. 그래서 예의를 지키려는 노력에도 불구하고, **실제로는 질문을 꺼내는 동안 상대방을 기다리게 하는 것**이며, 이는 생산성 저하(그리고 약간 짜증)로 이어집니다.\n"
+"\n"
+"다음과 같은 경우도 마찬가지입니다:\n"
+"\n"
+"- \"안녕하세요, 자리에 계세요?\"\n"
+"- \"경희님 안녕하세요 - 잠깐 질문이 있어요.\"\n"
+"- \"혹시 시간 괜찮으세요?\"\n"
+"- \"님?\"\n"
+"- \"뿅\"\n"
+"- 등등.\n"
+"\n"
+"**그냥 바로 질문하세요!** 😫\n"
+
+msgid "example.bad.message1.timestamp"
+msgstr "오후 2:15"
+
+msgid "example.bad.message1.body"
+msgstr "안녕하세요"
+
+msgid "example.bad.reply1.timestamp"
+msgstr "오후 2:19"
+
+msgid "example.bad.reply1.body"
+msgstr "...?"
+
+msgid "example.bad.message2.timestamp"
+msgstr "오후 2:20"
+
+# the typo here is intentional - please maintain a similar unprofessional tone!
+msgid "example.bad.message2.body"
+msgstr "우리 회의가 몇 시였죠?"
+
+msgid "example.bad.reply2.timestamp"
+msgstr "오후 2:20"
+
+msgid "example.bad.reply2.body"
+msgstr "아 - 오후 3:30이에요"
+
+msgid "example.good.title"
+msgstr "✅ 이렇게 해보세요"
+
+msgid "example.good.body"
+msgstr ""
+"그냥 \"안녕하세요\"라고 말하고 질문하는 것이 다소 무뚝뚝하게 느껴진다면, **원하는 만큼의 예의를 갖춰 메시지를 시작할 수 있습니다.**\n"
+"\n"
+"예를 들어:\n"
+"\n"
+"- \"안녕하세요, 요즘 별 일 없으시죠? 혹시 그 일 마감이 언제인지 아세요?\"\n"
+"- \"안녕하세요! 오랜만이에요. 최신 자료가 필요해요, 시간이 될 때 알려주세요 :)\"\n"
+"- \"안녕하세요, 혹시 바쁘시지 않다면 NFR 좀 업데이트해 주실 수 있나요?\"\n"
+"- 등등.\n"
+"\n"
+"사소하게 보일 수 있지만, 처음 인사 답장을 받기 전에 질문을 하는 것은 **비동기적인 커뮤니케이션**을 가능하게 합니다. 상대방이 자리에 없고 돌아오기 전에 메시지를 남기면, 단순히 \"안녕하세요\"를 보고 무엇을 놓쳤는지 궁금해하기보다는 질문에 답할 수 있습니다.\n"
+"\n"
+"이 규칙이 잘 지켜지면 - 모두가 행복해집니다! 🎉\n"
+
+msgid "example.good.message1.timestamp"
+msgstr "오후 2:15"
+
+msgid "example.good.message1.body"
+msgstr "안녕하세요! 우리 회의가 몇 시였죠?"
+
+msgid "example.good.reply1.timestamp"
+msgstr "오후 2:15"
+
+msgid "example.good.reply1.body"
+msgstr "안녕하세요, 오후 3:30이에요"
+
+msgid "example.good.message2.timestamp"
+msgstr "오후 2:15"
+
+# "Ta" is colloquial British(/Australian/etc) for "thanks"
+msgid "example.good.message2.body"
+msgstr "고마워요 - 그때 뵈요!"
+
+msgid "example.good.reply2.timestamp"
+msgstr "오후 2:16"
+
+msgid "example.good.reply2.body"
+msgstr "👌 네 나중에 뵐게요!"
+
+msgid "footer.note"
+msgstr "이것은 작은 농담(조금 👀)이므로 여기로 보내신 분에게 [화내지 말아주세요](https://www.youtube.com/watch?v=xzpndHtdl9A)."
+
+msgid "footer.warning"
+msgstr "그렇긴 해도, 누군가의 상태/바이오에서 이 사이트의 URL을 보면, 단순히 \"안녕하세요!\"라고 말했을 때 무시당할 수 있다는 것을 알아두세요."
+
+msgid "footer.thanks"
+msgstr "멋진 [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/)을 기반으로 제작했습니다. 아바타는 [The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))에서 가져왔습니다. [GitHub](https://github.com/nohello-net/site)에 오픈 소스가 있습니다."
+
+# prefix before a list of languages, i.e. This site is available in: English, French, & German
+msgid "footer.languages"
+msgstr "이 사이트는 다음 언어로 제공됩니다:"
