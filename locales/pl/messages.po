@@ -101,7 +101,7 @@ msgstr ""
 "\n"
 "To może wydawać się trywialne, jednak zadawanie pytania bez uprzedniej wiadomości powitalnej pozwala na prowadzenie **konwersacji asynchronicznej.** Jeśli druga osoba jest poza domem, a Ty wyjdziesz, zanim wróci, nadal może odpowiedzieć na Twoje pytanie. Nie musi gapić się na twoje \"cześć\" i zastanawiać się, co przegapiła.\n"
 "\n"
-"Kiedy tak robisz, każdy jest szcześliwy! 🎉\n"
+"Kiedy tak robisz, każdy jest szczęśliwy! 🎉\n"
 
 msgid "example.good.message1.timestamp"
 msgstr "2:15 PM"
