@@ -1,10 +1,11 @@
 # 
 # Translators:
 # dhani, 2022
+# kouhime, 2025
 # 
 msgid ""
 msgstr ""
-"Last-Translator: dhani, 2022\n"
+"Last-Translator: kouhime, 2025\n"
 "Language-Team: Indonesian (https://www.transifex.com/nohello/teams/131463/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,12 +14,12 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "header.subtitle"
-msgstr "tolong jangan hanya menyapa dalam obrolan"
+msgstr "mohon jangan hanya mengucapkan salam dalam obrolan"
 
 msgid "header.introduction"
 msgstr ""
-"Bayangkan menelepon seseorang di telepon, bilang _halo!_ lalu membuat mereka"
-" menunggu... 🤦‍♀️"
+"Bayangkan menelepon seseorang, mengucapkan _halo!_ lalu bikin dia "
+" nunggu... 🤦‍♀️"
 
 msgid "example.character.neutral.name"
 msgstr "Tim"
@@ -44,110 +45,110 @@ msgstr "❌ Jangan lakukan ini"
 # the placeholder is the year, i.e. "2022"
 msgid "example.bad.body"
 msgstr ""
-"Perhatikan bahwa Keith bisa mendapatkan jawabannya beberapa menit lebih cepat, dan tidak perlu membuat Tim menunggu. Sebenarnya, Tim bisa saja langsung memikirkan pertanyaan itu!\n"
+"Perhatikan, Keith bisa saja mendapatkan jawabannya beberapa menit lebih cepat, dan tidak perlu membuat Tim menunggu. Bahkan, Tim jadinya dapat langsung memikirkan jawaban untuk pertanyaan itu!\n"
 "\n"
-"Orang yang melakukan ini biasanya mencoba bersikap sopan dengan tidak langsung menjawab permintaan, seperti yang dilakukan secara langsung atau melalui telepon - dan itu bagus! Tapi itu %1$s dan obrolan bukan keduanya. Bagi kebanyakan orang, mengetik jauh lebih lambat daripada berbicara. Jadi terlepas dari niat terbaik, **Anda sebenarnya hanya membuat orang lain menunggu** Anda untuk mengutarakan pertanyaan Anda, yang kehilangan produktivitas (dan agak mengganggu).\n"
+"Orang yang melakukan ini biasanya berusaha bersikap sopan dengan tidak langsung menyampaikan permintaan, seperti yang dilakukan dalam percakapan tatap muka atau melalui telepon - dan itu tidak masalah! Tapi sekarang sudah %1$s dan texting berbeda dengan keduanya. Bagi kebanyakan orang, mengetik jauh lebih lambat daripada berbicara. Jadi terlepas dari niat baikmu, **Kamu sebenarnya cuma bikin orang lain menunggu** kamu untuk menyampaikan pertanyaannya, yang menurunkan produktivitas (dan cukup mengganggu).\n"
 "\n"
 "Hal yang sama berlaku untuk:\n"
 "\n"
-"- \"Halo, apakah Anda ada di sekitar?\"\n"
-"- \"hai sophie - pertanyaan singkat.\"\n"
-"- \"Anda punya waktu sebentar?\"\n"
+"- \"Halo, apakah lagi santai?\"\n"
+"- \"hai sophie - boleh nanya?\"\n"
+"- \"Kamu punya waktu sebentar?\"\n"
 "- \"yt?\"\n"
 "- \"ping\"\n"
-"- dll.\n"
+"- dan sebagainya.\n"
 "\n"
-"**Ajukan saja pertanyaannya!**\n"
+"**Langsung tanya aja!**\n"
 
 msgid "example.bad.message1.timestamp"
-msgstr "2:15 PM"
+msgstr "14:15"
 
 msgid "example.bad.message1.body"
 msgstr "hai"
 
 msgid "example.bad.reply1.timestamp"
-msgstr "2:19 PM"
+msgstr "14:19"
 
 msgid "example.bad.reply1.body"
 msgstr "...?"
 
 msgid "example.bad.message2.timestamp"
-msgstr "2:20 PM"
+msgstr "14:20"
 
 # the typo here is intentional - please maintain a similar unprofessional
 # tone!
 msgid "example.bad.message2.body"
-msgstr "jam berapa yang itu tuh?"
+msgstr "jam brapa acaranya sih?"
 
 msgid "example.bad.reply2.timestamp"
-msgstr "2:20 PM"
+msgstr "14:20"
 
 msgid "example.bad.reply2.body"
-msgstr "oh - 3:30 teman"
+msgstr "oh - jam 15:30 bang"
 
 msgid "example.good.title"
-msgstr "✅ Alih-alih coba ini"
+msgstr "✅ Coba lakukan seperti ini"
 
 msgid "example.good.body"
 msgstr ""
-"Jika Anda merasa agak kasar untuk sekedar mengatakan \"Hai\" dan mengajukan pertanyaan, **Anda masih dapat mengawali pesan Anda dengan basa-basi sebanyak yang Anda inginkan.**\n"
+"Kalau merasa kurang sopan hanya dengan langsung mengajukan pertanyaan, **Kamu tetap bisa mengawali pesan dengan basa-basi seperlunya.**\n"
 "\n"
 "Sebagai contoh:\n"
 "\n"
-"- \"hey man, ada apa? dan, ada yang tahu kapan waktunya?\"\n"
-"- \"Hai! Semoga kamu baik-baik saja. Saya mencari info terbaru, kalau kamu punya waktu sebentar :)\"\n"
-"- \"hei, jika kamu tidak sibuk, bisakah kamu memperbarui NFR itu?\"\n"
-"- dll.\n"
+"- \"bang, apa kabar? btw, tau nggak jam berapa acaranya?\"\n"
+"- \"Hai! Semoga harimu menyenangkan. Aku mencari info terbaru, kalau kamu ada waktu :)\"\n"
+"- \"hei, kalau gak sibuk, bisa tolong update NFR itu?\"\n"
+"- dan sebagainya.\n"
 "\n"
-"Ini mungkin tampak sepele, tetapi mengajukan pertanyaan sebelum mendapatkan balasan salam awal juga memungkinkan **komunikasi asinkron**. Jika pihak lain sedang pergi, dan Anda pergi sebelum mereka kembali, mereka masih dapat menjawab pertanyaan Anda, alih-alih hanya menatap \"Halo\" dan bertanya-tanya apa yang mereka lewatkan.\n"
+"Ini mungkin terlihat sepele, tetapi mengajukan pertanyaan sekaligus dengan salam pembuka juga memungkinkan **komunikasi asinkron**. Jika lawan bicara sedang tidak ada, dan kamu pergi sebelum mereka kembali, mereka masih dapat menjawab pertanyaanmu, daripada hanya melihat \"Halo\" dan bertanya-tanya ngelewatin apa nih.\n"
 "\n"
-"Ketika dilakukan dengan benar - semua orang senang! 🎉.\n"
+"Ketika dilakukan dengan tepat - semua orang senang! 🎉\n"
 
 msgid "example.good.message1.timestamp"
-msgstr "2:15 PM"
+msgstr "14:15"
 
 msgid "example.good.message1.body"
-msgstr "Hai! Jam berapa itu tuh?"
+msgstr "Hai! Jam berapa acaranya?"
 
 msgid "example.good.reply1.timestamp"
-msgstr "2:15 PM"
+msgstr "14:15"
 
 msgid "example.good.reply1.body"
-msgstr "hai, 3:30"
+msgstr "hai, jam 15:30"
 
 msgid "example.good.message2.timestamp"
-msgstr "2:15 PM"
+msgstr "14:15"
 
 # "Ta" is colloquial British(/Australian/etc) for "thanks"
 msgid "example.good.message2.body"
-msgstr "Terimakasih - sampai nanti kalo begitu!"
+msgstr "Makasih - sampai ketemu nanti ya!"
 
 msgid "example.good.reply2.timestamp"
-msgstr "2:16 PM"
+msgstr "14:16"
 
 msgid "example.good.reply2.body"
-msgstr "👌 Sama-sama"
+msgstr "👌 Siap"
 
 msgid "footer.note"
 msgstr ""
-"Ini hanya setengah serius (agak 👀) jadi tolong jangan "
+"Ini setengah serius (agak 👀) jadi tolong jangan "
 "[marah](https://www.youtube.com/watch?v=xzpndHtdl9A) pada orang yang "
-"mengirimkan Anda ke sini."
+"mengirimkanmu ke sini."
 
 msgid "footer.warning"
 msgstr ""
-"Jadi, jika Anda melihat URL situs ini sebagai status/bio seseorang, "
-"bersiaplah untuk diabaikan jika Anda hanya mengatakan \"Halo!\""
+"Jadi, jika kamu melihat URL situs ini di status/bio seseorang, "
+"bersiaplah untuk diabaikan jika kamu cuma mengatakan \"Halo!\""
 
 msgid "footer.thanks"
 msgstr ""
 "Berdasarkan "
 "[nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/)"
-" yang luar biasa. Avatar diambil dari *[The "
+" yang keren banget. Avatar diambil dari *[The "
 "Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. "
-"Sumber terbuka di [GitHub](https://github.com/nohello-net/site)."
+"Kode sumber tersedia di [GitHub](https://github.com/nohello-net/site)."
 
 # prefix before a list of languages, i.e. This site is available in: English,
 # French, & German
 msgid "footer.languages"
-msgstr "Situs ini tersedia dalam:"
+msgstr "Situs ini tersedia dalam bahasa:"
