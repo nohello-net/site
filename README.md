@@ -48,3 +48,7 @@ yarn update-snapshots # if not, update your snapshots!
 - the base language is English
 
 Changed base strings? `yarn strings:push`. Updated translations? `yarn strings:pull`.
+
+### Related Links
+
+- [No Hello - Do you ask the question straight away?](https://www.ssw.com.au/rules/no-hello)
