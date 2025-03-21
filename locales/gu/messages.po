@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: gu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "header.subtitle"
+msgstr "કૃપા કરીને ચેટમાં માત્ર હેલો ન કહો"
+
+msgid "header.introduction"
+msgstr "કલ્પના કરો કે તમે કોઈને ફોન કરો, _હેલો!_ કહો અને પછી તેમને હોલ્ડ પર મૂકી દો... 🤦‍♀️"
+
+msgid "example.character.neutral.name"
+msgstr "ટીમ"
+
+msgid "example.character.neutral.avatar-description"
+msgstr "ટીમનો સ્લેક અવતાર"
+
+msgid "example.character.bad.name"
+msgstr "કીથ"
+
+msgid "example.character.bad.avatar-description"
+msgstr "કીથનો સ્લેક અવતાર"
+
+msgid "example.character.good.name"
+msgstr "ડોન"
+
+msgid "example.character.good.avatar-description"
+msgstr "ડોનનો સ્લેક અવતાર"
+
+msgid "example.bad.title"
+msgstr "❌ આવું ન કરશો"
+
+msgid "example.bad.body"
+msgstr ""
+"નોંધ કરો કે કીથને તેનો જવાબ મિનિટો પહેલા મળી શક્યો હોત, અને ટીમને રાહ જોવાની જરૂર ન પડી હોત. ખરેખર, ટીમ પ્રશ્ન વિશે તરત જ વિચારવાનું શરૂ કરી શક્યો હોત!\n"
+"\n"
+"જે લોકો આવું કરે છે તેઓ સામાન્ય રીતે વિનંતીમાં સીધા ન જતાં વિનમ્ર બનવાનો પ્રયાસ કરી રહ્યા હોય છે, જેમ કે વ્યક્તિગત રીતે અથવા ફોન પર કરવામાં આવે છે - અને તે સરસ છે! પરંતુ આ %1$s છે અને ચેટ આમાંથી કોઈ નથી. મોટાભાગના લોકો માટે, ટાઇપિંગ બોલવા કરતાં ઘણું ધીમું છે. તેથી સારા ઇરાદા છતાં, **તમે ખરેખર અન્ય વ્યક્તિને તમારો પ્રશ્ન રજૂ કરવા માટે રાહ જોવડાવી રહ્યા છો**, જે ઉત્પાદકતાનું નુકસાન છે (અને થોડું અકળાવનારું છે)।\n"
+"\n"
+"આ જ વાત આના માટે પણ લાગુ પડે છે:\n"
+"\n"
+"- \"હેલો, તમે છો?\"\n"
+"- \"હાય સોફી - એક નાનો પ્રશ્ન છે\"\n"
+"- \"તમારી પાસે એક સેકન્ડ છે?\"\n"
+"- \"વાય ટી?\"\n"
+"- \"પિંગ\"\n"
+"- વગેરે।\n"
+"\n"
+"**બસ પ્રશ્ન પૂછો!** 😫\n"
+
+msgid "example.bad.message1.timestamp"
+msgstr "2:15 PM"
+
+msgid "example.bad.message1.body"
+msgstr "હાય"
+
+msgid "example.bad.reply1.timestamp"
+msgstr "2:19 PM"
+
+msgid "example.bad.reply1.body"
+msgstr "...?"
+
+msgid "example.bad.message2.timestamp"
+msgstr "2:20 PM"
+
+msgid "example.bad.message2.body"
+msgstr "એ વસ્તુ ક્યારે હતી ફરીથી?"
+
+msgid "example.bad.reply2.timestamp"
+msgstr "2:20 PM"
+
+msgid "example.bad.reply2.body"
+msgstr "ઓહ - 3:30 ભાઈ"
+
+msgid "example.good.title"
+msgstr "✅ આના બદલે આ રીતે કરો"
+
+msgid "example.good.body"
+msgstr ""
+"જો તમને લાગે છે કે માત્ર \"હાય\" કહીને પ્રશ્ન પૂછવો થોડો અશિષ્ટ છે, તો **તમે તમારા સંદેશની સાથે જેટલી ઇચ્છો તેટલી શિષ્ટાચારની વાતો જોડી શકો છો.**\n"
+"\n"
+"ઉદાહરણ તરીકે:\n"
+"\n"
+"- \"હેય ભાઈ, શું ચાલે છે? વૈસે, તને ખબર છે એ કામ ક્યારે સુધીમાં કરવાનું છે?\"\n"
+"- \"નમસ્તે! આશા છે તમે સારા હશો. મને નવીનતમ પ્રેઝન્ટેશન જોઈએ છે, જ્યારે તમને સમય મળે :)\"\n"
+"- \"હેય, જો તમે વ્યસ્ત ન હો, તો શું તમે તે NFR અપડેટ કરી શકો છો?\"\n"
+"- વગેરે।\n"
+"\n"
+"આ નાની વાત લાગી શકે છે, પરંતુ પ્રારંભિક અભિવાદનનો જવાબ મળ્યા પહેલા તમારો પ્રશ્ન પૂછવાથી **અસિંક્રોનસ કમ્યુનિકેશન** પણ શક્ય બને છે. જો અન્ય વ્યક્તિ દૂર હોય, અને તમે તેમના પાછા આવ્યા પહેલા જતા રહો, તો તેઓ હજુ પણ તમારા પ્રશ્નનો જવાબ આપી શકે છે, માત્ર \"હેલો\" જોઈને શું ચૂકી ગયા તે વિચારવાને બદલે।\n"
+"\n"
+"જ્યારે યોગ્ય રીતે કરવામાં આવે - બધા ખુશ હોય છે! 🎉\n"
+
+msgid "example.good.message1.timestamp"
+msgstr "2:15 PM"
+
+msgid "example.good.message1.body"
+msgstr "નમસ્તે! એ કામ ક્યારે હતું?"
+
+msgid "example.good.reply1.timestamp"
+msgstr "2:15 PM"
+
+msgid "example.good.reply1.body"
+msgstr "હેય, 3:30"
+
+msgid "example.good.message2.timestamp"
+msgstr "2:15 PM"
+
+msgid "example.good.message2.body"
+msgstr "આભાર - ત્યારે મળીએ!"
+
+msgid "example.good.reply2.timestamp"
+msgstr "2:16 PM"
+
+msgid "example.good.reply2.body"
+msgstr "👌 કંઈ નહીં"
+
+msgid "footer.note"
+msgstr "આ અડધું ગંભીર છે (થોડું 👀) તેથી કૃપા કરીને જેણે તમને અહીં મોકલ્યા છે તેના પર [ગુસ્સે](https://www.youtube.com/watch?v=xzpndHtdl9A) ન થશો."
+
+msgid "footer.warning"
+msgstr "જો કે, જો તમે કોઈના સ્ટેટસ/બાયોમાં આ સાઇટનું URL જુઓ, તો તૈયાર રહો કે જો તમે માત્ર \"હેલો!\" કહેશો તો તમને અવગણવામાં આવી શકે છે"
+
+msgid "footer.thanks"
+msgstr "અદ્ભુત [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/) પર આધારિત. અવતાર્સ *[ધ ઑફિસ](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))* માંથી લેવામાં આવ્યા છે. [GitHub](https://github.com/nohello-net/site) પર ઓપન-સોર્સ."
+
+msgid "footer.languages"
+msgstr "આ સાઇટ આ ભાષાઓમાં ઉપલબ્ધ છે:"
