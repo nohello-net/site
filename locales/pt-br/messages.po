@@ -3,10 +3,11 @@
 # Andréa, 2022
 # Guilherme Gomes Almeida, 2022
 # Lucas Fernandes, 2022
-# 
+# Enzo Santos, 2025
+#
 msgid ""
 msgstr ""
-"Last-Translator: Lucas Fernandes, 2022\n"
+"Last-Translator: Enzo Santos, 2025\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/nohello/teams/131463/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,22 +24,22 @@ msgstr ""
 "esperando... 🤦‍♀️"
 
 msgid "example.character.neutral.name"
-msgstr "Tim"
+msgstr "Téo"
 
 msgid "example.character.neutral.avatar-description"
-msgstr "Avatar do Slack de Tim"
+msgstr "Avatar do Slack de Téo"
 
 msgid "example.character.bad.name"
-msgstr "Keith"
+msgstr "César"
 
 msgid "example.character.bad.avatar-description"
-msgstr "Avatar do Slack de Keith"
+msgstr "Avatar do Slack de César"
 
 msgid "example.character.good.name"
-msgstr "Dawn"
+msgstr "Aurora"
 
 msgid "example.character.good.avatar-description"
-msgstr "Avatar do Slack de Dawn"
+msgstr "Avatar do Slack de Aurora"
 
 msgid "example.bad.title"
 msgstr "❌ Não faça isso"
@@ -46,14 +47,14 @@ msgstr "❌ Não faça isso"
 # the placeholder is the year, i.e. "2022"
 msgid "example.bad.body"
 msgstr ""
-"Note que Keith poderia ter recebido uma resposta minutos atrás, e não precisava ter deixado Tim esperando. Na verdade, Tim poderia ter começado a pensar na pergunta de imediato!\n"
+"Note que César poderia ter recebido uma resposta minutos atrás, e não precisava ter deixado Téo esperando. Na verdade, Téo poderia ter começado a pensar na pergunta de imediato!\n"
 "\n"
 "Pessoas que fazem isso geralmente tentam ser educadas ao não ir direto ao ponto, como uma pessoa faria por telefone, e isso é ótimo! Mas estamos em %1$s e conversar por texto não funciona dessa forma. Para a maioria das pessoas, digitar é mais devagar do que falar. Então apesar das melhores intenções, **você só está fazendo a outra pessoa esperar** enquanto você formula sua pergunta, o que é produtividade perdida (e algo meio irritante).\n"
 "\n"
 "O mesmo serve para:\n"
 "\n"
 "- \"Olá, está por aí?\"\n"
-"- \"oi sophie, pergunta rápida.\"\n"
+"- \"oi sofia, pergunta rápida.\"\n"
 "- \"Tem um minutinho?\"\n"
 "- \"tá aí?\"\n"
 "- \"ei\"\n"
@@ -79,7 +80,7 @@ msgstr "14:20"
 # the typo here is intentional - please maintain a similar unprofessional
 # tone!
 msgid "example.bad.message2.body"
-msgstr "que horas eh aquela coisa msm?"
+msgstr "que horas eh aquela reuniao msm?"
 
 msgid "example.bad.reply2.timestamp"
 msgstr "14:20"
@@ -96,9 +97,9 @@ msgstr ""
 "\n"
 "Por exemplo:\n"
 "\n"
-"- \"opa mano, tudo jóia? você tem ideia de qual o prazo daquela coisa?\"\n"
-"- \"Olá, tudo bem? Espero que tudo ótimo. Quando tiver um minutinho, eu estava precisando daquele último baralho :)\"\n"
-"- \"oi, quando você puder, você pode atualizar aquelas NFRs?\"\n"
+"- \"opa mano, tudo jóia? vc tem ideia de qual o prazo daquela demanda?\"\n"
+"- \"Olá, tudo bem? Espero que tudo ótimo. Quando tiver um minutinho, eu estava precisando dos slides mais recentes :)\"\n"
+"- \"oi, quando você puder, você pode atualizar aquela planilha?\"\n"
 "- etc.\n"
 "\n"
 "Pode parecer banal, mas fazer sua pergunta antes de ser cumprimentado de volta também possibilita uma **comunicação assíncrona**. Se a outra pessoa estiver ausente e você sair antes que ela volte, ela ainda poderá responder à sua pergunta, em vez de se deparar com um \"Olá\" e imaginar o que ela perdeu.\n"
@@ -109,7 +110,7 @@ msgid "example.good.message1.timestamp"
 msgstr "14:15"
 
 msgid "example.good.message1.body"
-msgstr "Oie! Que horas era aquele negócio mesmo?"
+msgstr "Oie! Que horas era aquela reunião mesmo?"
 
 msgid "example.good.reply1.timestamp"
 msgstr "14:15"
@@ -133,7 +134,7 @@ msgstr "👍 valeu"
 msgid "footer.note"
 msgstr ""
 "Isso não é totalmente sério (meio que é 👀), então por favor não fique "
-"[bravo(a)](https://www.youtube.com/watch?v=xzpndHtdl9A) com a pessoa que te "
+"[bravo(a)](https://www.youtube.com/watch?v=k9IxGGJ_u_0) com a pessoa que te "
 "enviou isso."
 
 msgid "footer.warning"
@@ -146,7 +147,7 @@ msgstr ""
 "Baseado no maravilhoso "
 "[nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/)."
 " Avatares tirados de *[The "
-"Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. "
+"Office](https://pt.wikipedia.org/wiki/The_Office_(Reino_Unido))*. "
 "Código aberto no [GitHub](https://github.com/nohello-net/site)."
 
 # prefix before a list of languages, i.e. This site is available in: English,
