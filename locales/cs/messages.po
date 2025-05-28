@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 msgid "header.subtitle"
-msgstr "prosím nezdravte jenom lidi v chatu"
+msgstr "lidi v chatu prosím jenom nezdravte"
 
 msgid "header.introduction"
 msgstr ""
