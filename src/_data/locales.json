@@ -5,6 +5,7 @@
   { "path": "es", "name": "Español" },
   { "path": "fa", "name": "فارسی" },
   { "path": "fr", "name": "Français" },
+  { "path": "ja", "name": "日本語" },
   { "path": "he", "name": "עברית" },
   { "path": "id", "name": "Bahasa Indonesia" },
   { "path": "it", "name": "Italiano" },

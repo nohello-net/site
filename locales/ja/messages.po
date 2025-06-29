@@ -1,0 +1,151 @@
+# 
+# Translators:
+# Alliana, 2022
+# Stanyslas Bouchon, 2022
+# Yasuhiro Kobayashi <yasuhiro.kbys@gmail.com>, 2022
+# 
+msgid ""
+msgstr ""
+"Last-Translator: Yasuhiro Kobayashi <yasuhiro.kbys@gmail.com>, 2022\n"
+"Language-Team: Japanese (https://app.transifex.com/nohello/teams/131463/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "header.subtitle"
+msgstr "挨拶だけのメッセージを送らないで"
+
+msgid "header.introduction"
+msgstr "誰かに電話をかけて、\"お疲れ様です\"とだけ言ってから保留にする場面を想像してみてください……🤦‍♀️"
+
+msgid "example.character.neutral.name"
+msgstr "ティム"
+
+msgid "example.character.neutral.avatar-description"
+msgstr "ティムのSlackアイコン"
+
+msgid "example.character.bad.name"
+msgstr "キース"
+
+msgid "example.character.bad.avatar-description"
+msgstr "キースのSlackアイコン"
+
+msgid "example.character.good.name"
+msgstr "ドーン"
+
+msgid "example.character.good.avatar-description"
+msgstr "ドーンのSlackアイコン"
+
+msgid "example.bad.title"
+msgstr "❌ こういうのはやめましょう"
+
+# the placeholder is the year, i.e. "2022"
+msgid "example.bad.body"
+msgstr ""
+"キースはもっと早く回答を得られたはずで、またティムを待たせておく必要がなかった点に留意してください。それどころか、ティムはすぐにでも質問の答えを考え始められたことでしょう。\n"
+"\n"
+"一般にこのような振る舞いをする人は、面と向かってまたは電話でするように、「すぐに要求を伝えようとしない」ことで礼儀正しくあろうとしています。実際素晴らしい心がけです。しかし、いまは%1$s年で、チャットは対面でも電話でもありません。ほとんどの人にとって、キータイピングは話すことよりもはるかに時間がかかります。したがって敬意を払ったつもりであっても、あなたが質問を打ち終わるまでの間、**単に他人を待たせているだけ**なのです。その間は相手の生産性を落としてしまいます（ある種の迷惑でもあります）。\n"
+"\n"
+"これらも同様です：\n"
+"\n"
+"- 「こんにちは、今大丈夫？」\n"
+"- 「やぁソフィー、ちょっと質問なんだけど」\n"
+"- 「いまちょっといいかな？」\n"
+"- 「お疲れさまです」\n"
+"- 「すみません」\n"
+
+"- 他にも...\n"
+"\n"
+"**とにかく、すぐに質問しましょう！ 😫** 😫\n"
+
+msgid "example.bad.message1.timestamp"
+msgstr "2:15 PM"
+
+msgid "example.bad.message1.body"
+msgstr "こんにちは"
+
+msgid "example.bad.reply1.timestamp"
+msgstr "2:19 PM"
+
+msgid "example.bad.reply1.body"
+msgstr "何？"
+
+msgid "example.bad.message2.timestamp"
+msgstr "2:20 PM"
+
+# the typo here is intentional - please maintain a similar unprofessional
+# tone!
+msgid "example.bad.message2.body"
+msgstr "あれは何時だったっけ？"
+
+msgid "example.bad.reply2.timestamp"
+msgstr "2:20 PM"
+
+msgid "example.bad.reply2.body"
+msgstr "ああ、3時半だよ"
+
+msgid "example.good.title"
+msgstr "✅ 代わりにこうしましょう"
+
+msgid "example.good.body"
+msgstr ""
+"「こんにちは」とだけ言ってすぐ質問に入るのは少し失礼だと感じたら、**質問の前置きに満足いくまで社交辞令を入れることもできます。**\n"
+"\n"
+"例えばこんな感じに。\n"
+"\n"
+"- 「お疲れさまです。ちょっと確認なんですが、あの件の締切はいつだったかご存じですか？」\n"
+"- 「やあ、元気ですか？　最新のデッキを探しているんだけど、時間あるかな :)」\n"
+"- 「おーい、もし手が空いてたら、そのNFRを更新してくれる？」\n"
+"- などなど\n"
+"\n"
+"些細なことに見えるかもしれませんが、「時候の挨拶」に対するリアクションをもらう前に質問することで、**非同期コミュニケーション**が可能になります。相手が離席していて、あなたが帰った後に席に戻ってきたとしても、相手はあなたの質問に回答できます。「こんにちは」の文字だけを見つめて、この後何を聞かれるのか思い悩む代わりに。\n"
+"\n"
+"うまくやれば、みんなが幸せ！🎉\n"
+
+msgid "example.good.message1.timestamp"
+msgstr "2:15 PM"
+
+msgid "example.good.message1.body"
+msgstr "やほ～！あれは何時だったっけ？"
+
+msgid "example.good.reply1.timestamp"
+msgstr "2:15 PM"
+
+msgid "example.good.reply1.body"
+msgstr "お疲れ。3時半だよ"
+
+msgid "example.good.message2.timestamp"
+msgstr "2:15 PM"
+
+# "Ta" is colloquial British(/Australian/etc) for "thanks"
+msgid "example.good.message2.body"
+msgstr "ありがと、じゃあその時にね！"
+
+msgid "example.good.reply2.timestamp"
+msgstr "2:16 PM"
+
+msgid "example.good.reply2.body"
+msgstr "👌気にしないで"
+
+msgid "footer.note"
+msgstr ""
+"これは半分冗談（ちょっと見るだけ👀程度）なので、ここを紹介した人に[腹を立てないでください](https://www.youtube.com/watch?v=xzpndHtdl9A)。"
+
+msgid "footer.warning"
+msgstr ""
+"とはいえ、このページのURLを誰かのプロフィールやステータス欄で見かけたら、その人に「こんにちは！」とだけ送ると無視される覚悟をしておきましょう。"
+
+msgid "footer.thanks"
+msgstr ""
+"このサイトは "
+"[nohello.com（英語）](https://web.archive.org/web/20131127020115/http://www.nohello.com/)を基にしています。アバターは"
+" *[The Office](https://ja.wikipedia.org/wiki/The_Office)* "
+"から入手しました。このサイトはオープンソースで、コードは[GitHub](https://github.com/nohello-"
+"net/site)にあります。"
+
+# prefix before a list of languages, i.e. This site is available in: English,
+# French, & German
+msgid "footer.languages"
+msgstr "このサイトの翻訳："
