@@ -1,0 +1,34 @@
+"example.good.message1.body"
+msgstr "ازيك، هو ميعاد الحاجة ديه كان امتى؟"
+
+msgid "example.good.reply1.timestamp"
+msgstr "٢:١٥ م"
+
+msgid "example.good.reply1.body"
+msgstr "انا تمام، ٣:٣٠"
+
+msgid "example.good.message2.timestamp"
+msgstr "٢:١٥ م"
+
+# "Ta" is colloquial British(/Australian/etc) for "thanks"
+msgid "example.good.message2.body"
+msgstr "شكرا! اشوفك ساعتها"
+
+msgid "example.good.reply2.timestamp"
+msgstr "٢:١٥ م"
+
+msgid "example.good.reply2.body"
+msgstr "👌 ولا يهمك"
+
+msgid "footer.note"
+msgstr "This is kinda only half serious (kinda 👀) so please don't get [mad](https://www.youtube.com/watch?v=xzpndHtdl9A) at the person who sent you here."
+
+msgid "footer.warning"
+msgstr "That said, if you see this sites URL as someone's status/bio, be prepared to be ignored if you only say \"Hello!\""
+
+msgid "footer.thanks"
+msgstr "Based on the wonderful [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/). Avatars taken from *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Open-source on [GitHub](https://github.com/nohello-net/site)."
+
+# prefix before a list of languages, i.e. This site is available in: English, French, & German
+msgid "footer.languages"
+msgstr "This site is available in:"
