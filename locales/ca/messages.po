@@ -1,0 +1,126 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"Language: ca\n"
+
+msgid "title"
+msgstr "No Hola"
+
+msgid "header.title"
+msgstr "Si us plau, no diguis només Hola"
+
+msgid "header.subtitle"
+msgstr "Imagina't que truques a algú, dius \"hola\" i et quedes en silenci..."
+
+msgid "header.introduction"
+msgstr "Et semblaria estrany fer-ho per telèfon, però al xat la gent ho fa constantment."
+
+msgid "header.logo.alt"
+msgstr "No diguis només Hola"
+
+msgid "description"
+msgstr "Si us plau, no diguis només Hola al xat. Fes la teva pregunta directament."
+
+#BAD EXAMPLE
+
+msgid "example.bad.title"
+msgstr "No ho facis així"
+
+msgid "example.bad.body"
+msgstr "Fixa't que el Pep podria haver rebut la resposta minuts abans i no calia fer esperar el Jordi. De fet, el Jordi podria haver començat a pensar en la resposta immediatament!<br><br>La gent que fa això normalment intenta ser educada, no volent deixar anar la petició de cop, com es faria en persona o per telèfon. Però som al 2026 i el xat no és cap d'aquestes coses. Per a la majoria, escriure és més lent que parlar. Així que, malgrat les bones intencions, <b>només estàs fent esperar l'altra persona</b> fins que acabis de formular la pregunta, la qual cosa resulta en una pèrdua de productivitat (i és una mica molest).<br><br>El mateix s'aplica a:<br>❌ \"Hola, hi ets?\"<br>❌ \"Hola Maria, una pregunta ràpida.\"<br>❌ \"Tens un moment?\"<br>❌ \"Estàs?\"<br>❌ \"Ping\"<br>❌ Etc.<br><br><b>Fes la pregunta directament! 😫</b>"
+
+msgid "example.character.bad.name"
+msgstr "Pep"
+
+msgid "example.character.neutral.name"
+msgstr "Jordi"
+
+msgid "example.bad.message1.timestamp"
+msgstr "12:00"
+
+msgid "example.bad.message1.body"
+msgstr "Hola"
+
+msgid "example.bad.reply1.timestamp"
+msgstr "12:01"
+
+msgid "example.bad.reply1.body"
+msgstr "Hola, digues?"
+
+msgid "example.bad.message2.timestamp"
+msgstr "12:02"
+
+msgid "example.bad.message2.body"
+msgstr "Tens un moment?"
+
+msgid "example.bad.reply2.timestamp"
+msgstr "12:03"
+
+msgid "example.bad.reply2.body"
+msgstr "Sí, és clar."
+
+msgid "example.bad.message3.timestamp"
+msgstr "12:04"
+
+msgid "example.bad.message3.body"
+msgstr "Volia preguntar-te una cosa sobre..."
+
+#GOOD EXAMPLE
+
+msgid "example.good.title"
+msgstr "Millor fes això"
+
+msgid "example.good.body"
+msgstr "Si et sembla una mica descortès dir simplement \"Hola\" i fer la pregunta, sempre pots començar el missatge amb tantes salutacions com vulguis.<br><br>Per exemple:<br>✅ \"Hola, com estàs? Per cert, saps quan s'ha d'entregar allò?\"<br>✅ \"Ei! Espero que estiguis bé. Busco l'última presentació, tens un segon?\"<br>✅ \"Hola, si no estàs ocupat, podries actualitzar els informes?\"<br>✅ etc.<br><br>Pot semblar trivial, però fer la pregunta abans de rebre la salutació també permet la <b>comunicació asíncrona</b>. Si l'altra persona no hi és i tu marxes abans que torni, igualment pot respondre la teva pregunta, en lloc de quedar-se mirant un \"Hola\" i preguntar-se què volies.<br><br>Quan es fa bé... tothom queda content! 🎉"
+
+msgid "example.character.good.name"
+msgstr "Pep"
+
+msgid "example.good.message1.timestamp"
+msgstr "12:00"
+
+msgid "example.good.message1.body"
+msgstr "Hola Jordi! Tinc un dubte sobre l'informe de vendes, podries mirar-t'ho quan tinguis un moment?"
+
+msgid "example.good.reply1.timestamp"
+msgstr "12:02"
+
+msgid "example.good.reply1.body"
+msgstr "I tant! Ara m'ho miro."
+
+msgid "example.good.message2.timestamp"
+msgstr "12:03"
+
+msgid "example.good.message2.body"
+msgstr "Gràcies!"
+
+msgid "example.good.reply2.timestamp"
+msgstr "12:03"
+
+msgid "example.good.reply2.body"
+msgstr "Cap problema!"
+
+#FOOTNOTES
+
+msgid "patterns.title"
+msgstr "Per què és millor fer-ho així?"
+
+msgid "patterns.p1"
+msgstr "Si escrius només \"Hola\", estàs obligant l'altra persona a interrompre la seva feina només per saludar, i després ha d'esperar que tu escriguis la pregunta."
+
+msgid "patterns.p2"
+msgstr "Si ho envies tot junt (Salutació + Pregunta), l'altra persona pot llegir-ho quan tingui un moment i contestar-te directament. Això és respectar el seu temps."
+
+msgid "footer.note"
+msgstr "Això només va mig de debò (bé, més o menys 👀), així que no t'enfadis amb qui t'hagi enviat l'enllaç."
+
+msgid "footer.warning"
+msgstr "Dit això, si veus l'URL d'aquest lloc a l'estat o la biografia d'algú, prepara't per ser ignorat si només dius \"Hola!\"."
+
+msgid "footer.thanks"
+msgstr "Basat en el fantàstic <a href=\"https://nohello.com\">nohello.com</a>. Avatars de The Office. Codi obert a <a href=\"https://github.com/nohello-net/site\">GitHub</a>."
+
+msgid "footer.text"
+msgstr "Inspirat en nohello.net"
