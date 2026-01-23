@@ -1,5 +1,6 @@
 [
   { "path": "en", "name": "English" },
+  { "path": "ar", "name": "العربية" },
   { "path": "cs", "name": "Čeština" },
   { "path": "de", "name": "Deutsch" },
   { "path": "es", "name": "Español" },
