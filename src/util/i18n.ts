@@ -25,7 +25,7 @@ const enhance11tydata = (
 
   // TODO: do we need to use the locale? it defaults to gregorian calendar,
   // which is probably wrong in many cases. or is it "normal" by now?
-  obj.currentYear = new Date().getFullYear().toString(10);
+  obj.currentYear = String(new Date().getFullYear());
 
   return obj;
 };
