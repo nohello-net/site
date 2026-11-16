@@ -45,6 +45,7 @@ const typed2 = new Typed('#strike', {
     'ping',
     'Χαίρετε',
     'سلام',
+    'வணக்கம்',
   ],
   typeSpeed: 80,
   backSpeed: 60,
