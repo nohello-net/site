@@ -13,8 +13,8 @@ jobs:
   unit-test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version-file: '.nvmrc'
           cache: 'yarn'
@@ -23,17 +23,20 @@ jobs:
 
   ui-test:
     runs-on: ubuntu-latest
+    # Playwright's image for the @playwright/test version in yarn.lock: it has
+    # the browser, its system dependencies and the fonts, so the snapshots stay
+    # the same from run to run. Change this tag when you upgrade Playwright.
+    container: mcr.microsoft.com/playwright:v1.20.1-focal
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version-file: '.nvmrc'
           cache: 'yarn'
       - run: yarn install
-      - run: npx playwright install --with-deps chromium
       - run: fc-list
       - run: yarn ci:ui
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: ui-test-results
@@ -42,8 +45,8 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version-file: '.nvmrc'
           cache: 'yarn'
@@ -53,8 +56,8 @@ jobs:
   typecheck:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version-file: '.nvmrc'
           cache: 'yarn'
