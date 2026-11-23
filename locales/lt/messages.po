@@ -1,0 +1,133 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "header.subtitle"
+msgstr "prašau, nerašyk pokalbyje vien tik „labas“"
+
+msgid "header.introduction"
+msgstr "Įsivaizduok: paskambini kam nors telefonu, pasakai _labas!_ ir paprašai palaukti ant linijos... 🤦‍♀️"
+
+msgid "example.character.neutral.name"
+msgstr "Tomas"
+
+msgid "example.character.neutral.avatar-description"
+msgstr "Tomo Slack avataras"
+
+msgid "example.character.bad.name"
+msgstr "Kęstutis"
+
+msgid "example.character.bad.avatar-description"
+msgstr "Kęstučio Slack avataras"
+
+msgid "example.character.good.name"
+msgstr "Daiva"
+
+msgid "example.character.good.avatar-description"
+msgstr "Daivos Slack avataras"
+
+msgid "example.bad.title"
+msgstr "❌ Taip nedaryk"
+
+# the placeholder is the year, i.e. "2022"
+msgid "example.bad.body"
+msgstr ""
+"Atkreipk dėmesį, kad Kęstutis galėjo gauti atsakymą keliomis minutėmis anksčiau ir nebūtų privertęs Tomo laukti. Tiesą sakant, Tomas būtų galėjęs apie klausimą pradėti galvoti iš karto!\n"
+"\n"
+"Taip darantys žmonės dažniausiai stengiasi būti mandagūs ir nešokti iškart prie reikalo, kaip darytų susitikę gyvai ar kalbėdami telefonu – ir tai puiku! Bet dabar %1$s metai, o pokalbis nėra nei viena, nei kita. Daugumai žmonių rašyti daug lėčiau nei kalbėti. Tad nors ir turi geriausių ketinimų, **iš tikrųjų tiesiog verti kitą žmogų laukti**, kol suformuluosi klausimą – tai prarastas laikas (ir šiek tiek erzina).\n"
+"\n"
+"Tas pats galioja ir šitiems:\n"
+"\n"
+"- „Sveiki, ar esate?“\n"
+"- „labas rūta – greitas klausimas.“\n"
+"- „Turi sekundę?“\n"
+"- „esi?“\n"
+"- „ping“\n"
+"- ir t. t.\n"
+"\n"
+"**Tiesiog užduok klausimą!** 😫\n"
+
+msgid "example.bad.message1.timestamp"
+msgstr "14:15"
+
+msgid "example.bad.message1.body"
+msgstr "labas"
+
+msgid "example.bad.reply1.timestamp"
+msgstr "14:19"
+
+msgid "example.bad.reply1.body"
+msgstr "...?"
+
+msgid "example.bad.message2.timestamp"
+msgstr "14:20"
+
+# the typo here is intentional - please maintain a similar unprofessional tone!
+msgid "example.bad.message2.body"
+msgstr "kelinta ten ta reikalas buvo?"
+
+msgid "example.bad.reply2.timestamp"
+msgstr "14:20"
+
+msgid "example.bad.reply2.body"
+msgstr "a – 15:30, bičiuli"
+
+msgid "example.good.title"
+msgstr "✅ Verčiau pabandyk taip"
+
+msgid "example.good.body"
+msgstr ""
+"Jei atrodo šiek tiek šiurkštu tiesiog parašyti „Labas“ ir iškart klausti, **savo žinutę vis tiek gali pradėti tiek mandagybių, kiek tik nori.**\n"
+"\n"
+"Pavyzdžiui:\n"
+"\n"
+"- „sveikas, kaip sekasi? beje, nežinai, kada tas reikalas turi būti padarytas?“\n"
+"- „Labas! Tikiuosi, viskas gerai. Kai turėsi minutę, atsiųsk naujausią prezentaciją :)“\n"
+"- „sveikas, jei neužsiėmęs, gal galėtum atnaujinti tuos NFR?“\n"
+"- ir t. t.\n"
+"\n"
+"Gali atrodyti smulkmena, bet klausimas, užduotas dar nesulaukus atsakymo į pasisveikinimą, leidžia bendrauti **asinchroniškai**. Jei pašnekovo nėra ir tu išeini anksčiau, nei jis grįžta, jis vis tiek galės atsakyti į tavo klausimą, o ne spoksoti į „Labas“ ir svarstyti, ką praleido.\n"
+"\n"
+"Kai daroma teisingai – visi laimingi! 🎉\n"
+
+msgid "example.good.message1.timestamp"
+msgstr "14:15"
+
+msgid "example.good.message1.body"
+msgstr "Sveikas! Kelintą tas reikalas?"
+
+msgid "example.good.reply1.timestamp"
+msgstr "14:15"
+
+msgid "example.good.reply1.body"
+msgstr "labas, 15:30"
+
+msgid "example.good.message2.timestamp"
+msgstr "14:15"
+
+# "Ta" is colloquial British(/Australian/etc) for "thanks"
+msgid "example.good.message2.body"
+msgstr "Ačiū – iki!"
+
+msgid "example.good.reply2.timestamp"
+msgstr "14:16"
+
+msgid "example.good.reply2.body"
+msgstr "👌 nėr už ką"
+
+msgid "footer.note"
+msgstr "Tai tik pusiau rimta (gal 👀), tad prašau [nepyk](https://www.youtube.com/watch?v=xzpndHtdl9A) ant žmogaus, kuris tave čia atsiuntė."
+
+msgid "footer.warning"
+msgstr "Kita vertus, jei matai šios svetainės adresą kieno nors statuse ar aprašyme, būk pasiruošęs, kad tavo vienišas „Labas!“ liks be atsakymo."
+
+msgid "footer.thanks"
+msgstr "Sukurta pagal nuostabią [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/). Avatarai paimti iš *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Atvirasis kodas [GitHub](https://github.com/nohello-net/site)."
+
+# prefix before a list of languages, i.e. This site is available in: English, French, & German
+msgid "footer.languages"
+msgstr "Ši svetainė prieinama šiomis kalbomis:"
