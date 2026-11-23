@@ -10,7 +10,7 @@ msgid "header.subtitle"
 msgstr "prašau, nerašyk pokalbyje vien tik „labas“"
 
 msgid "header.introduction"
-msgstr "Įsivaizduok: paskambini kam nors telefonu, pasakai _labas!_ ir paprašai palaukti ant linijos... 🤦‍♀️"
+msgstr "Įsivaizduok: paskambini kam nors telefonu, pasakai _labas!_ ir paprašai laukti ir paleidi muziką... 🤦‍♀️"
 
 msgid "example.character.neutral.name"
 msgstr "Tomas"
